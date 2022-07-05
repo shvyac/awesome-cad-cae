@@ -81,6 +81,29 @@
 
 - https://librepcb.org/
 
+## KiCad
+
+- https://github.com/KiCad
+
+- https://www.kicad.org/
+
+## eagle
+
+- https://www.autodesk.com/products/eagle/free-download
+
+## DesignSpark PCB Software
+
+- https://www.rs-online.com/designspark/pcb-software
+
+## DipTrace
+
+- https://diptrace.com/download/download-diptrace/
+
+## Horizon EDA 
+
+- https://github.com/horizon-eda/horizon
+
+- https://horizon-eda.org/
 
 # CAE
 
