@@ -1,4 +1,4 @@
-# awesome-cad-cae
+# awesome-cad-cae          [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 # CAD
 
