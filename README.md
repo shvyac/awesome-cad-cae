@@ -105,6 +105,41 @@
 
 - https://horizon-eda.org/
 
+## FreePCB
+
+freeware PCB layout software
+
+- http://www.freepcb.com/
+
+## PCB geda-project
+
+PCB is an interactive printed circuit board editor for Unix, Linux, Windows, and Mac systems
+
+- http://pcb.geda-project.org/
+
+- http://www.geda-project.org/
+
+## CADLUS PCB
+
+他社回路図CADのネットを全て自動読込
+実際に基板設計のプロが使用している設定をそのまま初期設定
+部品ライブラリ20,000点以上を無償提供
+基板設計に必要な自動機能を多数搭載。さらにDXF入力可能
+初心者でも基板設計ができるように必要な工程をサポートするアシスト機能を搭載
+自動機能で安全・簡単にプリント基板設計が出来る機能が満載
+
+- http://shop.cadlus.com/html/newpage.html?code=1
+
+## プリント基板エディタ PCBE
+
+プリント基板の版下印刷/ガーバーデータが簡単に作成出来るパターンエディタ(CAD)
+
+- http://www.vector.co.jp/soft/winnt/business/se056371.html
+
+## Minimal Board Editor
+
+- https://www.suigyodo.com/online/mbe/mbe.htm
+
 # CAE
 
 - Computer Aided Engineering
