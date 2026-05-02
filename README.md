@@ -314,6 +314,155 @@ PCB is an interactive printed circuit board editor for Unix, Linux, Windows, and
 - https://github.com/stack-of-tasks/pinocchio
 
 
+# Test-Analysis Correlation (TAC)
+
+Tools for correlating CAE simulation results with physical test measurements, including test data management, experimental modal analysis, and model validation.
+
+## Test & Simulation Data Management
+
+### asammdf
+
+- Fast Python reader, writer, and GUI for ASAM MDF/MF4 files — the standard binary format for physical test measurements from automotive and aerospace test rigs; supports CAN/LIN bus logging and large-file merging
+
+- https://github.com/danielhrisca/asammdf
+
+- https://asammdf.readthedocs.io/
+
+### MDSplus
+
+- Hierarchical data management system storing all data from experiments or simulations in a single self-descriptive tree structure; originated in fusion physics but used broadly for storing and correlating simulation and experimental datasets
+
+- https://github.com/MDSplus/mdsplus
+
+- https://mdsplus.org/
+
+### openMDM
+
+- Eclipse Foundation ASAM ODS-compliant measurement data management kit originated by Audi and adopted by BMW, Bosch, and Daimler; provides vendor-independent storage and retrieval of automotive test and simulation data
+
+- https://github.com/EclipseFdn/openmdm.org
+
+- https://openmdm.org/
+
+### odsbox
+
+- Lightweight Python wrapper for the ASAM ODS REST API (pandas/JAQuel interface); enables programmatic access to standardized test-measurement databases for cross-referencing with simulation results
+
+- https://github.com/peak-solution/odsbox
+
+### SciDataTool
+
+- Python library for unified storage and postprocessing of scientific data fields in time/space or frequency domains; supports Fourier transforms, unit conversion, slicing, and direct comparison of simulation vs. test signal sets
+
+- https://github.com/Eomys/SciDataTool
+
+## Experimental Modal Analysis (EMA / OMA)
+
+### pyEMA
+
+- Python package for experimental and operational modal analysis; extracts modal parameters (natural frequencies, damping, mode shapes) from FRF measurements using LSCF and LSFD methods
+
+- https://github.com/ladisk/pyEMA
+
+### sdypy-EMA
+
+- Actively maintained successor to pyEMA within the SDyPy ecosystem; performs EMA/OMA curve-fitting and modal parameter extraction from measured FRF data
+
+- https://github.com/sdypy/sdypy-EMA
+
+### OpenModal
+
+- Full-GUI open-source experimental modal analysis software combining geometry builder, FRF measurement, LSCF/LSCE identification, and mode-shape animation modules
+
+- https://github.com/openmodal/OpenModal
+
+- https://www.openmodal.com/
+
+### pyOMA2
+
+- Python module for output-only Operational Modal Analysis implementing SSI and FDD algorithms with stabilization diagrams, clustering tools, and interactive mode-shape visualization; published in JOSS 2025
+
+- https://github.com/dagghe/pyOMA2
+
+### pyFRF
+
+- Python package for computing FRF estimators (H1, H2, Hv, ODS-FRF) from time-domain test signals; foundational building block for FRF-based test-analysis correlation
+
+- https://github.com/ladisk/pyFRF
+
+### pyUFF
+
+- Python reader/writer for UFF (Universal File Format, Dataset 58/55/2411/2412), the standard interchange format for FRF and modal test data between computer-aided test and CAE/FEA software
+
+- https://github.com/ladisk/pyuff
+
+## Correlation Metrics & Model Updating
+
+### SDynPy
+
+- Comprehensive structural dynamics Python library from Sandia National Laboratories with core objects for test geometry and data, FRF computation, MAC/COMAC test-analysis correlation, and modal curve-fitting via SMAC and PolyPy
+
+- https://github.com/sandialabs/sdynpy
+
+- https://sandialabs.github.io/sdynpy/
+
+### pyFBS
+
+- Python package for Frequency-Based Substructuring and Transfer Path Analysis; supports virtual point transformation and coupling of measured test FRFs with FEA component models
+
+- https://gitlab.com/pyFBS/pyFBS
+
+- https://pyfbs.readthedocs.io/
+
+### SMAC
+
+- Sandia National Laboratories MATLAB-based modal curve-fitter using modal filter theory; synthesizes FRFs from extracted roots/residues and correlates against measured data to validate extraction quality
+
+- https://github.com/sandialabs/SMAC
+
+### Dakota
+
+- C++ toolkit from Sandia National Laboratories for optimization, uncertainty quantification, and model calibration (Bayesian/deterministic); the standard open-source tool for updating simulation model parameters to match physical test measurements
+
+- https://github.com/snl-dakota/dakota
+
+- https://dakota.sandia.gov/
+
+### PyDynamic
+
+- Python library from PTB and NPL (German and UK national metrology institutes) for uncertainty evaluation in dynamic measurements; propagates uncertainty through digital filtering, DFT, and FRF computations used in test-analysis correlation
+
+- https://github.com/PTB-M4D/PyDynamic
+
+- https://pydynamic.readthedocs.io/
+
+## Domain-Specific Validation
+
+### ROSS
+
+- Python FEM-based rotordynamics library (Timoshenko beam elements) with modal analysis, FRF synthesis, and critical speed computation; supports comparison of simulated vs. measured rotor responses for model validation
+
+- https://github.com/petrobras/ross
+
+- https://ross.readthedocs.io/
+
+### OpenFAST
+
+- NREL's aero-hydro-servo-elastic wind turbine simulation code widely used with physical test campaigns to validate structural dynamic models of turbines and towers; BSD licensed
+
+- https://github.com/OpenFAST/openfast
+
+- https://openfast.readthedocs.io/
+
+### FEBio
+
+- Open-source nonlinear implicit FEA framework specifically for biomechanics and biophysics with strong emphasis on verification and validation against experimental strain and force data from physical specimens; NIH-supported
+
+- https://github.com/febiosoftware/FEBio
+
+- https://febio.org/
+
+
 
 
 
