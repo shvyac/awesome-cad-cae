@@ -69,8 +69,28 @@
 - https://github.com/jscad/OpenJSCAD.org
 
 - https://openjscad.xyz/
-        
-        
+
+## BRL-CAD
+
+- Powerful cross-platform open source combinatorial solid modeling system with interactive 3D geometry editor and ray-tracer
+
+- https://github.com/BRL-CAD/brlcad
+
+- https://brlcad.org/
+
+## CodeToCAD
+
+- Python scripting framework for CAD automation; write scripts that run on any supported CAD, modeling, simulation, or FEA software
+
+- https://github.com/CodeToCAD/CodeToCAD
+
+## OpenDraft
+
+- Open-source 2D CAD project written in C#, built on Avalonia for cross-platform support
+
+- https://github.com/JamesHodgkins/OpenDraft
+
+
 # EDA 
 
 - Electronic Design Automation
@@ -139,6 +159,14 @@ PCB is an interactive printed circuit board editor for Unix, Linux, Windows, and
 ## Minimal Board Editor
 
 - https://www.suigyodo.com/online/mbe/mbe.htm
+
+## Fritzing
+
+- Open-source EDA for makers and hobbyists; features a unique breadboard view and is suited for prototyping and PCB fabrication
+
+- https://github.com/fritzing/fritzing-app
+
+- https://fritzing.org/
 
 # CAE
 
@@ -213,6 +241,30 @@ PCB is an interactive printed circuit board editor for Unix, Linux, Windows, and
 ## CALFEM
 
 - https://github.com/CALFEM
+
+## FEniCS
+
+- Open-source computing platform for solving PDEs with the finite element method; Python and C++ interfaces
+
+- https://github.com/FEniCS
+
+- https://fenicsproject.org/
+
+## Gmsh
+
+- Open-source 3D finite element mesh generator with built-in CAD engine and post-processor
+
+- https://gitlab.onelab.info/gmsh/gmsh
+
+- https://gmsh.info/
+
+## WELSIM
+
+- General-purpose engineering simulation software for the open-source community; supports structural, thermal, and CFD analysis
+
+- https://github.com/WelSimLLC/WelSim-Apps
+
+- https://welsim.com/
 
 
 
