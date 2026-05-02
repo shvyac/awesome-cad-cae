@@ -267,6 +267,53 @@ PCB is an interactive printed circuit board editor for Unix, Linux, Windows, and
 - https://welsim.com/
 
 
+# MBD
+
+- Multibody Dynamics / Dynamic Motion Simulation
+
+## MBDyn
+
+- First and one of the few free general-purpose Multibody Dynamics analysis software; supports rigid and flexible bodies, aerodynamics, and control systems
+
+- https://github.com/mbdyn/mbdyn
+
+- https://www.mbdyn.org/
+
+## Project Chrono
+
+- High-performance C++ library for multiphysics and multibody dynamics; supports vehicles, robots, granular dynamics, and fluid-solid interaction
+
+- https://github.com/projectchrono/chrono
+
+- https://projectchrono.org/
+
+## Simbody
+
+- High-performance C++ multibody dynamics library for articulated mechanical and biomechanical systems; powers OpenSim and Gazebo
+
+- https://github.com/simbody/simbody
+
+## EXUDYN
+
+- Python/C++ flexible multibody dynamics simulation package; over 250 examples covering robots, vehicles, and mechanisms
+
+- https://github.com/jgerstmayr/EXUDYN
+
+## OpenSim
+
+- Open-source platform for musculoskeletal modeling and dynamic motion simulation; widely used in biomechanics research
+
+- https://github.com/opensim-org
+
+- https://opensim.stanford.edu/
+
+## Pinocchio
+
+- Fast and flexible C++ library for rigid body dynamics algorithms with Python bindings; used extensively in robotics
+
+- https://github.com/stack-of-tasks/pinocchio
+
+
 
 
 
