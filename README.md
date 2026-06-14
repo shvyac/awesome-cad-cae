@@ -266,6 +266,87 @@ PCB is an interactive printed circuit board editor for Unix, Linux, Windows, and
 
 - https://welsim.com/
 
+# CFD
+
+- Computational Fluid Dynamics
+
+## OpenFOAM
+
+- Free, open-source CFD toolbox for fluid flow, heat transfer, chemical reactions, and multiphysics simulation; the most widely used open-source CFD platform
+
+- https://github.com/OpenFOAM/OpenFOAM-dev
+
+- https://www.openfoam.com/
+
+## SU2
+
+- Open-source suite for multiphysics simulation and design; high-fidelity PDE solver and gradient-based optimization framework for aerodynamic shape design
+
+- https://github.com/su2code/SU2
+
+- https://su2code.github.io/
+
+## Palabos
+
+- Open-source library for general-purpose computational fluid dynamics based on the lattice Boltzmann method, with parallelization support for HPC
+
+- https://gitlab.com/unigespc/palabos
+
+- https://palabos.unige.ch/
+
+## Lethe
+
+- Open-source CFD, discrete element method (DEM), and coupled CFD-DEM software using high-order continuous Galerkin formulations for single and multiphase flows
+
+- https://github.com/lethe-cfd/lethe
+
+- https://lethe-cfd.github.io/lethe/
+
+## Fire Dynamics Simulator (FDS)
+
+- NIST's computational fluid dynamics model of fire-driven fluid flow, widely used for fire and smoke transport simulation; includes Smokeview visualization tool
+
+- https://github.com/firemodels/fds
+
+- https://pages.nist.gov/fds-smv/
+
+## x3d2
+
+- Next-generation high-fidelity CFD solver using high-order compact finite-difference methods with GPU acceleration; successor to Xcompact3d
+
+- https://github.com/xcompact3d/x3d2
+
+- https://xcompact3d.github.io/
+
+
+# Topology Optimization
+
+- Structural design optimization for material layout under given loads and constraints
+
+## OpenLSTO
+
+- Open-source level set topology optimization software developed at UC San Diego and Cardiff University, with full and lightweight versions
+
+- https://github.com/M2DOLab/OpenLSTO
+
+## FEniTop
+
+- Compact and efficient FEniCSx-based topology optimization framework supporting parallel computing; exports optimized designs for postprocessing in ParaView
+
+- https://github.com/missionlab/fenitop
+
+## FreeTO
+
+- Open-source MATLAB code for freeform 3D topology optimization on structured meshes with smooth boundaries
+
+- https://github.com/ooibhadode/FreeTO
+
+## ToOptiX
+
+- Open-source multiphysical topology optimization tool combining structural, thermal, and other load cases; integrates with Blender and FreeCAD via community addons
+
+- https://github.com/ldslpm/ToOptiX
+
 
 # MBD
 
