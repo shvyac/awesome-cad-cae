@@ -10,6 +10,9 @@
 - [MBD](#mbd)
 - [Test-Analysis Correlation (TAC)](#test-analysis-correlation-tac)
 
+
+- **[MetalAbout](https://www.metalabout.net)** - Free online engineering calculators for metalworking (metal weight, beam deflection, press brake tonnage, welding cost) plus a browser-based STL/DXF viewer. No signup.
+
 # CAD
 
 - Computer Aided Design
