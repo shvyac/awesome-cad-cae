@@ -1,562 +1,469 @@
-# awesome-cad-cae          [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# awesome-cad-cae
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+Useful CAD / CAE resources — mechanical design, simulation, EDA, formats, and open-source toolchains for engineers and makers.
 
 ## Index
 
-- [CAD](#cad)
+- [CAD applications](#cad-applications)
+- [CAD kernels & scripting](#cad-kernels--scripting)
+- [Formats & interchange](#formats--interchange)
 - [EDA](#eda)
-- [CAE](#cae)
+- [Meshing & visualization](#meshing--visualization)
+- [CAE / FEA](#cae--fea)
 - [CFD](#cfd)
-- [Topology Optimization](#topology-optimization)
+- [Topology optimization](#topology-optimization)
 - [MBD](#mbd)
 - [Test-Analysis Correlation (TAC)](#test-analysis-correlation-tac)
+- [Learning & standards](#learning--standards)
+- [Related lists](#related-lists)
 
-# CAD
+---
 
-- Computer Aided Design
+## CAD applications
 
-## FreeCAD
+Desktop and web CAD for 2D/3D mechanical design, parametric modeling, and scripting.
 
-- https://github.com/FreeCAD/FreeCAD
+### FreeCAD
+Parametric 3D CAD/CAE — Part Design, TechDraw, FEM (CalculiX), Path/CAM, and a large workbench ecosystem. Strong STEP/IGES support via OCCT.
 
 - https://www.freecad.org/
+- https://github.com/FreeCAD/FreeCAD
+- https://wiki.freecad.org/
 
-## LibreCAD
+### SolveSpace
+Lightweight parametric 2D/3D CAD with constraint solver; exports STEP/STL. Good for mechanisms and quick parts.
 
-- https://github.com/LibreCAD/LibreCAD
+- https://solvespace.com/
+- https://github.com/solvespace/solvespace
 
-- https://librecad.org/
+### OpenSCAD / ImplicitCAD / OpenJSCAD
+Code-first solid modeling (CSG). OpenSCAD is the widely used baseline; ImplicitCAD and OpenJSCAD are functional / JS alternatives.
 
-## openscad
+- https://openscad.org/ — https://github.com/openscad/openscad
+- https://implicitcad.org/ — https://github.com/Haskell-Things/ImplicitCAD
+- https://openjscad.xyz/ — https://github.com/jscad/OpenJSCAD.org
 
-- https://github.com/openscad/openscad
+### LibreCAD / QCAD
+2D CAD focused on DXF drafting.
 
-- https://openscad.org/
+- https://librecad.org/ — https://github.com/LibreCAD/LibreCAD
+- https://qcad.org/en/ — https://github.com/qcad/qcad
 
-## leocad
-
-- https://github.com/leozide/leocad
-
-- https://www.leocad.org/
-
-## CAD_Sketcher
-
-- https://github.com/hlorus/CAD_Sketcher
-
-- https://www.cadsketcher.com/
-
-## ImplicitCAD
-
-- https://github.com/Haskell-Things/ImplicitCAD
-
-- https://implicitcad.org/
-
-## qcad
-
-- https://github.com/qcad/qcad
-
-- https://qcad.org/en/
-
-## jsketcher
-
-- https://github.com/xibyte/jsketcher
-
-- https://web-cad.org/
-
-## Fornjot
-
-- https://github.com/hannobraun/Fornjot
-
-- https://www.fornjot.app/
-
-## cadCAD
-
-- https://github.com/cadCAD-org/cadCAD
-
-- https://cadcad.org/
-
-## OpenJSCAD
-
-- https://github.com/jscad/OpenJSCAD.org
-
-- https://openjscad.xyz/
-
-## BRL-CAD
-
-- Powerful cross-platform open source combinatorial solid modeling system with interactive 3D geometry editor and ray-tracer
-
-- https://github.com/BRL-CAD/brlcad
+### BRL-CAD
+Cross-platform combinatorial solid modeling with interactive 3D editor and ray tracer; long history in military/engineering CAD.
 
 - https://brlcad.org/
+- https://github.com/BRL-CAD/brlcad
 
-## CodeToCAD
+### LeoCAD / CAD Sketcher / jsketcher / Fornjot / OpenDraft
+Niche or experimental CAD: LEGO CAD, Blender constraint sketcher, browser CAD, Rust CAD experiments, Avalonia 2D CAD.
 
-- Python scripting framework for CAD automation; write scripts that run on any supported CAD, modeling, simulation, or FEA software
+- https://www.leocad.org/ — https://github.com/leozide/leocad
+- https://www.cadsketcher.com/ — https://github.com/hlorus/CAD_Sketcher
+- https://web-cad.org/ — https://github.com/xibyte/jsketcher
+- https://www.fornjot.app/ — https://github.com/hannobraun/Fornjot
+- https://github.com/JamesHodgkins/OpenDraft
+
+### CodeToCAD
+Python scripting framework aimed at driving CAD/FEA tools from one API surface.
 
 - https://github.com/CodeToCAD/CodeToCAD
 
-## OpenDraft
+### Commercial CAD (reference)
+Widely used commercial MCAD; useful for interoperability context (STEP exchange, learning materials).
 
-- Open-source 2D CAD project written in C#, built on Avalonia for cross-platform support
+- https://www.autodesk.com/products/fusion-360 — Autodesk Fusion (includes electronics successor to EAGLE)
+- https://www.solidworks.com/ — SOLIDWORKS
+- https://www.onshape.com/ — Onshape (browser-native)
+- https://www.ptc.com/en/products/creo — Creo
+- https://www.siemens.com/global/en/products/software/nx.html — Siemens NX
 
-- https://github.com/JamesHodgkins/OpenDraft
+---
 
+## CAD kernels & scripting
 
-# EDA 
+Geometric kernels and Python/scriptable modeling layers used under FreeCAD, CadQuery, and many CAE preprocessors.
 
-- Electronic Design Automation
+### Open CASCADE Technology (OCCT)
+Open-source B-Rep kernel: solids/surfaces, booleans, fillets, STEP/IGES/BREP exchange, visualization. Powers FreeCAD, CadQuery, build123d, and PrePoMax CAD import.
 
-## LibrePCB
+- https://dev.opencascade.org/
+- https://occt3d.com/
+- https://github.com/Open-Cascade-SAS/OCCT
 
-- https://github.com/LibrePCB/LibrePCB
+### CadQuery
+Python parametric CAD on OCCT — fluent API, STEP/STL/AMF/3MF export, CQGI for headless scripts.
 
-- https://librepcb.org/
+- https://cadquery.readthedocs.io/
+- https://github.com/CadQuery/cadquery
 
-## KiCad
+### build123d
+Python BREP modeling on OCCT with context-manager (`with`) API; often described as a CadQuery evolution.
 
-- https://github.com/KiCad
+- https://build123d.readthedocs.io/
+- https://github.com/gumyr/build123d
+
+### pythonocc / OCP
+Python bindings to OCCT (OCP is what CadQuery/build123d use).
+
+- https://github.com/tpaviot/pythonocc-core
+- https://github.com/CadQuery/OCP
+
+---
+
+## Formats & interchange
+
+Durable exchange formats between CAD, CAM, and CAE tools.
+
+### STEP (ISO 10303)
+Primary industrial 3D CAD exchange (AP203 / AP214 / AP242). Prefer STEP over STL when you need editable B-Rep for FEA/CFD prep.
+
+- https://www.iso.org/standard/84667.html — ISO 10303 overview / AP242 family
+- https://www.cax-if.org/ — CAX Interoperability Forum (recommended practices)
+- https://dev.opencascade.org/doc/overview/html/occt_user_guides__step.html — OCCT STEP guide
+
+### IGES
+Legacy surface/wireframe exchange (still common in older pipelines). Prefer STEP for new work when possible.
+
+- https://www.nist.gov/publications/initial-graphics-exchange-specification-iges-version-50 — NIST IGES 5.0 reference
+
+### Mesh / viz formats
+- STL / OBJ — tessellated geometry (3D printing, many CFD walls)
+- glTF / GLB — modern web/runtime 3D
+- VTK / VTU — CAE results (ParaView)
+- DXF / DWG — 2D drafting interchange
+
+### UFF / MDF (test ↔ CAE)
+- UFF Dataset 58/55 — modal/FRF interchange (see pyUFF under TAC)
+- ASAM MDF/MF4 — measurement logs (see asammdf under TAC)
+
+---
+
+## EDA
+
+Electronic design automation — schematic, PCB layout, and related tools.
+
+### KiCad
+Leading free/open-source EDA suite: schematic, PCB, 3D viewer, and large library ecosystem.
 
 - https://www.kicad.org/
+- https://github.com/KiCad
 
-## eagle
+### LibrePCB / Horizon EDA
+Modern open-source PCB design with integrated library workflows.
 
-- https://www.autodesk.com/products/eagle/free-download
+- https://librepcb.org/ — https://github.com/LibrePCB/LibrePCB
+- https://horizon-eda.org/ — https://github.com/horizon-eda/horizon
 
-## DesignSpark PCB Software
+### Fritzing
+Maker-oriented EDA with breadboard view; suited to prototyping and simple PCB fabrication.
+
+- https://fritzing.org/
+- https://github.com/fritzing/fritzing-app
+
+### DesignSpark PCB / DipTrace
+Free or freemium Windows-friendly PCB tools.
 
 - https://www.rs-online.com/designspark/pcb-software
+- https://diptrace.com/
 
-## DipTrace
+### Autodesk Fusion Electronics (EAGLE successor)
+Autodesk EAGLE access ends 2026-06-07; migrate to Fusion Electronics (EAGLE designs/libraries import).
 
-- https://diptrace.com/download/download-diptrace/
+- https://www.autodesk.com/products/fusion-360/blog/eagle-to-autodesk-fusion-transition/
+- https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Autodesk-EAGLE-Announcement-Next-steps-and-FAQ.html
 
-## Horizon EDA 
+### Japan / 日本語向け PCB ツール
 
-- https://github.com/horizon-eda/horizon
-
-- https://horizon-eda.org/
-
-## FreePCB
-
-freeware PCB layout software
-
-- http://www.freepcb.com/
-
-## PCB geda-project
-
-PCB is an interactive printed circuit board editor for Unix, Linux, Windows, and Mac systems
-
-- http://pcb.geda-project.org/
-
-- http://www.geda-project.org/
-
-## CADLUS PCB
-
-他社回路図CADのネットを全て自動読込
-実際に基板設計のプロが使用している設定をそのまま初期設定
-部品ライブラリ20,000点以上を無償提供
-基板設計に必要な自動機能を多数搭載。さらにDXF入力可能
-初心者でも基板設計ができるように必要な工程をサポートするアシスト機能を搭載
-自動機能で安全・簡単にプリント基板設計が出来る機能が満載
+#### CADLUS PCB
+プロ向け設定・部品ライブラリ・DXF 入力・アシスト機能を備えた基板設計 CAD。
 
 - http://shop.cadlus.com/html/newpage.html?code=1
 
-## プリント基板エディタ PCBE
+#### プリント基板エディタ PCBE
+版下印刷 / ガーバー作成向けパターンエディタ。
 
-プリント基板の版下印刷/ガーバーデータが簡単に作成出来るパターンエディタ(CAD)
+- https://www.vector.co.jp/soft/winnt/business/se056371.html
 
-- http://www.vector.co.jp/soft/winnt/business/se056371.html
-
-## Minimal Board Editor
+#### Minimal Board Editor
+軽量な基板エディタ。
 
 - https://www.suigyodo.com/online/mbe/mbe.htm
 
-## Fritzing
+### Legacy EDA (historical)
+Older freeware still linked for archival reference; prefer KiCad / LibrePCB / Horizon for new projects.
 
-- Open-source EDA for makers and hobbyists; features a unique breadboard view and is suited for prototyping and PCB fabrication
+- http://www.freepcb.com/ — FreePCB (development largely stopped)
+- http://pcb.geda-project.org/ — gEDA PCB (historic Unix PCB editor lineage)
 
-- https://github.com/fritzing/fritzing-app
+---
 
-- https://fritzing.org/
+## Meshing & visualization
 
-# CAE
+Geometry meshing for FEA/CFD and post-processing of results.
 
-- Computer Aided Engineering
-
-## FEATool Multiphysics
-
-- https://github.com/precise-simulation/featool-multiphysics
-
-- https://www.featool.com/
-
-## libmesh
-
-- https://github.com/libMesh/libmesh
-
-- http://libmesh.github.io/
-
-## FreeFem
-
-- https://github.com/FreeFem/FreeFem-sources
-
-- https://freefem.org/
-
-## anaStruct 
-
-- 2D structural analysis in Python
-
-- https://github.com/ritchie46/anaStruct
-
-## SolidsPy 
-
-- 2D-Finite Element Analysis with Python
-
-- https://github.com/AppliedMechanics-EAFIT/SolidsPy
-
-## CALCULIX
-
-- Developers area of CalculiX Finite Element Software
-
-- https://github.com/calculix
-
-## XC SOFTWARE
-
-- Open source finite element code for structural analysis and design.
-
-- https://github.com/xcfem/xc
-
-- http://www.xcengineering.xyz/html_files/software.html
-
-## Goma
-
-- A Full-Newton Finite Element Program for Free and Moving Boundary Problems with Coupled Fluid/Solid Momentum, Energy, Mass, and Chemical Species Transport
-
-- https://github.com/goma/goma
-
-- https://www.gomafem.com/
-
-## FrontISTR
-
-- This is the official github mirror repository of FrontISTR, Open-Source Large-Scale Parallel FEM Program for Nonlinear Structural Analysis. 
-
-- https://github.com/FrontISTR/FrontISTR
-
-- https://www.frontistr.com/
-
-## MYSTRAN
-
-- https://github.com/dr-bill-c/MYSTRAN
-
-- https://mystran.com/
-
-## CALFEM
-
-- https://github.com/CALFEM
-
-## FEniCS
-
-- Open-source computing platform for solving PDEs with the finite element method; Python and C++ interfaces
-
-- https://github.com/FEniCS
-
-- https://fenicsproject.org/
-
-## Gmsh
-
-- Open-source 3D finite element mesh generator with built-in CAD engine and post-processor
-
-- https://gitlab.onelab.info/gmsh/gmsh
+### Gmsh
+Open-source 3D FE mesh generator with built-in CAD (OCCT optional) and post-processor; scriptable `.geo` workflows and STEP import.
 
 - https://gmsh.info/
+- https://gitlab.onelab.info/gmsh/gmsh
 
-## WELSIM
+### Netgen / NGSolve
+Automatic tetrahedral meshing (also used inside PrePoMax) and NGSolve FEM platform.
 
-- General-purpose engineering simulation software for the open-source community; supports structural, thermal, and CFD analysis
+- https://ngsolve.org/
+- https://github.com/NGSolve/netgen
 
-- https://github.com/WelSimLLC/WelSim-Apps
+### SALOME
+Open-source pre/post platform: CAD, meshing (incl. hex), and integration with Code_Aster / other solvers.
 
-- https://welsim.com/
+- https://www.salome-platform.org/
 
-# CFD
+### ParaView
+De-facto open-source scientific visualization for VTK/OpenFOAM/FEA results; Python scripting and large-data pipelines.
 
-- Computational Fluid Dynamics
+- https://www.paraview.org/
+- https://github.com/Kitware/ParaView
 
-## OpenFOAM
+### VTK
+Visualization Toolkit underlying ParaView and many CAE viewers.
 
-- Free, open-source CFD toolbox for fluid flow, heat transfer, chemical reactions, and multiphysics simulation; the most widely used open-source CFD platform
+- https://vtk.org/
+- https://github.com/Kitware/VTK
 
-- https://github.com/OpenFOAM/OpenFOAM-dev
+---
+
+## CAE / FEA
+
+Finite element and multiphysics structural / thermal solvers and frameworks.
+
+### CalculiX + PrePoMax
+Abaqus-like open-source 3D structural FEM (ccx/cgx). PrePoMax is a modern Windows GUI preprocessor/postprocessor (OCCT CAD import, Netgen/Gmsh meshing).
+
+- https://www.dhondt.de/ — CalculiX official
+- https://github.com/Dhondtguido/CalculiX
+- https://github.com/calculix
+- https://prepomax.fs.um.si/ — PrePoMax
+- https://gitlab.com/MatejB/PrePoMax
+
+### FEniCS / FreeFEM / SfePy
+PDE/FEM platforms with strong Python (or DSL) interfaces for research and custom physics.
+
+- https://fenicsproject.org/ — https://github.com/FEniCS
+- https://freefem.org/ — https://github.com/FreeFem/FreeFem-sources
+- https://sfepy.org/
+
+### deal.II / MFEM / MOOSE / libMesh
+Large-scale C++ FEM libraries (HPC, adaptive mesh, multiphysics).
+
+- https://dealii.org/
+- https://mfem.org/
+- https://mooseframework.inl.gov/
+- https://libmesh.github.io/ — https://github.com/libMesh/libmesh
+
+### Elmer / Code_Aster
+Open multiphysics FEM (Elmer) and EDF’s industrial structural mechanics suite (Code_Aster), often with SALOME-Meca.
+
+- https://www.elmerfem.org/
+- https://code-aster.org/
+
+### FrontISTR / MYSTRAN / XC / Goma
+Open FEM for large-scale nonlinear structures (FrontISTR), Nastran-like analysis (MYSTRAN), structural design (XC), and free/moving-boundary coupled transport (Goma).
+
+- https://www.frontistr.com/ — https://github.com/FrontISTR/FrontISTR
+- https://mystran.com/ — https://github.com/dr-bill-c/MYSTRAN
+- https://github.com/xcfem/xc
+- https://www.gomafem.com/ — https://github.com/goma/goma
+
+### Lightweight Python FEA
+Teaching and 2D structural scripts.
+
+- https://github.com/ritchie46/anaStruct — 2D structural analysis
+- https://github.com/AppliedMechanics-EAFIT/SolidsPy — 2D FEM
+- https://github.com/CALFEM — CALFEM educational FEM
+
+### FEATool / WELSIM / FEBio
+MATLAB/Octave multiphysics toolbox (FEATool), general-purpose engineering simulation UI (WELSIM), and biomechanics-focused nonlinear FEM (FEBio).
+
+- https://www.featool.com/ — https://github.com/precise-simulation/featool-multiphysics
+- https://welsim.com/ — https://github.com/WelSimLLC/WelSim-Apps
+- https://febio.org/ — https://github.com/febiosoftware/FEBio
+
+---
+
+## CFD
+
+Computational fluid dynamics solvers and related multiphysics codes.
+
+### OpenFOAM
+Most widely used open-source CFD toolbox — flow, heat transfer, reactions, multiphase; strong ecosystem (CfdOF in FreeCAD, etc.).
 
 - https://www.openfoam.com/
+- https://github.com/OpenFOAM/OpenFOAM-dev
+- https://openfoam.org/ — community edition lineage
 
-## SU2
-
-- Open-source suite for multiphysics simulation and design; high-fidelity PDE solver and gradient-based optimization framework for aerodynamic shape design
-
-- https://github.com/su2code/SU2
+### SU2
+Multiphysics PDE solver and gradient-based aerodynamic shape optimization.
 
 - https://su2code.github.io/
+- https://github.com/su2code/SU2
 
-## Palabos
+### Palabos / Lethe / x3d2
+Lattice Boltzmann CFD (Palabos); high-order CG CFD–DEM (Lethe); GPU high-order finite-difference CFD (x3d2 / Xcompact3d line).
 
-- Open-source library for general-purpose computational fluid dynamics based on the lattice Boltzmann method, with parallelization support for HPC
+- https://palabos.unige.ch/ — https://gitlab.com/unigespc/palabos
+- https://lethe-cfd.github.io/lethe/ — https://github.com/lethe-cfd/lethe
+- https://xcompact3d.github.io/ — https://github.com/xcompact3d/x3d2
 
-- https://gitlab.com/unigespc/palabos
-
-- https://palabos.unige.ch/
-
-## Lethe
-
-- Open-source CFD, discrete element method (DEM), and coupled CFD-DEM software using high-order continuous Galerkin formulations for single and multiphase flows
-
-- https://github.com/lethe-cfd/lethe
-
-- https://lethe-cfd.github.io/lethe/
-
-## Fire Dynamics Simulator (FDS)
-
-- NIST's computational fluid dynamics model of fire-driven fluid flow, widely used for fire and smoke transport simulation; includes Smokeview visualization tool
-
-- https://github.com/firemodels/fds
+### Fire Dynamics Simulator (FDS)
+NIST fire-driven flow CFD with Smokeview visualization.
 
 - https://pages.nist.gov/fds-smv/
+- https://github.com/firemodels/fds
 
-## x3d2
+---
 
-- Next-generation high-fidelity CFD solver using high-order compact finite-difference methods with GPU acceleration; successor to Xcompact3d
+## Topology optimization
 
-- https://github.com/xcompact3d/x3d2
+Material layout optimization under loads and constraints.
 
-- https://xcompact3d.github.io/
-
-
-# Topology Optimization
-
-- Structural design optimization for material layout under given loads and constraints
-
-## OpenLSTO
-
-- Open-source level set topology optimization software developed at UC San Diego and Cardiff University, with full and lightweight versions
+### OpenLSTO / FEniTop / FreeTO / ToOptiX
+Level-set TO (OpenLSTO), FEniCSx parallel TO (FEniTop), MATLAB freeform 3D TO (FreeTO), multiphysics TO with Blender/FreeCAD addons (ToOptiX).
 
 - https://github.com/M2DOLab/OpenLSTO
-
-## FEniTop
-
-- Compact and efficient FEniCSx-based topology optimization framework supporting parallel computing; exports optimized designs for postprocessing in ParaView
-
 - https://github.com/missionlab/fenitop
-
-## FreeTO
-
-- Open-source MATLAB code for freeform 3D topology optimization on structured meshes with smooth boundaries
-
 - https://github.com/ooibhadode/FreeTO
-
-## ToOptiX
-
-- Open-source multiphysical topology optimization tool combining structural, thermal, and other load cases; integrates with Blender and FreeCAD via community addons
-
 - https://github.com/ldslpm/ToOptiX
 
+---
 
-# MBD
+## MBD
 
-- Multibody Dynamics / Dynamic Motion Simulation
+Multibody dynamics and motion simulation.
 
-## MBDyn
+### MBDyn / Project Chrono / Simbody / EXUDYN
+General-purpose MBD (MBDyn); multiphysics vehicles/robots/granular (Chrono); articulated biomechanics (Simbody); Python/C++ flexible MBD (EXUDYN).
 
-- First and one of the few free general-purpose Multibody Dynamics analysis software; supports rigid and flexible bodies, aerodynamics, and control systems
-
-- https://github.com/mbdyn/mbdyn
-
-- https://www.mbdyn.org/
-
-## Project Chrono
-
-- High-performance C++ library for multiphysics and multibody dynamics; supports vehicles, robots, granular dynamics, and fluid-solid interaction
-
-- https://github.com/projectchrono/chrono
-
-- https://projectchrono.org/
-
-## Simbody
-
-- High-performance C++ multibody dynamics library for articulated mechanical and biomechanical systems; powers OpenSim and Gazebo
-
+- https://www.mbdyn.org/ — https://github.com/mbdyn/mbdyn
+- https://projectchrono.org/ — https://github.com/projectchrono/chrono
 - https://github.com/simbody/simbody
-
-## EXUDYN
-
-- Python/C++ flexible multibody dynamics simulation package; over 250 examples covering robots, vehicles, and mechanisms
-
 - https://github.com/jgerstmayr/EXUDYN
 
-## OpenSim
+### OpenSim / Pinocchio
+Musculoskeletal dynamics (OpenSim); fast rigid-body dynamics for robotics (Pinocchio).
 
-- Open-source platform for musculoskeletal modeling and dynamic motion simulation; widely used in biomechanics research
-
-- https://github.com/opensim-org
-
-- https://opensim.stanford.edu/
-
-## Pinocchio
-
-- Fast and flexible C++ library for rigid body dynamics algorithms with Python bindings; used extensively in robotics
-
+- https://opensim.stanford.edu/ — https://github.com/opensim-org
 - https://github.com/stack-of-tasks/pinocchio
 
+---
 
-# Test-Analysis Correlation (TAC)
+## Test-Analysis Correlation (TAC)
 
-Tools for correlating CAE simulation results with physical test measurements, including test data management, experimental modal analysis, and model validation.
+Tools for correlating CAE results with physical tests — measurement data, experimental modal analysis, and model updating.
 
-## Test & Simulation Data Management
+### Test & simulation data management
 
-### asammdf
-
-- Fast Python reader, writer, and GUI for ASAM MDF/MF4 files — the standard binary format for physical test measurements from automotive and aerospace test rigs; supports CAN/LIN bus logging and large-file merging
+#### asammdf
+Fast Python reader/writer/GUI for ASAM MDF/MF4 measurement files (automotive/aerospace rigs, CAN/LIN).
 
 - https://github.com/danielhrisca/asammdf
-
 - https://asammdf.readthedocs.io/
 
-### MDSplus
-
-- Hierarchical data management system storing all data from experiments or simulations in a single self-descriptive tree structure; originated in fusion physics but used broadly for storing and correlating simulation and experimental datasets
-
-- https://github.com/MDSplus/mdsplus
+#### MDSplus
+Hierarchical experiment/simulation data trees; originated in fusion research, used broadly for correlating sim vs. test.
 
 - https://mdsplus.org/
+- https://github.com/MDSplus/mdsplus
 
-### openMDM
+#### openMDM / odsbox
+Eclipse ASAM ODS measurement data management (openMDM); Python ODS REST wrapper (odsbox).
 
-- Eclipse Foundation ASAM ODS-compliant measurement data management kit originated by Audi and adopted by BMW, Bosch, and Daimler; provides vendor-independent storage and retrieval of automotive test and simulation data
-
-- https://github.com/EclipseFdn/openmdm.org
-
-- https://openmdm.org/
-
-### odsbox
-
-- Lightweight Python wrapper for the ASAM ODS REST API (pandas/JAQuel interface); enables programmatic access to standardized test-measurement databases for cross-referencing with simulation results
-
+- https://openmdm.org/ — https://github.com/EclipseFdn/openmdm.org
 - https://github.com/peak-solution/odsbox
 
-### SciDataTool
-
-- Python library for unified storage and postprocessing of scientific data fields in time/space or frequency domains; supports Fourier transforms, unit conversion, slicing, and direct comparison of simulation vs. test signal sets
+#### SciDataTool
+Unified scientific field storage/postprocessing (time/space/frequency) for comparing sim vs. test signals.
 
 - https://github.com/Eomys/SciDataTool
 
-## Experimental Modal Analysis (EMA / OMA)
+### Experimental modal analysis (EMA / OMA)
 
-### pyEMA
-
-- Python package for experimental and operational modal analysis; extracts modal parameters (natural frequencies, damping, mode shapes) from FRF measurements using LSCF and LSFD methods
+#### pyEMA / sdypy-EMA / pyOMA2 / OpenModal
+Modal parameter extraction from FRFs (LSCF/LSFD); SDyPy successor; output-only OMA (SSI/FDD); full-GUI EMA suite.
 
 - https://github.com/ladisk/pyEMA
-
-### sdypy-EMA
-
-- Actively maintained successor to pyEMA within the SDyPy ecosystem; performs EMA/OMA curve-fitting and modal parameter extraction from measured FRF data
-
 - https://github.com/sdypy/sdypy-EMA
-
-### OpenModal
-
-- Full-GUI open-source experimental modal analysis software combining geometry builder, FRF measurement, LSCF/LSCE identification, and mode-shape animation modules
-
-- https://github.com/openmodal/OpenModal
-
-- https://www.openmodal.com/
-
-### pyOMA2
-
-- Python module for output-only Operational Modal Analysis implementing SSI and FDD algorithms with stabilization diagrams, clustering tools, and interactive mode-shape visualization; published in JOSS 2025
-
 - https://github.com/dagghe/pyOMA2
+- https://www.openmodal.com/ — https://github.com/openmodal/OpenModal
 
-### pyFRF
-
-- Python package for computing FRF estimators (H1, H2, Hv, ODS-FRF) from time-domain test signals; foundational building block for FRF-based test-analysis correlation
+#### pyFRF / pyUFF
+FRF estimators (H1/H2/Hv) from time signals; UFF Dataset 58/55/2411/2412 I/O for CAT ↔ CAE interchange.
 
 - https://github.com/ladisk/pyFRF
-
-### pyUFF
-
-- Python reader/writer for UFF (Universal File Format, Dataset 58/55/2411/2412), the standard interchange format for FRF and modal test data between computer-aided test and CAE/FEA software
-
 - https://github.com/ladisk/pyuff
 
-## Correlation Metrics & Model Updating
+### Correlation metrics & model updating
 
-### SDynPy
+#### SDynPy / SMAC
+Sandia structural dynamics Python (MAC/COMAC, FRF, curve-fitting); MATLAB modal curve-fitter (SMAC).
 
-- Comprehensive structural dynamics Python library from Sandia National Laboratories with core objects for test geometry and data, FRF computation, MAC/COMAC test-analysis correlation, and modal curve-fitting via SMAC and PolyPy
-
-- https://github.com/sandialabs/sdynpy
-
-- https://sandialabs.github.io/sdynpy/
-
-### pyFBS
-
-- Python package for Frequency-Based Substructuring and Transfer Path Analysis; supports virtual point transformation and coupling of measured test FRFs with FEA component models
-
-- https://gitlab.com/pyFBS/pyFBS
-
-- https://pyfbs.readthedocs.io/
-
-### SMAC
-
-- Sandia National Laboratories MATLAB-based modal curve-fitter using modal filter theory; synthesizes FRFs from extracted roots/residues and correlates against measured data to validate extraction quality
-
+- https://sandialabs.github.io/sdynpy/ — https://github.com/sandialabs/sdynpy
 - https://github.com/sandialabs/SMAC
 
-### Dakota
+#### pyFBS
+Frequency-Based Substructuring and Transfer Path Analysis — couple measured FRFs with FEA components.
 
-- C++ toolkit from Sandia National Laboratories for optimization, uncertainty quantification, and model calibration (Bayesian/deterministic); the standard open-source tool for updating simulation model parameters to match physical test measurements
+- https://pyfbs.readthedocs.io/
+- https://gitlab.com/pyFBS/pyFBS
 
-- https://github.com/snl-dakota/dakota
+#### Dakota / PyDynamic
+Sandia optimization/UQ/model calibration toolkit; PTB/NPL dynamic measurement uncertainty propagation.
 
-- https://dakota.sandia.gov/
+- https://dakota.sandia.gov/ — https://github.com/snl-dakota/dakota
+- https://pydynamic.readthedocs.io/ — https://github.com/PTB-M4D/PyDynamic
 
-### PyDynamic
+### Domain-specific validation
 
-- Python library from PTB and NPL (German and UK national metrology institutes) for uncertainty evaluation in dynamic measurements; propagates uncertainty through digital filtering, DFT, and FRF computations used in test-analysis correlation
+#### ROSS / OpenFAST / FEBio
+Rotordynamics FEM with measured-response comparison (ROSS); NREL wind-turbine aero-servo-elastic validation (OpenFAST); biomechanics V&V (FEBio).
 
-- https://github.com/PTB-M4D/PyDynamic
+- https://ross.readthedocs.io/ — https://github.com/petrobras/ross
+- https://openfast.readthedocs.io/ — https://github.com/OpenFAST/openfast
+- https://febio.org/ — https://github.com/febiosoftware/FEBio
 
-- https://pydynamic.readthedocs.io/
+---
 
-## Domain-Specific Validation
+## Learning & standards
 
-### ROSS
+Intro paths and durable references (prefer official docs over random tutorials).
 
-- Python FEM-based rotordynamics library (Timoshenko beam elements) with modal analysis, FRF synthesis, and critical speed computation; supports comparison of simulated vs. measured rotor responses for model validation
+### Suggested open-source workflow
+1. **CAD** — FreeCAD or CadQuery/build123d → export **STEP**
+2. **Mesh** — Gmsh (or FreeCAD FEM / PrePoMax / SALOME)
+3. **FEA** — CalculiX (PrePoMax/FreeCAD) or FEniCSx / Code_Aster
+4. **CFD** — OpenFOAM (optionally FreeCAD CfdOF)
+5. **Post** — ParaView
 
-- https://github.com/petrobras/ross
+### Docs & community
+- https://wiki.freecad.org/ — FreeCAD documentation
+- https://www.dhondt.de/ — CalculiX manuals
+- https://www.openfoam.com/documentation/ — OpenFOAM docs
+- https://gmsh.info/doc/texinfo/gmsh.html — Gmsh reference
+- https://fenicsproject.org/documentation/ — FEniCS docs
+- https://calculix.discourse.group/ — CalculiX community forum
 
-- https://ross.readthedocs.io/
+### Standards bodies
+- https://www.iso.org/committee/54158.html — ISO/TC 184/SC 4 (industrial data, STEP)
+- https://www.asam.net/ — ASAM (MDF, ODS, and related test-data standards)
+- https://www.nafems.org/ — NAFEMS (engineering simulation community / best practices)
 
-### OpenFAST
+---
 
-- NREL's aero-hydro-servo-elastic wind turbine simulation code widely used with physical test campaigns to validate structural dynamic models of turbines and towers; BSD licensed
+## Related lists
 
-- https://github.com/OpenFAST/openfast
-
-- https://openfast.readthedocs.io/
-
-### FEBio
-
-- Open-source nonlinear implicit FEA framework specifically for biomechanics and biophysics with strong emphasis on verification and validation against experimental strain and force data from physical specimens; NIH-supported
-
-- https://github.com/febiosoftware/FEBio
-
-- https://febio.org/
-
-
-
-
-
-
-
-
+- https://github.com/mlightcad/awesome-cad — open-source CAD software & libraries
+- https://github.com/kimimgo/awesome-ai-cae — AI-callable CAE/CAD tooling
+- https://github.com/IgorAherne/awesome-CAD — CAD-related awesome list
+- https://awesome.re/ — Awesome manifesto
