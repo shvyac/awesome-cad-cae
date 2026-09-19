@@ -2,6 +2,8 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[日本語版はこちら / Japanese](README.ja.md)
+
 Useful CAD / CAE resources — mechanical design, simulation, EDA, formats, and open-source toolchains for engineers and makers.
 
 ## Index
