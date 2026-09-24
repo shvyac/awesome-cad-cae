@@ -28,9 +28,10 @@ Useful CAD / CAE resources — mechanical design, simulation, EDA, formats, and 
 Desktop and web CAD for 2D/3D mechanical design, parametric modeling, and scripting.
 
 ### FreeCAD
-Parametric 3D CAD/CAE — Part Design, TechDraw, FEM (CalculiX), Path/CAM, and a large workbench ecosystem. Strong STEP/IGES support via OCCT.
+Parametric 3D CAD/CAE — Part Design, TechDraw, Assembly, FEM (CalculiX), CAM (formerly Path), and a large workbench ecosystem. Strong STEP/IGES support via OCCT. Version 1.1 (Mar 2026) added transparent previews, interactive fillet/chamfer draggers, and a new CAM tool library.
 
 - https://www.freecad.org/
+- https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/ — 1.1 release notes
 - https://github.com/FreeCAD/FreeCAD
 - https://wiki.freecad.org/
 
@@ -39,6 +40,12 @@ Lightweight parametric 2D/3D CAD with constraint solver; exports STEP/STL. Good 
 
 - https://solvespace.com/
 - https://github.com/solvespace/solvespace
+
+### Dune 3D
+Parametric 3D CAD from the author of Horizon EDA — SolveSpace constraint solver + OCCT kernel, STEP import/export. Handy for enclosures and parts around PCBs.
+
+- https://dune3d.org/
+- https://github.com/dune3d/dune3d
 
 ### OpenSCAD / ImplicitCAD / OpenJSCAD
 Code-first solid modeling (CSG). OpenSCAD is the widely used baseline; ImplicitCAD and OpenJSCAD are functional / JS alternatives.
@@ -60,18 +67,25 @@ Cross-platform combinatorial solid modeling with interactive 3D editor and ray t
 - https://github.com/BRL-CAD/brlcad
 
 ### LeoCAD / CAD Sketcher / jsketcher / Fornjot / OpenDraft
-Niche or experimental CAD: LEGO CAD, Blender constraint sketcher, browser CAD, Rust CAD experiments, Avalonia 2D CAD.
+Niche or experimental CAD: LEGO CAD, Blender constraint sketcher, browser CAD, Rust B-Rep kernel experiment (Fornjot — shut down, repo archived), C# 2D CAD.
 
 - https://www.leocad.org/ — https://github.com/leozide/leocad
 - https://www.cadsketcher.com/ — https://github.com/hlorus/CAD_Sketcher
 - https://web-cad.org/ — https://github.com/xibyte/jsketcher
-- https://www.fornjot.app/ — https://github.com/hannobraun/Fornjot
+- https://www.fornjot.app/ — https://github.com/hannobraun/fornjot (archived)
 - https://github.com/JamesHodgkins/OpenDraft
 
 ### CodeToCAD
 Python scripting framework aimed at driving CAD/FEA tools from one API surface.
 
 - https://github.com/CodeToCAD/CodeToCAD
+
+### Zoo Design Studio (KCL)
+Code-and-GUI mechanical CAD using the KCL modeling language and a GPU-accelerated cloud geometry engine, with ML-assisted text-to-CAD. App is open source; the geometry engine is proprietary.
+
+- https://zoo.dev/
+- https://zoo.dev/docs/kcl
+- https://github.com/KittyCAD/modeling-app
 
 ### Commercial CAD (reference)
 Widely used commercial MCAD; useful for interoperability context (STEP exchange, learning materials).
@@ -148,10 +162,11 @@ Legacy surface/wireframe exchange (still common in older pipelines). Prefer STEP
 Electronic design automation — schematic, PCB layout, and related tools.
 
 ### KiCad
-Leading free/open-source EDA suite: schematic, PCB, 3D viewer, and large library ecosystem.
+Leading free/open-source EDA suite: schematic, PCB, 3D viewer, and large library ecosystem. KiCad 10 (Mar 2026) added design variants and improved high-speed length tuning.
 
 - https://www.kicad.org/
 - https://github.com/KiCad
+- https://www.kicad.org/blog/2026/03/Version-10.0.0-Released/ — KiCad 10 release notes
 
 ### LibrePCB / Horizon EDA
 Modern open-source PCB design with integrated library workflows.
@@ -172,7 +187,7 @@ Free or freemium Windows-friendly PCB tools.
 - https://diptrace.com/
 
 ### Autodesk Fusion Electronics (EAGLE successor)
-Autodesk EAGLE access ends 2026-06-07; migrate to Fusion Electronics (EAGLE designs/libraries import).
+Autodesk EAGLE access ended on 2026-06-07; use Fusion Electronics (imports EAGLE designs/libraries) or migrate to KiCad.
 
 - https://www.autodesk.com/products/fusion-360/blog/eagle-to-autodesk-fusion-transition/
 - https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Autodesk-EAGLE-Announcement-Next-steps-and-FAQ.html
@@ -274,7 +289,7 @@ Open multiphysics FEM (Elmer) and EDF’s industrial structural mechanics suite 
 ### FrontISTR / MYSTRAN / XC / Goma
 Open FEM for large-scale nonlinear structures (FrontISTR), Nastran-like analysis (MYSTRAN), structural design (XC), and free/moving-boundary coupled transport (Goma).
 
-- https://www.frontistr.com/ — https://github.com/FrontISTR/FrontISTR
+- https://www.frontistr.com/ — https://gitlab.com/FrontISTR-Commons/FrontISTR (main development; GitHub is a mirror)
 - https://mystran.com/ — https://github.com/dr-bill-c/MYSTRAN
 - https://github.com/xcfem/xc
 - https://www.gomafem.com/ — https://github.com/goma/goma
@@ -285,6 +300,12 @@ Teaching and 2D structural scripts.
 - https://github.com/ritchie46/anaStruct — 2D structural analysis
 - https://github.com/AppliedMechanics-EAFIT/SolidsPy — 2D FEM
 - https://github.com/CALFEM — CALFEM educational FEM
+
+### Kratos Multiphysics
+BSD-licensed C++/Python framework for parallel multiphysics (structural, fluid, DEM, FSI, contact) with HPC/MPI support.
+
+- https://kratosmultiphysics.github.io/Kratos/
+- https://github.com/KratosMultiphysics/Kratos
 
 ### FEATool / WELSIM / FEBio
 MATLAB/Octave multiphysics toolbox (FEATool), general-purpose engineering simulation UI (WELSIM), and biomechanics-focused nonlinear FEM (FEBio).
@@ -302,7 +323,8 @@ Computational fluid dynamics solvers and related multiphysics codes.
 ### OpenFOAM
 Most widely used open-source CFD toolbox — flow, heat transfer, reactions, multiphase; strong ecosystem (CfdOF in FreeCAD, etc.).
 
-- https://www.openfoam.com/
+- https://www.openfoam.com/ — ESI/OpenCFD edition (latest v2606, June 2026)
+- https://www.openfoam.com/news/main-news/openfoam-v2606 — v2606 release notes
 - https://github.com/OpenFOAM/OpenFOAM-dev
 - https://openfoam.org/ — community edition lineage
 
@@ -316,7 +338,7 @@ Multiphysics PDE solver and gradient-based aerodynamic shape optimization.
 Lattice Boltzmann CFD (Palabos); high-order CG CFD–DEM (Lethe); GPU high-order finite-difference CFD (x3d2 / Xcompact3d line).
 
 - https://palabos.unige.ch/ — https://gitlab.com/unigespc/palabos
-- https://lethe-cfd.github.io/lethe/ — https://github.com/lethe-cfd/lethe
+- https://chaos-polymtl.github.io/lethe/ — https://github.com/chaos-polymtl/lethe
 - https://xcompact3d.github.io/ — https://github.com/xcompact3d/x3d2
 
 ### Fire Dynamics Simulator (FDS)
@@ -337,7 +359,7 @@ Level-set TO (OpenLSTO), FEniCSx parallel TO (FEniTop), MATLAB freeform 3D TO (F
 - https://github.com/M2DOLab/OpenLSTO
 - https://github.com/missionlab/fenitop
 - https://github.com/ooibhadode/FreeTO
-- https://github.com/ldslpm/ToOptiX
+- https://github.com/Foxelmanian/ToOptix
 
 ---
 
@@ -348,7 +370,7 @@ Multibody dynamics and motion simulation.
 ### MBDyn / Project Chrono / Simbody / EXUDYN
 General-purpose MBD (MBDyn); multiphysics vehicles/robots/granular (Chrono); articulated biomechanics (Simbody); Python/C++ flexible MBD (EXUDYN).
 
-- https://www.mbdyn.org/ — https://github.com/mbdyn/mbdyn
+- https://www.mbdyn.org/ — https://public.gitlab.polimi.it/DAER/mbdyn
 - https://projectchrono.org/ — https://github.com/projectchrono/chrono
 - https://github.com/simbody/simbody
 - https://github.com/jgerstmayr/EXUDYN
@@ -382,7 +404,7 @@ Hierarchical experiment/simulation data trees; originated in fusion research, us
 #### openMDM / odsbox
 Eclipse ASAM ODS measurement data management (openMDM); Python ODS REST wrapper (odsbox).
 
-- https://openmdm.org/ — https://github.com/EclipseFdn/openmdm.org
+- https://openmdm.org/
 - https://github.com/peak-solution/odsbox
 
 #### SciDataTool
@@ -429,7 +451,7 @@ Sandia optimization/UQ/model calibration toolkit; PTB/NPL dynamic measurement un
 ### Domain-specific validation
 
 #### ROSS / OpenFAST / FEBio
-Rotordynamics FEM with measured-response comparison (ROSS); NREL wind-turbine aero-servo-elastic validation (OpenFAST); biomechanics V&V (FEBio).
+Rotordynamics FEM with measured-response comparison (ROSS); NLR (formerly NREL) wind-turbine aero-servo-elastic validation (OpenFAST); biomechanics V&V (FEBio).
 
 - https://ross.readthedocs.io/ — https://github.com/petrobras/ross
 - https://openfast.readthedocs.io/ — https://github.com/OpenFAST/openfast

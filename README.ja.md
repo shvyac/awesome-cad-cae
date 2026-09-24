@@ -26,9 +26,10 @@
 2D/3D 機械設計、パラメトリックモデリング、スクリプト向けのデスクトップ／Web CAD。
 
 ### FreeCAD
-パラメトリック 3D CAD/CAE — Part Design、TechDraw、FEM（CalculiX）、Path/CAM、豊富なワークベンチ群。OCCT 経由で STEP/IGES に強い。
+パラメトリック 3D CAD/CAE — Part Design、TechDraw、Assembly、FEM（CalculiX）、CAM（旧 Path）、豊富なワークベンチ群。OCCT 経由で STEP/IGES に強い。バージョン 1.1（2026 年 3 月）で透過プレビュー、フィレット／面取りの対話型ドラッガー、新しい CAM ツールライブラリを追加。
 
 - https://www.freecad.org/
+- https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/ — 1.1 リリースノート
 - https://github.com/FreeCAD/FreeCAD
 - https://wiki.freecad.org/
 
@@ -37,6 +38,12 @@
 
 - https://solvespace.com/
 - https://github.com/solvespace/solvespace
+
+### Dune 3D
+Horizon EDA 作者によるパラメトリック 3D CAD — SolveSpace の拘束ソルバ＋OCCT カーネル、STEP 入出力。基板周りの筐体や部品の設計に便利。
+
+- https://dune3d.org/
+- https://github.com/dune3d/dune3d
 
 ### OpenSCAD / ImplicitCAD / OpenJSCAD
 コードファーストのソリッドモデリング（CSG）。OpenSCAD が広く使われる基準線。ImplicitCAD と OpenJSCAD は関数型／JS の代替。
@@ -58,18 +65,25 @@ DXF 製図に特化した 2D CAD。
 - https://github.com/BRL-CAD/brlcad
 
 ### LeoCAD / CAD Sketcher / jsketcher / Fornjot / OpenDraft
-ニッチ／実験的 CAD：LEGO CAD、Blender 拘束スケッチャ、ブラウザ CAD、Rust CAD 実験、Avalonia 2D CAD。
+ニッチ／実験的 CAD：LEGO CAD、Blender 拘束スケッチャ、ブラウザ CAD、Rust B-Rep カーネル実験（Fornjot — プロジェクト終了、リポジトリはアーカイブ済み）、C# 2D CAD。
 
 - https://www.leocad.org/ — https://github.com/leozide/leocad
 - https://www.cadsketcher.com/ — https://github.com/hlorus/CAD_Sketcher
 - https://web-cad.org/ — https://github.com/xibyte/jsketcher
-- https://www.fornjot.app/ — https://github.com/hannobraun/Fornjot
+- https://www.fornjot.app/ — https://github.com/hannobraun/fornjot（アーカイブ済み）
 - https://github.com/JamesHodgkins/OpenDraft
 
 ### CodeToCAD
 単一の API 面から CAD/FEA ツールを駆動することを目指す Python スクリプトフレームワーク。
 
 - https://github.com/CodeToCAD/CodeToCAD
+
+### Zoo Design Studio（KCL）
+KCL モデリング言語と GPU 加速クラウド幾何エンジンを使う、コード＋GUI の機械 CAD。ML による Text-to-CAD 支援付き。アプリはオープンソース、幾何エンジンはプロプライエタリ。
+
+- https://zoo.dev/
+- https://zoo.dev/docs/kcl
+- https://github.com/KittyCAD/modeling-app
 
 ### 商用 CAD（参考）
 広く使われる商用 MCAD。相互運用の文脈（STEP 交換、学習資料）に有用。
@@ -146,10 +160,11 @@ CAD、CAM、CAE ツール間の耐久性のある交換フォーマット。
 電子設計自動化 — 回路図、PCB レイアウト、関連ツール。
 
 ### KiCad
-主要のフリー／オープンソース EDA スイート：回路図、PCB、3D ビューア、大きなライブラリ生態系。
+主要のフリー／オープンソース EDA スイート：回路図、PCB、3D ビューア、大きなライブラリ生態系。KiCad 10（2026 年 3 月）でデザインバリアントと高速配線の等長調整が強化。
 
 - https://www.kicad.org/
 - https://github.com/KiCad
+- https://www.kicad.org/blog/2026/03/Version-10.0.0-Released/ — KiCad 10 リリースノート
 
 ### LibrePCB / Horizon EDA
 ライブラリワークフローを統合した現代的なオープンソース PCB 設計。
@@ -170,7 +185,7 @@ CAD、CAM、CAE ツール間の耐久性のある交換フォーマット。
 - https://diptrace.com/
 
 ### Autodesk Fusion Electronics（EAGLE 後継）
-Autodesk EAGLE のアクセスは 2026-06-07 で終了。Fusion Electronics へ移行（EAGLE の設計／ライブラリをインポート可能）。
+Autodesk EAGLE のアクセスは 2026-06-07 に終了済み。Fusion Electronics（EAGLE の設計／ライブラリをインポート可能）または KiCad へ移行。
 
 - https://www.autodesk.com/products/fusion-360/blog/eagle-to-autodesk-fusion-transition/
 - https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Autodesk-EAGLE-Announcement-Next-steps-and-FAQ.html
@@ -272,7 +287,7 @@ Abaqus 風のオープンソース 3D 構造 FEM（ccx/cgx）。PrePoMax は現�
 ### FrontISTR / MYSTRAN / XC / Goma
 大規模非線形構造向けオープン FEM（FrontISTR）、Nastran 風解析（MYSTRAN）、構造設計（XC）、自由／移動境界の連成輸送（Goma）。
 
-- https://www.frontistr.com/ — https://github.com/FrontISTR/FrontISTR
+- https://www.frontistr.com/ — https://gitlab.com/FrontISTR-Commons/FrontISTR（主開発。GitHub はミラー）
 - https://mystran.com/ — https://github.com/dr-bill-c/MYSTRAN
 - https://github.com/xcfem/xc
 - https://www.gomafem.com/ — https://github.com/goma/goma
@@ -283,6 +298,12 @@ Abaqus 風のオープンソース 3D 構造 FEM（ccx/cgx）。PrePoMax は現�
 - https://github.com/ritchie46/anaStruct — 2D structural analysis
 - https://github.com/AppliedMechanics-EAFIT/SolidsPy — 2D FEM
 - https://github.com/CALFEM — CALFEM educational FEM
+
+### Kratos Multiphysics
+BSD ライセンスの C++/Python 並列マルチフィジックスフレームワーク（構造、流体、DEM、FSI、接触）。HPC/MPI 対応。
+
+- https://kratosmultiphysics.github.io/Kratos/
+- https://github.com/KratosMultiphysics/Kratos
 
 ### FEATool / WELSIM / FEBio
 MATLAB/Octave マルチフィジックスツールボックス（FEATool）、汎用エンジニアリングシミュレーション UI（WELSIM）、生体力学寄りの非線形 FEM（FEBio）。
@@ -300,7 +321,8 @@ MATLAB/Octave マルチフィジックスツールボックス（FEATool）、�
 ### OpenFOAM
 最も広く使われるオープンソース CFD ツールボックス — 流れ、伝熱、反応、多相。強い生態系（FreeCAD の CfdOF など）。
 
-- https://www.openfoam.com/
+- https://www.openfoam.com/ — ESI/OpenCFD 版（最新 v2606、2026 年 6 月）
+- https://www.openfoam.com/news/main-news/openfoam-v2606 — v2606 リリースノート
 - https://github.com/OpenFOAM/OpenFOAM-dev
 - https://openfoam.org/ — community edition lineage
 
@@ -314,7 +336,7 @@ MATLAB/Octave マルチフィジックスツールボックス（FEATool）、�
 格子ボルツマン CFD（Palabos）；高次 CG CFD–DEM（Lethe）；GPU 高次有限差分 CFD（x3d2 / Xcompact3d 系統）。
 
 - https://palabos.unige.ch/ — https://gitlab.com/unigespc/palabos
-- https://lethe-cfd.github.io/lethe/ — https://github.com/lethe-cfd/lethe
+- https://chaos-polymtl.github.io/lethe/ — https://github.com/chaos-polymtl/lethe
 - https://xcompact3d.github.io/ — https://github.com/xcompact3d/x3d2
 
 ### Fire Dynamics Simulator (FDS)
@@ -335,7 +357,7 @@ NIST の火災駆動流れ CFD。Smokeview 可視化付き。
 - https://github.com/M2DOLab/OpenLSTO
 - https://github.com/missionlab/fenitop
 - https://github.com/ooibhadode/FreeTO
-- https://github.com/ldslpm/ToOptiX
+- https://github.com/Foxelmanian/ToOptix
 
 ---
 
@@ -346,7 +368,7 @@ NIST の火災駆動流れ CFD。Smokeview 可視化付き。
 ### MBDyn / Project Chrono / Simbody / EXUDYN
 汎用 MBD（MBDyn）；車両／ロボット／粉体などのマルチフィジックス（Chrono）；関節付き生体力学（Simbody）；Python/C++ 柔軟 MBD（EXUDYN）。
 
-- https://www.mbdyn.org/ — https://github.com/mbdyn/mbdyn
+- https://www.mbdyn.org/ — https://public.gitlab.polimi.it/DAER/mbdyn
 - https://projectchrono.org/ — https://github.com/projectchrono/chrono
 - https://github.com/simbody/simbody
 - https://github.com/jgerstmayr/EXUDYN
@@ -380,7 +402,7 @@ ASAM MDF/MF4 計測ファイル向けの高速 Python リーダ／ライタ／GU
 #### openMDM / odsbox
 Eclipse ASAM ODS 計測データ管理（openMDM）；Python ODS REST ラッパ（odsbox）。
 
-- https://openmdm.org/ — https://github.com/EclipseFdn/openmdm.org
+- https://openmdm.org/
 - https://github.com/peak-solution/odsbox
 
 #### SciDataTool
@@ -427,7 +449,7 @@ Sandia の最適化／UQ／モデル校正ツールキット；PTB/NPL の動的
 ### ドメイン固有の検証
 
 #### ROSS / OpenFAST / FEBio
-計測応答比較付きロータダイナミクス FEM（ROSS）；NREL 風力タービンの空力・サーボ・弾性検証（OpenFAST）；生体力学 V&V（FEBio）。
+計測応答比較付きロータダイナミクス FEM（ROSS）；NLR（旧 NREL）風力タービンの空力・サーボ・弾性検証（OpenFAST）；生体力学 V&V（FEBio）。
 
 - https://ross.readthedocs.io/ — https://github.com/petrobras/ross
 - https://openfast.readthedocs.io/ — https://github.com/OpenFAST/openfast
