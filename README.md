@@ -487,6 +487,7 @@ Intro paths and durable references (prefer official docs over random tutorials).
 
 ## Related lists
 
+- https://github.com/shvyac/awesome-meshless-cae — meshless / mesh-free CAE tools (SPH, MPS, LBM, MPM, peridynamics, IGA, AI surrogates)
 - https://github.com/mlightcad/awesome-cad — open-source CAD software & libraries
 - https://github.com/kimimgo/awesome-ai-cae — AI-callable CAE/CAD tooling
 - https://github.com/IgorAherne/awesome-CAD — CAD-related awesome list
