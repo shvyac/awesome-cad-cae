@@ -12,10 +12,13 @@
 - [EDA](#eda)
 - [メッシュと可視化](#メッシュと可視化)
 - [CAE / FEA](#cae--fea)
+- [商用ソルバのスクリプトと入出力](#商用ソルバのスクリプトと入出力)
 - [CFD](#cfd)
 - [トポロジー最適化](#トポロジー最適化)
+- [最適化と実験計画法（DOE）](#最適化と実験計画法doe)
 - [MBD](#mbd)
 - [試験と解析の相関（TAC）](#試験と解析の相関tac)
+- [エディタとシンタックスハイライト](#エディタとシンタックスハイライト)
 - [学習と規格](#学習と規格)
 - [関連リスト](#関連リスト)
 
@@ -248,6 +251,32 @@ ParaView や多くの CAE ビューアの基盤となる Visualization Toolkit�
 - https://vtk.org/
 - https://github.com/Kitware/VTK
 
+### PyVista / pygmsh / meshzoo
+VTK と Gmsh の Python 層：3D プロットとメッシュ解析を簡潔に行う PyVista、Python から Gmsh を操作する pygmsh、標準的な領域向けの簡易メッシュ集 meshzoo。
+
+- https://github.com/pyvista/pyvista
+- https://github.com/nschloe/pygmsh
+- https://github.com/nschloe/meshzoo
+
+### MeshPy / PyMesh / smesh
+Python 向けの三角形／四面体メッシュ生成（MeshPy）、ジオメトリ処理ライブラリ（PyMesh）、OpenCascade ベースのメッシュフレームワーク（smesh）。
+
+- https://mathema.tician.de/software/meshpy
+- http://pymesh.readthedocs.io/en/latest
+- https://github.com/tpaviot/smesh
+
+### Robust-Hexahedral-Re-Meshing / gridder
+ヘキサ再メッシュ向けの構造単純化；ロスアラモス国立研究所による、2D/3D 直交格子を作る簡易の対話型グリッド生成ツール。
+
+- https://github.com/gaoxifeng/Robust-Hexahedral-Re-Meshing
+- https://github.com/lanl/gridder
+
+### IsoSurfaceExtraction / glue
+規則ボクセル格子からの等値面抽出；複数ファイルにまたがる科学データセットの可視化を連携。
+
+- https://github.com/mkazhdan/IsoSurfaceExtraction
+- https://github.com/glue-viz/glue
+
 ---
 
 ## CAE / FEA
@@ -298,6 +327,7 @@ Abaqus 風のオープンソース 3D 構造 FEM（ccx/cgx）。PrePoMax は現�
 - https://github.com/ritchie46/anaStruct — 2D structural analysis
 - https://github.com/AppliedMechanics-EAFIT/SolidsPy — 2D FEM
 - https://github.com/CALFEM — CALFEM educational FEM
+- https://github.com/JorgeDeLosSantos/nusa — FEM による簡易構造解析
 
 ### Kratos Multiphysics
 BSD ライセンスの C++/Python 並列マルチフィジックスフレームワーク（構造、流体、DEM、FSI、接触）。HPC/MPI 対応。
@@ -311,6 +341,78 @@ MATLAB/Octave マルチフィジックスツールボックス（FEATool）、�
 - https://www.featool.com/ — https://github.com/precise-simulation/featool-multiphysics
 - https://welsim.com/ — https://github.com/WelSimLLC/WelSim-Apps
 - https://febio.org/ — https://github.com/febiosoftware/FEBio
+
+### JuliaFEM / NASTRAN-95
+信頼性・拡張性・分散実行を目指す Julia 製のオープン FEM（JuliaFEM）；NASA が公開した NASTRAN-95 FEM ソルバ（歴史的参考）。
+
+- https://github.com/JuliaFEM/JuliaFEM.jl
+- https://github.com/nasa/NASTRAN-95
+
+### Voxelyze / CFDEMcoupling / Modelica
+静的・動的解析向けの多材料ボクセルシミュレーションライブラリ（Voxelyze）；LIGGGHTS と OpenFOAM による CFD-DEM 連成（CFDEMcoupling）；機械／電気／熱／流体／制御の 1D/3D モデル向け Modelica 標準ライブラリ。
+
+- https://github.com/jonhiller/Voxelyze
+- https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC
+- https://github.com/modelica/Modelica
+
+### PyOP2 / pyamg / OpenBLAS
+数値計算の基盤部品：非構造メッシュ上の性能可搬な並列計算（PyOP2）、Python の代数的マルチグリッドソルバ（pyamg）、最適化された BLAS ライブラリ（OpenBLAS）。
+
+- https://github.com/OP2/PyOP2
+- https://github.com/pyamg/pyamg
+- https://github.com/xianyi/OpenBLAS
+
+---
+
+## 商用ソルバのスクリプトと入出力
+
+商用ソルバ（Nastran、Abaqus、LS-DYNA、ANSA）の入力／結果ファイルを読み書き・変換・自動化するライブラリとスクリプト。
+
+### Nastran
+BDF/OP2/OP4 ファイルのインタフェースライブラリ（pyNastran）；Nastran 入力デックのブラウザ（nastran-find）。
+
+- https://github.com/SteveDoyle2/pyNastran
+- https://github.com/setvisible/nastran-find
+
+### Abaqus
+Python から Abaqus のシミュレーションを構築・後処理・プロット（abapy）；入力ファイルのパーサ（AbqParse）；Abaqus から LS-DYNA キーワードへの変換（abaqus2dyna）；Abaqus/Python スクリプト用の型ヒント（abqpy）；自動化スクリプト（abaqus_scripts）；ODB の後処理（postPro4Abq、PyQus）；ODB から VTK への変換（odb2vtk）；ジョブ状況のプロッタ（jobwatch）；ドキュメントのキーワード抽出（Abaqus-Documentation-Scraper）。
+
+- https://github.com/lcharleux/abapy
+- https://github.com/crmccreary/AbqParse
+- https://github.com/tbhartman/abaqus2dyna
+- https://github.com/haiiliin/abqpy
+- https://github.com/rodrigo1392
+- https://github.com/Solid-Mechanics/postPro4Abq
+- https://github.com/JorgeDeLosSantos/pyqus
+- https://github.com/Liujie-SYSU/odb2vtk
+- https://github.com/jakobgager/jobwatch
+- https://github.com/bendeaton/Abaqus-Documentation-Scraper
+
+### LS-DYNA
+LS-DYNA のバイナリ結果ファイルを読む Python ライブラリ（qd）；binout と d3plot を高速に読む C/C++/Python ライブラリ（dynareadout）；MATLAB のリーダと実行ラッパ（matlab-lsdyna）。
+
+- https://github.com/qd-cae/qd
+- https://github.com/PucklaJ/dynareadout
+- https://github.com/svenholcombe/matlab-lsdyna
+
+### ANSA / CalculiX
+Beta CAE スイートをスクリプト化する Python ユーティリティ（qd-ansa）；Python から CalculiX の FEA モデルを自動構築（pycalculix）。
+
+- https://github.com/qd-cae/qd-ansa
+- https://github.com/spacether/pycalculix
+
+### メッシュ変換
+有限要素メッシュファイルを複数形式間で変換（FEconv）。
+
+- https://github.com/victorsndvg/FEconv
+
+### Abaqus ユーザーサブルーチン
+UMAT / UEL ユーザーサブルーチンの集まりと、Abaqus と Intel Fortran 環境の設定ガイド。
+
+- https://github.com/jgomezc1/ABAQUS-US
+- https://github.com/ALandauer/ABAQUS_Subroutines
+- https://github.com/WeilinDeng/ABAQUS
+- https://github.com/song2001/abaqus-fortran-env-setup
 
 ---
 
@@ -358,6 +460,24 @@ NIST の火災駆動流れ CFD。Smokeview 可視化付き。
 - https://github.com/missionlab/fenitop
 - https://github.com/ooibhadode/FreeTO
 - https://github.com/Foxelmanian/ToOptix
+
+---
+
+## 最適化と実験計画法（DOE）
+
+汎用の最適化、実験計画法、多分野設計フレームワーク。
+
+### OpenMDAO / pyDOE
+システム解析と多分野最適化のための高性能 Python プラットフォーム（OpenMDAO）；実験計画法ライブラリ（pyDOE）。
+
+- https://github.com/OpenMDAO/OpenMDAO
+- https://github.com/tisimst/pyDOE
+
+### CasADi / YALMIP
+自動微分を備えた数値最適化のシンボリックフレームワーク（CasADi）；最適化モデリング用の MATLAB ツールボックス（YALMIP）。
+
+- https://github.com/casadi/casadi
+- https://github.com/yalmip/YALMIP
 
 ---
 
@@ -457,6 +577,26 @@ Sandia の最適化／UQ／モデル校正ツールキット；PTB/NPL の動的
 
 ---
 
+## エディタとシンタックスハイライト
+
+ソルバ入力ファイル向けのエディタプラグイン。
+
+### Vim
+LS-DYNA、Abaqus、RADIOSS の入力ファイル向けプラグインとレキサ。
+
+- https://github.com/gradzikb/vim-lsdyna
+- https://github.com/tbhartman/vim-lexer-lsdyna
+- https://github.com/gradzikb/vim-abaqus
+- https://github.com/gradzikb/vim-radioss
+
+### Sublime Text
+LS-DYNA と Abaqus のシンタックスハイライト。
+
+- https://github.com/bendeaton/LS-DYNA-Sublime
+- https://github.com/bendeaton/Abaqus-Sublime
+
+---
+
 ## 学習と規格
 
 入門パスと耐久性のある参照（ランダムなチュートリアルより公式ドキュメントを優先）。
@@ -486,6 +626,7 @@ Sandia の最適化／UQ／モデル校正ツールキット；PTB/NPL の動的
 ## 関連リスト
 
 - https://github.com/shvyac/awesome-meshless-cae — メッシュレス／メッシュフリー CAE ツール（SPH、MPS、LBM、MPM、ペリダイナミクス、IGA、AI サロゲート）
+- https://github.com/qd-cae/awesome-CAE — CAE のフレームワーク・ライブラリ・ソフトウェア（Abaqus / Nastran / LS-DYNA のスクリプト）
 - https://github.com/mlightcad/awesome-cad — open-source CAD software & libraries
 - https://github.com/kimimgo/awesome-ai-cae — AI-callable CAE/CAD tooling
 - https://github.com/IgorAherne/awesome-CAD — CAD-related awesome list
