@@ -14,10 +14,13 @@ Useful CAD / CAE resources — mechanical design, simulation, EDA, formats, and 
 - [EDA](#eda)
 - [Meshing & visualization](#meshing--visualization)
 - [CAE / FEA](#cae--fea)
+- [Commercial-solver scripting & I/O](#commercial-solver-scripting--io)
 - [CFD](#cfd)
 - [Topology optimization](#topology-optimization)
+- [Optimization & DOE](#optimization--doe)
 - [MBD](#mbd)
 - [Test-Analysis Correlation (TAC)](#test-analysis-correlation-tac)
+- [Editors & syntax highlighting](#editors--syntax-highlighting)
 - [Learning & standards](#learning--standards)
 - [Related lists](#related-lists)
 
@@ -250,6 +253,32 @@ Visualization Toolkit underlying ParaView and many CAE viewers.
 - https://vtk.org/
 - https://github.com/Kitware/VTK
 
+### PyVista / pygmsh / meshzoo
+Python layers over VTK and Gmsh: streamlined 3D plotting and mesh analysis (PyVista), Gmsh scripting from Python (pygmsh), and a collection of simple meshes for canonical domains (meshzoo).
+
+- https://github.com/pyvista/pyvista
+- https://github.com/nschloe/pygmsh
+- https://github.com/nschloe/meshzoo
+
+### MeshPy / PyMesh / smesh
+Triangular and tetrahedral mesh generation for Python (MeshPy), geometry processing library for Python (PyMesh), and an OpenCascade-based mesh framework (smesh).
+
+- https://mathema.tician.de/software/meshpy
+- http://pymesh.readthedocs.io/en/latest
+- https://github.com/tpaviot/smesh
+
+### Robust-Hexahedral-Re-Meshing / gridder
+Structure simplification for hexahedral re-meshing; simple interactive 2D/3D orthogonal grid generator from Los Alamos National Laboratory.
+
+- https://github.com/gaoxifeng/Robust-Hexahedral-Re-Meshing
+- https://github.com/lanl/gridder
+
+### IsoSurfaceExtraction / glue
+Isosurface extraction from regular voxel grids; linked visualizations of scientific datasets across many files.
+
+- https://github.com/mkazhdan/IsoSurfaceExtraction
+- https://github.com/glue-viz/glue
+
 ---
 
 ## CAE / FEA
@@ -300,6 +329,7 @@ Teaching and 2D structural scripts.
 - https://github.com/ritchie46/anaStruct — 2D structural analysis
 - https://github.com/AppliedMechanics-EAFIT/SolidsPy — 2D FEM
 - https://github.com/CALFEM — CALFEM educational FEM
+- https://github.com/JorgeDeLosSantos/nusa — simple structural analysis with FEM
 
 ### Kratos Multiphysics
 BSD-licensed C++/Python framework for parallel multiphysics (structural, fluid, DEM, FSI, contact) with HPC/MPI support.
@@ -313,6 +343,78 @@ MATLAB/Octave multiphysics toolbox (FEATool), general-purpose engineering simula
 - https://www.featool.com/ — https://github.com/precise-simulation/featool-multiphysics
 - https://welsim.com/ — https://github.com/WelSimLLC/WelSim-Apps
 - https://febio.org/ — https://github.com/febiosoftware/FEBio
+
+### JuliaFEM / NASTRAN-95
+Julia-based open FEM for reliable, scalable, distributed analysis (JuliaFEM); NASA's open-sourced NASTRAN-95 FEM solver (historical reference).
+
+- https://github.com/JuliaFEM/JuliaFEM.jl
+- https://github.com/nasa/NASTRAN-95
+
+### Voxelyze / CFDEMcoupling / Modelica
+Multi-material voxel simulation library for static and dynamic analysis (Voxelyze); coupled CFD-DEM simulation with LIGGGHTS and OpenFOAM (CFDEMcoupling); Modelica Standard Library for 1D/3D mechanical, electrical, thermal, fluid, and control models.
+
+- https://github.com/jonhiller/Voxelyze
+- https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC
+- https://github.com/modelica/Modelica
+
+### PyOP2 / pyamg / OpenBLAS
+Numerical building blocks: performance-portable parallel computations on unstructured meshes (PyOP2), algebraic multigrid solvers in Python (pyamg), and an optimized BLAS library (OpenBLAS).
+
+- https://github.com/OP2/PyOP2
+- https://github.com/pyamg/pyamg
+- https://github.com/xianyi/OpenBLAS
+
+---
+
+## Commercial-solver scripting & I/O
+
+Libraries and scripts for reading, writing, converting, and automating input / result files of commercial solvers (Nastran, Abaqus, LS-DYNA, ANSA).
+
+### Nastran
+Interface library for BDF/OP2/OP4 files (pyNastran); browser for Nastran input decks (nastran-find).
+
+- https://github.com/SteveDoyle2/pyNastran
+- https://github.com/setvisible/nastran-find
+
+### Abaqus
+Build, post-process and plot Abaqus simulations from Python (abapy); input-file parser (AbqParse); Abaqus-to-LS-DYNA keyword converter (abaqus2dyna); type hints for Abaqus/Python scripting (abqpy); automation scripts (abaqus_scripts); ODB post-processing (postPro4Abq, PyQus); ODB-to-VTK conversion (odb2vtk); job status plotter (jobwatch); documentation keyword scraper (Abaqus-Documentation-Scraper).
+
+- https://github.com/lcharleux/abapy
+- https://github.com/crmccreary/AbqParse
+- https://github.com/tbhartman/abaqus2dyna
+- https://github.com/haiiliin/abqpy
+- https://github.com/rodrigo1392
+- https://github.com/Solid-Mechanics/postPro4Abq
+- https://github.com/JorgeDeLosSantos/pyqus
+- https://github.com/Liujie-SYSU/odb2vtk
+- https://github.com/jakobgager/jobwatch
+- https://github.com/bendeaton/Abaqus-Documentation-Scraper
+
+### LS-DYNA
+Python library for reading binary LS-DYNA result files (qd); fast C/C++/Python reader for binout and d3plot (dynareadout); MATLAB reader and runner (matlab-lsdyna).
+
+- https://github.com/qd-cae/qd
+- https://github.com/PucklaJ/dynareadout
+- https://github.com/svenholcombe/matlab-lsdyna
+
+### ANSA / CalculiX
+Python utility library for scripting Beta CAE suite (qd-ansa); automated FEA model building in CalculiX from Python (pycalculix).
+
+- https://github.com/qd-cae/qd-ansa
+- https://github.com/spacether/pycalculix
+
+### Mesh conversion
+Converts finite element mesh files between several formats (FEconv).
+
+- https://github.com/victorsndvg/FEconv
+
+### Abaqus user subroutines
+Collections of UMAT / UEL user subroutines and a guide for setting up Abaqus with an Intel Fortran environment.
+
+- https://github.com/jgomezc1/ABAQUS-US
+- https://github.com/ALandauer/ABAQUS_Subroutines
+- https://github.com/WeilinDeng/ABAQUS
+- https://github.com/song2001/abaqus-fortran-env-setup
 
 ---
 
@@ -360,6 +462,24 @@ Level-set TO (OpenLSTO), FEniCSx parallel TO (FEniTop), MATLAB freeform 3D TO (F
 - https://github.com/missionlab/fenitop
 - https://github.com/ooibhadode/FreeTO
 - https://github.com/Foxelmanian/ToOptix
+
+---
+
+## Optimization & DOE
+
+General optimization, design of experiments, and multidisciplinary design frameworks.
+
+### OpenMDAO / pyDOE
+High-performance Python platform for systems analysis and multidisciplinary optimization (OpenMDAO); design-of-experiments library (pyDOE).
+
+- https://github.com/OpenMDAO/OpenMDAO
+- https://github.com/tisimst/pyDOE
+
+### CasADi / YALMIP
+Symbolic framework for numeric optimization with automatic differentiation (CasADi); MATLAB toolbox for optimization modeling (YALMIP).
+
+- https://github.com/casadi/casadi
+- https://github.com/yalmip/YALMIP
 
 ---
 
@@ -459,6 +579,26 @@ Rotordynamics FEM with measured-response comparison (ROSS); NLR (formerly NREL) 
 
 ---
 
+## Editors & syntax highlighting
+
+Editor plugins for solver input files.
+
+### Vim
+Plugins and lexers for LS-DYNA, Abaqus, and RADIOSS input files.
+
+- https://github.com/gradzikb/vim-lsdyna
+- https://github.com/tbhartman/vim-lexer-lsdyna
+- https://github.com/gradzikb/vim-abaqus
+- https://github.com/gradzikb/vim-radioss
+
+### Sublime Text
+Syntax highlighting for LS-DYNA and Abaqus.
+
+- https://github.com/bendeaton/LS-DYNA-Sublime
+- https://github.com/bendeaton/Abaqus-Sublime
+
+---
+
 ## Learning & standards
 
 Intro paths and durable references (prefer official docs over random tutorials).
@@ -488,6 +628,7 @@ Intro paths and durable references (prefer official docs over random tutorials).
 ## Related lists
 
 - https://github.com/shvyac/awesome-meshless-cae — meshless / mesh-free CAE tools (SPH, MPS, LBM, MPM, peridynamics, IGA, AI surrogates)
+- https://github.com/qd-cae/awesome-CAE — CAE frameworks, libraries and software (Abaqus / Nastran / LS-DYNA scripting)
 - https://github.com/mlightcad/awesome-cad — open-source CAD software & libraries
 - https://github.com/kimimgo/awesome-ai-cae — AI-callable CAE/CAD tooling
 - https://github.com/IgorAherne/awesome-CAD — CAD-related awesome list
