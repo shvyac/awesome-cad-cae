@@ -485,6 +485,7 @@ Sandia の最適化／UQ／モデル校正ツールキット；PTB/NPL の動的
 
 ## 関連リスト
 
+- https://github.com/shvyac/awesome-meshless-cae — メッシュレス／メッシュフリー CAE ツール（SPH、MPS、LBM、MPM、ペリダイナミクス、IGA、AI サロゲート）
 - https://github.com/mlightcad/awesome-cad — open-source CAD software & libraries
 - https://github.com/kimimgo/awesome-ai-cae — AI-callable CAE/CAD tooling
 - https://github.com/IgorAherne/awesome-CAD — CAD-related awesome list
