@@ -2,7 +2,7 @@
 
 [English README](README.md)
 
-機械設計・シミュレーション・EDA・フォーマット・オープンソースツールチェーンなど、CAD / CAE に役立つリソース集。エンジニアとメイカー向け。
+機械設計・シミュレーション・EDA・フォーマット・オープンソースツールチェーンなど、CAD / CAE に役立つリソース集。エンジニアとメイカー向け。⭐ バッジは GitHub のスター数をリアルタイム表示します(shields.io)。
 
 ## 目次
 
@@ -21,6 +21,7 @@
 - [エディタとシンタックスハイライト](#エディタとシンタックスハイライト)
 - [学習と規格](#学習と規格)
 - [関連リスト](#関連リスト)
+- [shvyac の awesome リスト](#shvyac-の-awesome-リスト)
 
 ---
 
@@ -33,33 +34,33 @@
 
 - https://www.freecad.org/
 - https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/ — 1.1 リリースノート
-- https://github.com/FreeCAD/FreeCAD
+- https://github.com/FreeCAD/FreeCAD ![GitHub stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=flat&label=%E2%AD%90)
 - https://wiki.freecad.org/
 
 ### SolveSpace
 拘束ソルバ付きの軽量パラメトリック 2D/3D CAD。STEP/STL を出力。機構や簡易部品向き。
 
 - https://solvespace.com/
-- https://github.com/solvespace/solvespace
+- https://github.com/solvespace/solvespace ![GitHub stars](https://img.shields.io/github/stars/solvespace/solvespace?style=flat&label=%E2%AD%90)
 
 ### Dune 3D
 Horizon EDA 作者によるパラメトリック 3D CAD — SolveSpace の拘束ソルバ＋OCCT カーネル、STEP 入出力。基板周りの筐体や部品の設計に便利。
 
 - https://dune3d.org/
-- https://github.com/dune3d/dune3d
+- https://github.com/dune3d/dune3d ![GitHub stars](https://img.shields.io/github/stars/dune3d/dune3d?style=flat&label=%E2%AD%90)
 
 ### OpenSCAD / ImplicitCAD / OpenJSCAD
 コードファーストのソリッドモデリング（CSG）。OpenSCAD が広く使われる基準線。ImplicitCAD と OpenJSCAD は関数型／JS の代替。
 
-- https://openscad.org/ — https://github.com/openscad/openscad
-- https://implicitcad.org/ — https://github.com/Haskell-Things/ImplicitCAD
-- https://openjscad.xyz/ — https://github.com/jscad/OpenJSCAD.org
+- https://openscad.org/ — https://github.com/openscad/openscad ![GitHub stars](https://img.shields.io/github/stars/openscad/openscad?style=flat&label=%E2%AD%90)
+- https://implicitcad.org/ — https://github.com/Haskell-Things/ImplicitCAD ![GitHub stars](https://img.shields.io/github/stars/Haskell-Things/ImplicitCAD?style=flat&label=%E2%AD%90)
+- https://openjscad.xyz/ — https://github.com/jscad/OpenJSCAD.org ![GitHub stars](https://img.shields.io/github/stars/jscad/OpenJSCAD.org?style=flat&label=%E2%AD%90)
 
 ### LibreCAD / QCAD
 DXF 製図に特化した 2D CAD。
 
-- https://librecad.org/ — https://github.com/LibreCAD/LibreCAD
-- https://qcad.org/en/ — https://github.com/qcad/qcad
+- https://librecad.org/ — https://github.com/LibreCAD/LibreCAD ![GitHub stars](https://img.shields.io/github/stars/LibreCAD/LibreCAD?style=flat&label=%E2%AD%90)
+- https://qcad.org/en/ — https://github.com/qcad/qcad ![GitHub stars](https://img.shields.io/github/stars/qcad/qcad?style=flat&label=%E2%AD%90)
 
 ### BRL-CAD
 対話型 3D エディタとレイトレーサを備えたクロスプラットフォームの組み合わせソリッドモデリング。軍事／工学 CAD での長い歴史。
@@ -70,23 +71,23 @@ DXF 製図に特化した 2D CAD。
 ### LeoCAD / CAD Sketcher / jsketcher / Fornjot / OpenDraft
 ニッチ／実験的 CAD：LEGO CAD、Blender 拘束スケッチャ、ブラウザ CAD、Rust B-Rep カーネル実験（Fornjot — プロジェクト終了、リポジトリはアーカイブ済み）、C# 2D CAD。
 
-- https://www.leocad.org/ — https://github.com/leozide/leocad
-- https://www.cadsketcher.com/ — https://github.com/hlorus/CAD_Sketcher
-- https://web-cad.org/ — https://github.com/xibyte/jsketcher
-- https://www.fornjot.app/ — https://github.com/hannobraun/fornjot（アーカイブ済み）
-- https://github.com/JamesHodgkins/OpenDraft
+- https://www.leocad.org/ — https://github.com/leozide/leocad ![GitHub stars](https://img.shields.io/github/stars/leozide/leocad?style=flat&label=%E2%AD%90)
+- https://www.cadsketcher.com/ — https://github.com/hlorus/CAD_Sketcher ![GitHub stars](https://img.shields.io/github/stars/hlorus/CAD_Sketcher?style=flat&label=%E2%AD%90)
+- https://web-cad.org/ — https://github.com/xibyte/jsketcher ![GitHub stars](https://img.shields.io/github/stars/xibyte/jsketcher?style=flat&label=%E2%AD%90)
+- https://www.fornjot.app/ — https://github.com/hannobraun/fornjot ![GitHub stars](https://img.shields.io/github/stars/hannobraun/fornjot?style=flat&label=%E2%AD%90)（アーカイブ済み）
+- https://github.com/JamesHodgkins/OpenDraft ![GitHub stars](https://img.shields.io/github/stars/JamesHodgkins/OpenDraft?style=flat&label=%E2%AD%90)
 
 ### CodeToCAD
 単一の API 面から CAD/FEA ツールを駆動することを目指す Python スクリプトフレームワーク。
 
-- https://github.com/CodeToCAD/CodeToCAD
+- https://github.com/CodeToCAD/CodeToCAD ![GitHub stars](https://img.shields.io/github/stars/CodeToCAD/CodeToCAD?style=flat&label=%E2%AD%90)
 
 ### Zoo Design Studio（KCL）
 KCL モデリング言語と GPU 加速クラウド幾何エンジンを使う、コード＋GUI の機械 CAD。ML による Text-to-CAD 支援付き。アプリはオープンソース、幾何エンジンはプロプライエタリ。
 
 - https://zoo.dev/
 - https://zoo.dev/docs/kcl
-- https://github.com/KittyCAD/modeling-app
+- https://github.com/KittyCAD/modeling-app ![GitHub stars](https://img.shields.io/github/stars/KittyCAD/modeling-app?style=flat&label=%E2%AD%90)
 
 ### 商用 CAD（参考）
 広く使われる商用 MCAD。相互運用の文脈（STEP 交換、学習資料）に有用。
@@ -108,25 +109,36 @@ FreeCAD、CadQuery、多くの CAE プリプロセッサの下で使われる幾
 
 - https://dev.opencascade.org/
 - https://occt3d.com/
-- https://github.com/Open-Cascade-SAS/OCCT
+- https://github.com/Open-Cascade-SAS/OCCT ![GitHub stars](https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=flat&label=%E2%AD%90)
 
 ### CadQuery
 OCCT 上の Python パラメトリック CAD — 流暢な API、STEP/STL/AMF/3MF 出力、ヘッドレス向け CQGI。
 
 - https://cadquery.readthedocs.io/
-- https://github.com/CadQuery/cadquery
+- https://github.com/CadQuery/cadquery ![GitHub stars](https://img.shields.io/github/stars/CadQuery/cadquery?style=flat&label=%E2%AD%90)
 
 ### build123d
 コンテキストマネージャ（`with`）API を持つ OCCT 上の Python BREP モデリング。CadQuery の進化系と評されることが多い。
 
 - https://build123d.readthedocs.io/
-- https://github.com/gumyr/build123d
+- https://github.com/gumyr/build123d ![GitHub stars](https://img.shields.io/github/stars/gumyr/build123d?style=flat&label=%E2%AD%90)
 
 ### pythonocc / OCP
 OCCT への Python バインディング（CadQuery／build123d が使うのは OCP）。
 
-- https://github.com/tpaviot/pythonocc-core
-- https://github.com/CadQuery/OCP
+- https://github.com/tpaviot/pythonocc-core ![GitHub stars](https://img.shields.io/github/stars/tpaviot/pythonocc-core?style=flat&label=%E2%AD%90)
+- https://github.com/CadQuery/OCP ![GitHub stars](https://img.shields.io/github/stars/CadQuery/OCP?style=flat&label=%E2%AD%90)
+
+### Manifold
+メッシュ（三角形）ベースのロバストな幾何ライブラリ。高速・確実なブーリアン演算で、OpenSCAD の Manifold バックエンドや Blender の Manifold ブーリアンソルバで採用。C++ / Python / JS(WASM) バインディング。
+
+- https://manifoldcad.org/
+- https://github.com/elalish/manifold ![GitHub stars](https://img.shields.io/github/stars/elalish/manifold?style=flat&label=%E2%AD%90)
+
+### Truck
+RICOS（日本）による Rust 製 B-Rep CAD カーネル。NURBS / トポロジー / メッシュ化 / WebGPU 描画をモジュール単位で提供。
+
+- https://github.com/ricosjp/truck ![GitHub stars](https://img.shields.io/github/stars/ricosjp/truck?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -172,14 +184,20 @@ CAD、CAM、CAE ツール間の耐久性のある交換フォーマット。
 ### LibrePCB / Horizon EDA
 ライブラリワークフローを統合した現代的なオープンソース PCB 設計。
 
-- https://librepcb.org/ — https://github.com/LibrePCB/LibrePCB
-- https://horizon-eda.org/ — https://github.com/horizon-eda/horizon
+- https://librepcb.org/ — https://github.com/LibrePCB/LibrePCB ![GitHub stars](https://img.shields.io/github/stars/LibrePCB/LibrePCB?style=flat&label=%E2%AD%90)
+- https://horizon-eda.org/ — https://github.com/horizon-eda/horizon ![GitHub stars](https://img.shields.io/github/stars/horizon-eda/horizon?style=flat&label=%E2%AD%90)
+
+### atopile
+コードで回路基板を設計する言語＋ツールチェーン（`.ato`）。モジュール再利用、制約による部品選定、バージョン管理を前提とし、KiCad へレイアウトを出力。
+
+- https://atopile.io/
+- https://github.com/atopile/atopile ![GitHub stars](https://img.shields.io/github/stars/atopile/atopile?style=flat&label=%E2%AD%90)
 
 ### Fritzing
 ブレッドボードビュー付きのメイカー向け EDA。試作や簡易基板製作に向く。
 
 - https://fritzing.org/
-- https://github.com/fritzing/fritzing-app
+- https://github.com/fritzing/fritzing-app ![GitHub stars](https://img.shields.io/github/stars/fritzing/fritzing-app?style=flat&label=%E2%AD%90)
 
 ### DesignSpark PCB / DipTrace
 無料またはフリーミアムの Windows 向け PCB ツール。
@@ -232,7 +250,7 @@ FEA/CFD 向けの形状メッシングと結果のポスト処理。
 自動四面体メッシング（PrePoMax 内部でも使用）と NGSolve FEM プラットフォーム。
 
 - https://ngsolve.org/
-- https://github.com/NGSolve/netgen
+- https://github.com/NGSolve/netgen ![GitHub stars](https://img.shields.io/github/stars/NGSolve/netgen?style=flat&label=%E2%AD%90)
 
 ### SALOME
 オープンソースのプリ／ポストプラットフォーム：CAD、メッシング（ヘキサ含む）、Code_Aster 他ソルバとの連携。
@@ -243,39 +261,44 @@ FEA/CFD 向けの形状メッシングと結果のポスト処理。
 VTK／OpenFOAM／FEA 結果向けの事実上標準のオープンソース科学可視化。Python スクリプトと大規模データパイプライン。
 
 - https://www.paraview.org/
-- https://github.com/Kitware/ParaView
+- https://github.com/Kitware/ParaView ![GitHub stars](https://img.shields.io/github/stars/Kitware/ParaView?style=flat&label=%E2%AD%90)
 
 ### VTK
 ParaView や多くの CAE ビューアの基盤となる Visualization Toolkit。
 
 - https://vtk.org/
-- https://github.com/Kitware/VTK
+- https://github.com/Kitware/VTK ![GitHub stars](https://img.shields.io/github/stars/Kitware/VTK?style=flat&label=%E2%AD%90)
 
 ### PyVista / pygmsh / meshzoo
 VTK と Gmsh の Python 層：3D プロットとメッシュ解析を簡潔に行う PyVista、Python から Gmsh を操作する pygmsh、標準的な領域向けの簡易メッシュ集 meshzoo。
 
-- https://github.com/pyvista/pyvista
-- https://github.com/nschloe/pygmsh
-- https://github.com/nschloe/meshzoo
+- https://github.com/pyvista/pyvista ![GitHub stars](https://img.shields.io/github/stars/pyvista/pyvista?style=flat&label=%E2%AD%90)
+- https://github.com/nschloe/pygmsh ![GitHub stars](https://img.shields.io/github/stars/nschloe/pygmsh?style=flat&label=%E2%AD%90)
+- https://github.com/meshpro/meshzoo ![GitHub stars](https://img.shields.io/github/stars/meshpro/meshzoo?style=flat&label=%E2%AD%90)
+
+### meshio
+Gmsh、VTK/VTU、Abaqus、Nastran、Exodus、XDMF など多数のメッシュ形式を読み書きする Python ライブラリと CLI（`meshio convert`）。
+
+- https://github.com/nschloe/meshio ![GitHub stars](https://img.shields.io/github/stars/nschloe/meshio?style=flat&label=%E2%AD%90)
 
 ### MeshPy / PyMesh / smesh
 Python 向けの三角形／四面体メッシュ生成（MeshPy）、ジオメトリ処理ライブラリ（PyMesh）、OpenCascade ベースのメッシュフレームワーク（smesh）。
 
 - https://mathema.tician.de/software/meshpy
 - http://pymesh.readthedocs.io/en/latest
-- https://github.com/tpaviot/smesh
+- https://github.com/tpaviot/smesh ![GitHub stars](https://img.shields.io/github/stars/tpaviot/smesh?style=flat&label=%E2%AD%90)
 
 ### Robust-Hexahedral-Re-Meshing / gridder
 ヘキサ再メッシュ向けの構造単純化；ロスアラモス国立研究所による、2D/3D 直交格子を作る簡易の対話型グリッド生成ツール。
 
-- https://github.com/gaoxifeng/Robust-Hexahedral-Re-Meshing
-- https://github.com/lanl/gridder
+- https://github.com/gaoxifeng/Robust-Hexahedral-Re-Meshing ![GitHub stars](https://img.shields.io/github/stars/gaoxifeng/Robust-Hexahedral-Re-Meshing?style=flat&label=%E2%AD%90)
+- https://github.com/lanl/gridder ![GitHub stars](https://img.shields.io/github/stars/lanl/gridder?style=flat&label=%E2%AD%90)
 
 ### IsoSurfaceExtraction / glue
 規則ボクセル格子からの等値面抽出；複数ファイルにまたがる科学データセットの可視化を連携。
 
-- https://github.com/mkazhdan/IsoSurfaceExtraction
-- https://github.com/glue-viz/glue
+- https://github.com/mkazhdan/IsoSurfaceExtraction ![GitHub stars](https://img.shields.io/github/stars/mkazhdan/IsoSurfaceExtraction?style=flat&label=%E2%AD%90)
+- https://github.com/glue-viz/glue ![GitHub stars](https://img.shields.io/github/stars/glue-viz/glue?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -287,7 +310,7 @@ Python 向けの三角形／四面体メッシュ生成（MeshPy）、ジオメ�
 Abaqus 風のオープンソース 3D 構造 FEM（ccx/cgx）。PrePoMax は現代的な Windows GUI のプリ／ポストプロセッサ（OCCT CAD 取り込み、Netgen/Gmsh メッシング）。
 
 - https://www.dhondt.de/ — CalculiX official
-- https://github.com/Dhondtguido/CalculiX
+- https://github.com/Dhondtguido/CalculiX ![GitHub stars](https://img.shields.io/github/stars/Dhondtguido/CalculiX?style=flat&label=%E2%AD%90)
 - https://github.com/calculix
 - https://prepomax.fs.um.si/ — PrePoMax
 - https://gitlab.com/MatejB/PrePoMax
@@ -296,7 +319,7 @@ Abaqus 風のオープンソース 3D 構造 FEM（ccx/cgx）。PrePoMax は現�
 研究やカスタム物理向けに、Python（または DSL）インタフェースが強い PDE/FEM プラットフォーム。
 
 - https://fenicsproject.org/ — https://github.com/FEniCS
-- https://freefem.org/ — https://github.com/FreeFem/FreeFem-sources
+- https://freefem.org/ — https://github.com/FreeFem/FreeFem-sources ![GitHub stars](https://img.shields.io/github/stars/FreeFem/FreeFem-sources?style=flat&label=%E2%AD%90)
 - https://sfepy.org/
 
 ### deal.II / MFEM / MOOSE / libMesh
@@ -305,7 +328,7 @@ Abaqus 風のオープンソース 3D 構造 FEM（ccx/cgx）。PrePoMax は現�
 - https://dealii.org/
 - https://mfem.org/
 - https://mooseframework.inl.gov/
-- https://libmesh.github.io/ — https://github.com/libMesh/libmesh
+- https://libmesh.github.io/ — https://github.com/libMesh/libmesh ![GitHub stars](https://img.shields.io/github/stars/libMesh/libmesh?style=flat&label=%E2%AD%90)
 
 ### Elmer / Code_Aster
 オープンなマルチフィジックス FEM（Elmer）と、EDF の産業向け構造力学スイート（Code_Aster）。しばしば SALOME-Meca と併用。
@@ -317,50 +340,56 @@ Abaqus 風のオープンソース 3D 構造 FEM（ccx/cgx）。PrePoMax は現�
 大規模非線形構造向けオープン FEM（FrontISTR）、Nastran 風解析（MYSTRAN）、構造設計（XC）、自由／移動境界の連成輸送（Goma）。
 
 - https://www.frontistr.com/ — https://gitlab.com/FrontISTR-Commons/FrontISTR（主開発。GitHub はミラー）
-- https://mystran.com/ — https://github.com/dr-bill-c/MYSTRAN
-- https://github.com/xcfem/xc
-- https://www.gomafem.com/ — https://github.com/goma/goma
+- https://mystran.com/ — https://github.com/dr-bill-c/MYSTRAN ![GitHub stars](https://img.shields.io/github/stars/dr-bill-c/MYSTRAN?style=flat&label=%E2%AD%90)
+- https://github.com/xcfem/xc ![GitHub stars](https://img.shields.io/github/stars/xcfem/xc?style=flat&label=%E2%AD%90)
+- https://www.gomafem.com/ — https://github.com/goma/goma ![GitHub stars](https://img.shields.io/github/stars/goma/goma?style=flat&label=%E2%AD%90)
 
 ### 軽量 Python FEA
 教育用および 2D 構造スクリプト。
 
-- https://github.com/ritchie46/anaStruct — 2D structural analysis
-- https://github.com/AppliedMechanics-EAFIT/SolidsPy — 2D FEM
+- https://github.com/anastruct/anaStruct ![GitHub stars](https://img.shields.io/github/stars/anastruct/anaStruct?style=flat&label=%E2%AD%90) — 2D structural analysis
+- https://github.com/AppliedMechanics-EAFIT/SolidsPy ![GitHub stars](https://img.shields.io/github/stars/AppliedMechanics-EAFIT/SolidsPy?style=flat&label=%E2%AD%90) — 2D FEM
 - https://github.com/CALFEM — CALFEM educational FEM
-- https://github.com/JorgeDeLosSantos/nusa — FEM による簡易構造解析
+- https://github.com/JorgeDeLosSantos/nusa ![GitHub stars](https://img.shields.io/github/stars/JorgeDeLosSantos/nusa?style=flat&label=%E2%AD%90) — FEM による簡易構造解析
+
+### OpenCourant（旧 OpenRadioss）
+衝突・衝撃・落下・爆発向けの陽解法 FEM ソルバ（AGPL-3.0）。Siemens が 2026 年 10 月に OpenRadioss を終了し GitHub リポジトリを削除したため、全コミット履歴を引き継いだコミュニティフォーク。RESF（Rocky Enterprise Software Foundation）傘下。
+
+- https://opencourant.org/
+- https://github.com/OpenCourant/OpenCourant ![GitHub stars](https://img.shields.io/github/stars/OpenCourant/OpenCourant?style=flat&label=%E2%AD%90)
 
 ### Kratos Multiphysics
 BSD ライセンスの C++/Python 並列マルチフィジックスフレームワーク（構造、流体、DEM、FSI、接触）。HPC/MPI 対応。
 
 - https://kratosmultiphysics.github.io/Kratos/
-- https://github.com/KratosMultiphysics/Kratos
+- https://github.com/KratosMultiphysics/Kratos ![GitHub stars](https://img.shields.io/github/stars/KratosMultiphysics/Kratos?style=flat&label=%E2%AD%90)
 
 ### FEATool / WELSIM / FEBio
 MATLAB/Octave マルチフィジックスツールボックス（FEATool）、汎用エンジニアリングシミュレーション UI（WELSIM）、生体力学寄りの非線形 FEM（FEBio）。
 
-- https://www.featool.com/ — https://github.com/precise-simulation/featool-multiphysics
-- https://welsim.com/ — https://github.com/WelSimLLC/WelSim-Apps
-- https://febio.org/ — https://github.com/febiosoftware/FEBio
+- https://www.featool.com/ — https://github.com/precise-simulation/featool-multiphysics ![GitHub stars](https://img.shields.io/github/stars/precise-simulation/featool-multiphysics?style=flat&label=%E2%AD%90)
+- https://welsim.com/ — https://github.com/WelSimLLC/WelSim-Apps ![GitHub stars](https://img.shields.io/github/stars/WelSimLLC/WelSim-Apps?style=flat&label=%E2%AD%90)
+- https://febio.org/ — https://github.com/febiosoftware/FEBio ![GitHub stars](https://img.shields.io/github/stars/febiosoftware/FEBio?style=flat&label=%E2%AD%90)
 
 ### JuliaFEM / NASTRAN-95
 信頼性・拡張性・分散実行を目指す Julia 製のオープン FEM（JuliaFEM）；NASA が公開した NASTRAN-95 FEM ソルバ（歴史的参考）。
 
-- https://github.com/JuliaFEM/JuliaFEM.jl
-- https://github.com/nasa/NASTRAN-95
+- https://github.com/JuliaFEM/JuliaFEM.jl ![GitHub stars](https://img.shields.io/github/stars/JuliaFEM/JuliaFEM.jl?style=flat&label=%E2%AD%90)
+- https://github.com/nasa/NASTRAN-95 ![GitHub stars](https://img.shields.io/github/stars/nasa/NASTRAN-95?style=flat&label=%E2%AD%90)
 
 ### Voxelyze / CFDEMcoupling / Modelica
 静的・動的解析向けの多材料ボクセルシミュレーションライブラリ（Voxelyze）；LIGGGHTS と OpenFOAM による CFD-DEM 連成（CFDEMcoupling）；機械／電気／熱／流体／制御の 1D/3D モデル向け Modelica 標準ライブラリ。
 
-- https://github.com/jonhiller/Voxelyze
-- https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC
-- https://github.com/modelica/Modelica
+- https://github.com/jonhiller/Voxelyze ![GitHub stars](https://img.shields.io/github/stars/jonhiller/Voxelyze?style=flat&label=%E2%AD%90)
+- https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC ![GitHub stars](https://img.shields.io/github/stars/CFDEMproject/CFDEMcoupling-PUBLIC?style=flat&label=%E2%AD%90)
+- https://github.com/modelica/Modelica ![GitHub stars](https://img.shields.io/github/stars/modelica/Modelica?style=flat&label=%E2%AD%90)
 
 ### PyOP2 / pyamg / OpenBLAS
 数値計算の基盤部品：非構造メッシュ上の性能可搬な並列計算（PyOP2）、Python の代数的マルチグリッドソルバ（pyamg）、最適化された BLAS ライブラリ（OpenBLAS）。
 
-- https://github.com/OP2/PyOP2
-- https://github.com/pyamg/pyamg
-- https://github.com/xianyi/OpenBLAS
+- https://github.com/OP2/PyOP2 ![GitHub stars](https://img.shields.io/github/stars/OP2/PyOP2?style=flat&label=%E2%AD%90) — アーカイブ済み
+- https://github.com/pyamg/pyamg ![GitHub stars](https://img.shields.io/github/stars/pyamg/pyamg?style=flat&label=%E2%AD%90)
+- https://github.com/OpenMathLib/OpenBLAS ![GitHub stars](https://img.shields.io/github/stars/OpenMathLib/OpenBLAS?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -371,48 +400,48 @@ MATLAB/Octave マルチフィジックスツールボックス（FEATool）、�
 ### Nastran
 BDF/OP2/OP4 ファイルのインタフェースライブラリ（pyNastran）；Nastran 入力デックのブラウザ（nastran-find）。
 
-- https://github.com/SteveDoyle2/pyNastran
-- https://github.com/setvisible/nastran-find
+- https://github.com/SteveDoyle2/pyNastran ![GitHub stars](https://img.shields.io/github/stars/SteveDoyle2/pyNastran?style=flat&label=%E2%AD%90)
+- https://github.com/setvisible/nastran-find ![GitHub stars](https://img.shields.io/github/stars/setvisible/nastran-find?style=flat&label=%E2%AD%90)
 
 ### Abaqus
 Python から Abaqus のシミュレーションを構築・後処理・プロット（abapy）；入力ファイルのパーサ（AbqParse）；Abaqus から LS-DYNA キーワードへの変換（abaqus2dyna）；Abaqus/Python スクリプト用の型ヒント（abqpy）；自動化スクリプト（abaqus_scripts）；ODB の後処理（postPro4Abq、PyQus）；ODB から VTK への変換（odb2vtk）；ジョブ状況のプロッタ（jobwatch）；ドキュメントのキーワード抽出（Abaqus-Documentation-Scraper）。
 
-- https://github.com/lcharleux/abapy
-- https://github.com/crmccreary/AbqParse
-- https://github.com/tbhartman/abaqus2dyna
-- https://github.com/haiiliin/abqpy
+- https://github.com/lcharleux/abapy ![GitHub stars](https://img.shields.io/github/stars/lcharleux/abapy?style=flat&label=%E2%AD%90)
+- https://github.com/crmccreary/AbqParse ![GitHub stars](https://img.shields.io/github/stars/crmccreary/AbqParse?style=flat&label=%E2%AD%90)
+- https://github.com/tbhartman/abaqus2dyna ![GitHub stars](https://img.shields.io/github/stars/tbhartman/abaqus2dyna?style=flat&label=%E2%AD%90)
+- https://github.com/haiiliin/abqpy ![GitHub stars](https://img.shields.io/github/stars/haiiliin/abqpy?style=flat&label=%E2%AD%90)
 - https://github.com/rodrigo1392
-- https://github.com/Solid-Mechanics/postPro4Abq
-- https://github.com/JorgeDeLosSantos/pyqus
-- https://github.com/Liujie-SYSU/odb2vtk
-- https://github.com/jakobgager/jobwatch
-- https://github.com/bendeaton/Abaqus-Documentation-Scraper
+- https://github.com/mengomarlene/postPro4Abq ![GitHub stars](https://img.shields.io/github/stars/mengomarlene/postPro4Abq?style=flat&label=%E2%AD%90)
+- https://github.com/JorgeDeLosSantos/pyqus ![GitHub stars](https://img.shields.io/github/stars/JorgeDeLosSantos/pyqus?style=flat&label=%E2%AD%90)
+- https://github.com/Liujie-SYSU/odb2vtk ![GitHub stars](https://img.shields.io/github/stars/Liujie-SYSU/odb2vtk?style=flat&label=%E2%AD%90)
+- https://github.com/jakobgager/jobwatch ![GitHub stars](https://img.shields.io/github/stars/jakobgager/jobwatch?style=flat&label=%E2%AD%90)
+- https://github.com/bendeaton/Abaqus-Documentation-Scraper ![GitHub stars](https://img.shields.io/github/stars/bendeaton/Abaqus-Documentation-Scraper?style=flat&label=%E2%AD%90)
 
 ### LS-DYNA
 LS-DYNA のバイナリ結果ファイルを読む Python ライブラリ（qd）；binout と d3plot を高速に読む C/C++/Python ライブラリ（dynareadout）；MATLAB のリーダと実行ラッパ（matlab-lsdyna）。
 
-- https://github.com/qd-cae/qd
-- https://github.com/PucklaJ/dynareadout
-- https://github.com/svenholcombe/matlab-lsdyna
+- https://github.com/qd-cae/qd-cae-python ![GitHub stars](https://img.shields.io/github/stars/qd-cae/qd-cae-python?style=flat&label=%E2%AD%90) — アーカイブ済み
+- https://pypi.org/project/dynareadout/ — PyPI（元の GitHub リポジトリは公開終了）
+- https://github.com/svenholcombe/matlab-lsdyna ![GitHub stars](https://img.shields.io/github/stars/svenholcombe/matlab-lsdyna?style=flat&label=%E2%AD%90)
 
 ### ANSA / CalculiX
 Beta CAE スイートをスクリプト化する Python ユーティリティ（qd-ansa）；Python から CalculiX の FEA モデルを自動構築（pycalculix）。
 
-- https://github.com/qd-cae/qd-ansa
-- https://github.com/spacether/pycalculix
+- https://github.com/qd-cae/qd-ansa-extension ![GitHub stars](https://img.shields.io/github/stars/qd-cae/qd-ansa-extension?style=flat&label=%E2%AD%90)
+- https://github.com/spacether/pycalculix ![GitHub stars](https://img.shields.io/github/stars/spacether/pycalculix?style=flat&label=%E2%AD%90) — アーカイブ済み
 
 ### メッシュ変換
 有限要素メッシュファイルを複数形式間で変換（FEconv）。
 
-- https://github.com/victorsndvg/FEconv
+- https://github.com/victorsndvg/FEconv ![GitHub stars](https://img.shields.io/github/stars/victorsndvg/FEconv?style=flat&label=%E2%AD%90)
 
 ### Abaqus ユーザーサブルーチン
 UMAT / UEL ユーザーサブルーチンの集まりと、Abaqus と Intel Fortran 環境の設定ガイド。
 
-- https://github.com/jgomezc1/ABAQUS-US
-- https://github.com/ALandauer/ABAQUS_Subroutines
-- https://github.com/WeilinDeng/ABAQUS
-- https://github.com/song2001/abaqus-fortran-env-setup
+- https://github.com/jgomezc1/ABAQUS-US ![GitHub stars](https://img.shields.io/github/stars/jgomezc1/ABAQUS-US?style=flat&label=%E2%AD%90)
+- https://github.com/ALandauer/ABAQUS_Subroutines ![GitHub stars](https://img.shields.io/github/stars/ALandauer/ABAQUS_Subroutines?style=flat&label=%E2%AD%90)
+- https://github.com/WeilinDeng/ABAQUS ![GitHub stars](https://img.shields.io/github/stars/WeilinDeng/ABAQUS?style=flat&label=%E2%AD%90)
+- https://github.com/song2001/abaqus-fortran-env-setup ![GitHub stars](https://img.shields.io/github/stars/song2001/abaqus-fortran-env-setup?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -425,27 +454,27 @@ UMAT / UEL ユーザーサブルーチンの集まりと、Abaqus と Intel Fort
 
 - https://www.openfoam.com/ — ESI/OpenCFD 版（最新 v2606、2026 年 6 月）
 - https://www.openfoam.com/news/main-news/openfoam-v2606 — v2606 リリースノート
-- https://github.com/OpenFOAM/OpenFOAM-dev
+- https://github.com/OpenFOAM/OpenFOAM-dev ![GitHub stars](https://img.shields.io/github/stars/OpenFOAM/OpenFOAM-dev?style=flat&label=%E2%AD%90)
 - https://openfoam.org/ — community edition lineage
 
 ### SU2
 マルチフィジックス PDE ソルバと勾配ベースの空力形状最適化。
 
 - https://su2code.github.io/
-- https://github.com/su2code/SU2
+- https://github.com/su2code/SU2 ![GitHub stars](https://img.shields.io/github/stars/su2code/SU2?style=flat&label=%E2%AD%90)
 
 ### Palabos / Lethe / x3d2
 格子ボルツマン CFD（Palabos）；高次 CG CFD–DEM（Lethe）；GPU 高次有限差分 CFD（x3d2 / Xcompact3d 系統）。
 
 - https://palabos.unige.ch/ — https://gitlab.com/unigespc/palabos
-- https://chaos-polymtl.github.io/lethe/ — https://github.com/chaos-polymtl/lethe
-- https://xcompact3d.github.io/ — https://github.com/xcompact3d/x3d2
+- https://chaos-polymtl.github.io/lethe/ — https://github.com/chaos-polymtl/lethe ![GitHub stars](https://img.shields.io/github/stars/chaos-polymtl/lethe?style=flat&label=%E2%AD%90)
+- https://xcompact3d.github.io/ — https://github.com/xcompact3d/x3d2 ![GitHub stars](https://img.shields.io/github/stars/xcompact3d/x3d2?style=flat&label=%E2%AD%90)
 
 ### Fire Dynamics Simulator (FDS)
 NIST の火災駆動流れ CFD。Smokeview 可視化付き。
 
 - https://pages.nist.gov/fds-smv/
-- https://github.com/firemodels/fds
+- https://github.com/firemodels/fds ![GitHub stars](https://img.shields.io/github/stars/firemodels/fds?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -456,10 +485,10 @@ NIST の火災駆動流れ CFD。Smokeview 可視化付き。
 ### OpenLSTO / FEniTop / FreeTO / ToOptiX
 レベルセット TO（OpenLSTO）、FEniCSx 並列 TO（FEniTop）、MATLAB 自由形状 3D TO（FreeTO）、Blender/FreeCAD アドオン付きマルチフィジックス TO（ToOptiX）。
 
-- https://github.com/M2DOLab/OpenLSTO
-- https://github.com/missionlab/fenitop
-- https://github.com/ooibhadode/FreeTO
-- https://github.com/Foxelmanian/ToOptix
+- https://github.com/M2DOLab/OpenLSTO ![GitHub stars](https://img.shields.io/github/stars/M2DOLab/OpenLSTO?style=flat&label=%E2%AD%90)
+- https://github.com/missionlab/fenitop ![GitHub stars](https://img.shields.io/github/stars/missionlab/fenitop?style=flat&label=%E2%AD%90)
+- https://github.com/ooibhadode/FreeTO ![GitHub stars](https://img.shields.io/github/stars/ooibhadode/FreeTO?style=flat&label=%E2%AD%90)
+- https://github.com/Foxelmanian/ToOptix ![GitHub stars](https://img.shields.io/github/stars/Foxelmanian/ToOptix?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -470,14 +499,14 @@ NIST の火災駆動流れ CFD。Smokeview 可視化付き。
 ### OpenMDAO / pyDOE
 システム解析と多分野最適化のための高性能 Python プラットフォーム（OpenMDAO）；実験計画法ライブラリ（pyDOE）。
 
-- https://github.com/OpenMDAO/OpenMDAO
-- https://github.com/tisimst/pyDOE
+- https://github.com/OpenMDAO/OpenMDAO ![GitHub stars](https://img.shields.io/github/stars/OpenMDAO/OpenMDAO?style=flat&label=%E2%AD%90)
+- https://github.com/pydoe/pydoe ![GitHub stars](https://img.shields.io/github/stars/pydoe/pydoe?style=flat&label=%E2%AD%90)
 
 ### CasADi / YALMIP
 自動微分を備えた数値最適化のシンボリックフレームワーク（CasADi）；最適化モデリング用の MATLAB ツールボックス（YALMIP）。
 
-- https://github.com/casadi/casadi
-- https://github.com/yalmip/YALMIP
+- https://github.com/casadi/casadi ![GitHub stars](https://img.shields.io/github/stars/casadi/casadi?style=flat&label=%E2%AD%90)
+- https://github.com/yalmip/YALMIP ![GitHub stars](https://img.shields.io/github/stars/yalmip/YALMIP?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -489,15 +518,15 @@ NIST の火災駆動流れ CFD。Smokeview 可視化付き。
 汎用 MBD（MBDyn）；車両／ロボット／粉体などのマルチフィジックス（Chrono）；関節付き生体力学（Simbody）；Python/C++ 柔軟 MBD（EXUDYN）。
 
 - https://www.mbdyn.org/ — https://public.gitlab.polimi.it/DAER/mbdyn
-- https://projectchrono.org/ — https://github.com/projectchrono/chrono
-- https://github.com/simbody/simbody
-- https://github.com/jgerstmayr/EXUDYN
+- https://projectchrono.org/ — https://github.com/projectchrono/chrono ![GitHub stars](https://img.shields.io/github/stars/projectchrono/chrono?style=flat&label=%E2%AD%90)
+- https://github.com/simbody/simbody ![GitHub stars](https://img.shields.io/github/stars/simbody/simbody?style=flat&label=%E2%AD%90)
+- https://github.com/jgerstmayr/EXUDYN ![GitHub stars](https://img.shields.io/github/stars/jgerstmayr/EXUDYN?style=flat&label=%E2%AD%90)
 
 ### OpenSim / Pinocchio
 筋骨格ダイナミクス（OpenSim）；ロボティクス向け高速剛体ダイナミクス（Pinocchio）。
 
 - https://opensim.stanford.edu/ — https://github.com/opensim-org
-- https://github.com/stack-of-tasks/pinocchio
+- https://github.com/stack-of-tasks/pinocchio ![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -510,49 +539,49 @@ CAE 結果と実機試験を突き合わせるためのツール — 計測デ�
 #### asammdf
 ASAM MDF/MF4 計測ファイル向けの高速 Python リーダ／ライタ／GUI（自動車／航空宇宙リグ、CAN/LIN）。
 
-- https://github.com/danielhrisca/asammdf
+- https://github.com/danielhrisca/asammdf ![GitHub stars](https://img.shields.io/github/stars/danielhrisca/asammdf?style=flat&label=%E2%AD%90)
 - https://asammdf.readthedocs.io/
 
 #### MDSplus
 階層的な実験／シミュレーションデータツリー。核融合研究に起源があり、sim と試験の相関に広く使われる。
 
 - https://mdsplus.org/
-- https://github.com/MDSplus/mdsplus
+- https://github.com/MDSplus/mdsplus ![GitHub stars](https://img.shields.io/github/stars/MDSplus/mdsplus?style=flat&label=%E2%AD%90)
 
 #### openMDM / odsbox
 Eclipse ASAM ODS 計測データ管理（openMDM）；Python ODS REST ラッパ（odsbox）。
 
 - https://openmdm.org/
-- https://github.com/peak-solution/odsbox
+- https://github.com/peak-solution/odsbox ![GitHub stars](https://img.shields.io/github/stars/peak-solution/odsbox?style=flat&label=%E2%AD%90)
 
 #### SciDataTool
 sim と試験信号の比較向けに、時間／空間／周波数の統一的な科学フィールド保存／ポスト処理。
 
-- https://github.com/Eomys/SciDataTool
+- https://github.com/Eomys/SciDataTool ![GitHub stars](https://img.shields.io/github/stars/Eomys/SciDataTool?style=flat&label=%E2%AD%90)
 
 ### 実験モード解析（EMA / OMA）
 
 #### pyEMA / sdypy-EMA / pyOMA2 / OpenModal
 FRF からのモードパラメータ抽出（LSCF/LSFD）；SDyPy 後継；出力のみ OMA（SSI/FDD）；フル GUI の EMA スイート。
 
-- https://github.com/ladisk/pyEMA
-- https://github.com/sdypy/sdypy-EMA
-- https://github.com/dagghe/pyOMA2
-- https://www.openmodal.com/ — https://github.com/openmodal/OpenModal
+- https://github.com/ladisk/pyEMA ![GitHub stars](https://img.shields.io/github/stars/ladisk/pyEMA?style=flat&label=%E2%AD%90)
+- https://github.com/sdypy/sdypy-EMA ![GitHub stars](https://img.shields.io/github/stars/sdypy/sdypy-EMA?style=flat&label=%E2%AD%90)
+- https://github.com/dagghe/pyOMA2 ![GitHub stars](https://img.shields.io/github/stars/dagghe/pyOMA2?style=flat&label=%E2%AD%90)
+- https://www.openmodal.com/ — https://github.com/openmodal/OpenModal ![GitHub stars](https://img.shields.io/github/stars/openmodal/OpenModal?style=flat&label=%E2%AD%90)
 
 #### pyFRF / pyUFF
 時間信号からの FRF 推定器（H1/H2/Hv）；CAT ↔ CAE 交換向け UFF Dataset 58/55/2411/2412 I/O。
 
-- https://github.com/ladisk/pyFRF
-- https://github.com/ladisk/pyuff
+- https://github.com/ladisk/pyFRF ![GitHub stars](https://img.shields.io/github/stars/ladisk/pyFRF?style=flat&label=%E2%AD%90)
+- https://github.com/ladisk/pyuff ![GitHub stars](https://img.shields.io/github/stars/ladisk/pyuff?style=flat&label=%E2%AD%90)
 
 ### 相関指標とモデル更新
 
 #### SDynPy / SMAC
 Sandia 構造ダイナミクス Python（MAC/COMAC、FRF、曲線フィット）；MATLAB モード曲線フィット（SMAC）。
 
-- https://sandialabs.github.io/sdynpy/ — https://github.com/sandialabs/sdynpy
-- https://github.com/sandialabs/SMAC
+- https://sandialabs.github.io/sdynpy/ — https://github.com/sandialabs/sdynpy ![GitHub stars](https://img.shields.io/github/stars/sandialabs/sdynpy?style=flat&label=%E2%AD%90)
+- https://github.com/sandialabs/SMAC ![GitHub stars](https://img.shields.io/github/stars/sandialabs/SMAC?style=flat&label=%E2%AD%90)
 
 #### pyFBS
 周波数ベース部分構造合成と伝達経路解析 — 計測 FRF と FEA 部品の結合。
@@ -563,17 +592,17 @@ Sandia 構造ダイナミクス Python（MAC/COMAC、FRF、曲線フィット）
 #### Dakota / PyDynamic
 Sandia の最適化／UQ／モデル校正ツールキット；PTB/NPL の動的計測不確かさ伝播。
 
-- https://dakota.sandia.gov/ — https://github.com/snl-dakota/dakota
-- https://pydynamic.readthedocs.io/ — https://github.com/PTB-M4D/PyDynamic
+- https://dakota.sandia.gov/ — https://github.com/snl-dakota/dakota ![GitHub stars](https://img.shields.io/github/stars/snl-dakota/dakota?style=flat&label=%E2%AD%90)
+- https://pydynamic.readthedocs.io/ — https://github.com/PTBresearch/PyDynamic ![GitHub stars](https://img.shields.io/github/stars/PTBresearch/PyDynamic?style=flat&label=%E2%AD%90)
 
 ### ドメイン固有の検証
 
 #### ROSS / OpenFAST / FEBio
 計測応答比較付きロータダイナミクス FEM（ROSS）；NLR（旧 NREL）風力タービンの空力・サーボ・弾性検証（OpenFAST）；生体力学 V&V（FEBio）。
 
-- https://ross.readthedocs.io/ — https://github.com/petrobras/ross
-- https://openfast.readthedocs.io/ — https://github.com/OpenFAST/openfast
-- https://febio.org/ — https://github.com/febiosoftware/FEBio
+- https://ross.readthedocs.io/ — https://github.com/petrobras/ross ![GitHub stars](https://img.shields.io/github/stars/petrobras/ross?style=flat&label=%E2%AD%90)
+- https://openfast.readthedocs.io/ — https://github.com/OpenFAST/openfast ![GitHub stars](https://img.shields.io/github/stars/OpenFAST/openfast?style=flat&label=%E2%AD%90)
+- https://febio.org/ — https://github.com/febiosoftware/FEBio ![GitHub stars](https://img.shields.io/github/stars/febiosoftware/FEBio?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -584,16 +613,16 @@ Sandia の最適化／UQ／モデル校正ツールキット；PTB/NPL の動的
 ### Vim
 LS-DYNA、Abaqus、RADIOSS の入力ファイル向けプラグインとレキサ。
 
-- https://github.com/gradzikb/vim-lsdyna
-- https://github.com/tbhartman/vim-lexer-lsdyna
-- https://github.com/gradzikb/vim-abaqus
-- https://github.com/gradzikb/vim-radioss
+- https://github.com/gradzikb/vim-lsdyna ![GitHub stars](https://img.shields.io/github/stars/gradzikb/vim-lsdyna?style=flat&label=%E2%AD%90)
+- https://github.com/tbhartman/vim-lexer-lsdyna ![GitHub stars](https://img.shields.io/github/stars/tbhartman/vim-lexer-lsdyna?style=flat&label=%E2%AD%90)
+- https://github.com/gradzikb/vim-abaqus ![GitHub stars](https://img.shields.io/github/stars/gradzikb/vim-abaqus?style=flat&label=%E2%AD%90)
+- https://github.com/gradzikb/vim-radioss ![GitHub stars](https://img.shields.io/github/stars/gradzikb/vim-radioss?style=flat&label=%E2%AD%90)
 
 ### Sublime Text
 LS-DYNA と Abaqus のシンタックスハイライト。
 
-- https://github.com/bendeaton/LS-DYNA-Sublime
-- https://github.com/bendeaton/Abaqus-Sublime
+- https://github.com/bendeaton/LS-DYNA-Sublime ![GitHub stars](https://img.shields.io/github/stars/bendeaton/LS-DYNA-Sublime?style=flat&label=%E2%AD%90)
+- https://github.com/bendeaton/Abaqus-Sublime ![GitHub stars](https://img.shields.io/github/stars/bendeaton/Abaqus-Sublime?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -611,7 +640,7 @@ LS-DYNA と Abaqus のシンタックスハイライト。
 ### ドキュメントとコミュニティ
 - https://wiki.freecad.org/ — FreeCAD documentation
 - https://www.dhondt.de/ — CalculiX manuals
-- https://www.openfoam.com/documentation/ — OpenFOAM docs
+- https://www.openfoam.com/documentation/overview — OpenFOAM docs
 - https://gmsh.info/doc/texinfo/gmsh.html — Gmsh reference
 - https://fenicsproject.org/documentation/ — FEniCS docs
 - https://calculix.discourse.group/ — CalculiX community forum
@@ -625,9 +654,32 @@ LS-DYNA と Abaqus のシンタックスハイライト。
 
 ## 関連リスト
 
-- https://github.com/shvyac/awesome-meshless-cae — メッシュレス／メッシュフリー CAE ツール（SPH、MPS、LBM、MPM、ペリダイナミクス、IGA、AI サロゲート）
-- https://github.com/qd-cae/awesome-CAE — CAE のフレームワーク・ライブラリ・ソフトウェア（Abaqus / Nastran / LS-DYNA のスクリプト）
-- https://github.com/mlightcad/awesome-cad — open-source CAD software & libraries
-- https://github.com/kimimgo/awesome-ai-cae — AI-callable CAE/CAD tooling
-- https://github.com/IgorAherne/awesome-CAD — CAD-related awesome list
+- https://github.com/shvyac/awesome-meshless-cae ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-meshless-cae?style=flat&label=%E2%AD%90) — メッシュレス／メッシュフリー CAE ツール（SPH、MPS、LBM、MPM、ペリダイナミクス、IGA、AI サロゲート）
+- https://github.com/qd-cae/awesome-CAE ![GitHub stars](https://img.shields.io/github/stars/qd-cae/awesome-CAE?style=flat&label=%E2%AD%90) — CAE のフレームワーク・ライブラリ・ソフトウェア（Abaqus / Nastran / LS-DYNA のスクリプト）
+- https://github.com/mlightcad/awesome-cad ![GitHub stars](https://img.shields.io/github/stars/mlightcad/awesome-cad?style=flat&label=%E2%AD%90) — open-source CAD software & libraries
+- https://github.com/kimimgo/awesome-ai-cae ![GitHub stars](https://img.shields.io/github/stars/kimimgo/awesome-ai-cae?style=flat&label=%E2%AD%90) — AI-callable CAE/CAD tooling
 - https://awesome.re/ — Awesome manifesto
+
+---
+
+## shvyac の awesome リスト
+
+[shvyac](https://github.com/shvyac) が管理しているキュレーションリストの一覧:
+
+- [awesome-hamradio](https://github.com/shvyac/awesome-hamradio) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-hamradio?style=flat&label=%E2%AD%90)
+- [awesome-cad-cae](https://github.com/shvyac/awesome-cad-cae) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cad-cae?style=flat&label=%E2%AD%90)
+- [awesome-map-gis](https://github.com/shvyac/awesome-map-gis) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-map-gis?style=flat&label=%E2%AD%90)
+- [awesome-ballroom-dance](https://github.com/shvyac/awesome-ballroom-dance) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ballroom-dance?style=flat&label=%E2%AD%90)
+- [awesome-ghost-artists](https://github.com/shvyac/awesome-ghost-artists) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ghost-artists?style=flat&label=%E2%AD%90)
+- [awesome-audio-softwares](https://github.com/shvyac/awesome-audio-softwares) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-audio-softwares?style=flat&label=%E2%AD%90)
+- [awesome-online-services](https://github.com/shvyac/awesome-online-services) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-online-services?style=flat&label=%E2%AD%90)
+- [awesome-trading-stock](https://github.com/shvyac/awesome-trading-stock) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-trading-stock?style=flat&label=%E2%AD%90)
+- [awesome-open-source-solvers](https://github.com/shvyac/awesome-open-source-solvers) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-open-source-solvers?style=flat&label=%E2%AD%90)
+- [awesome-m5stack-arduino](https://github.com/shvyac/awesome-m5stack-arduino) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-m5stack-arduino?style=flat&label=%E2%AD%90)
+- [awesome-AI-Powered-Executive-Dashboards](https://github.com/shvyac/awesome-AI-Powered-Executive-Dashboards) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-AI-Powered-Executive-Dashboards?style=flat&label=%E2%AD%90)
+- [awesome-ai-tool-for-mechanical-engineering](https://github.com/shvyac/awesome-ai-tool-for-mechanical-engineering) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-ai-tool-for-mechanical-engineering?style=flat&label=%E2%AD%90)
+- [awesome-local-llm](https://github.com/shvyac/awesome-local-llm) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-local-llm?style=flat&label=%E2%AD%90)
+- [awesome-redmine-ai](https://github.com/shvyac/awesome-redmine-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-redmine-ai?style=flat&label=%E2%AD%90)
+- [awesome-dashboards-visualization](https://github.com/shvyac/awesome-dashboards-visualization) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-dashboards-visualization?style=flat&label=%E2%AD%90)
+- [awesome-osint-ai](https://github.com/shvyac/awesome-osint-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-osint-ai?style=flat&label=%E2%AD%90)
+- [awesome-cms-ai](https://github.com/shvyac/awesome-cms-ai) ![GitHub stars](https://img.shields.io/github/stars/shvyac/awesome-cms-ai?style=flat&label=%E2%AD%90)
