@@ -433,9 +433,10 @@ Python utility library for scripting Beta CAE suite (qd-ansa); automated FEA mod
 - https://github.com/spacether/pycalculix ![GitHub stars](https://img.shields.io/github/stars/spacether/pycalculix?style=flat&label=%E2%AD%90) — archived
 
 ### Mesh conversion
-Converts finite element mesh files between several formats (FEconv).
+Converts finite element mesh files between several formats (FEconv); validates and transfers supported finite-element meshes and results across CAE formats (caexfer).
 
 - https://github.com/victorsndvg/FEconv ![GitHub stars](https://img.shields.io/github/stars/victorsndvg/FEconv?style=flat&label=%E2%AD%90)
+- https://github.com/cmccomb/caexfer ![GitHub stars](https://img.shields.io/github/stars/cmccomb/caexfer?style=flat&label=%E2%AD%90)
 
 ### Abaqus user subroutines
 Collections of UMAT / UEL user subroutines and a guide for setting up Abaqus with an Intel Fortran environment.
