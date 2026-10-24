@@ -164,6 +164,11 @@ CAD、CAM、CAE ツール間の耐久性のある交換フォーマット。
 - VTK / VTU — CAE 結果（ParaView）
 - DXF / DWG — 2D 製図の交換
 
+### CADProps
+デスクトップビューアをインストールせずに、STEP、IGES、STL、OBJ と対応する一部のネイティブ形式をブラウザで確認できる CAD／メッシュビューア。閲覧・測定は無料でアカウント不要。変換と共有リンクの作成にはログインが必要。プロプライエタリな Web サービスで、ファイルはサーバー側で処理される。ネイティブ形式のプレビューとメッシュの測定値は近似の場合がある。
+
+- https://www.cadprops.com/
+
 ### UFF / MDF（試験 ↔ CAE）
 - UFF Dataset 58/55 — モード／FRF 交換（TAC の pyUFF を参照）
 - ASAM MDF/MF4 — 計測ログ（TAC の asammdf を参照）

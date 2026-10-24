@@ -166,6 +166,11 @@ Legacy surface/wireframe exchange (still common in older pipelines). Prefer STEP
 - VTK / VTU — CAE results (ParaView)
 - DXF / DWG — 2D drafting interchange
 
+### CADProps
+Browser CAD and mesh inspection for STEP, IGES, STL, OBJ and selected native formats, without installing a desktop viewer. Free guest viewing and measurement; conversion and share-link creation require sign-in. Proprietary web service with server-side file processing; native-format previews and mesh measurements can be approximate.
+
+- https://www.cadprops.com/
+
 ### UFF / MDF (test ↔ CAE)
 - UFF Dataset 58/55 — modal/FRF interchange (see pyUFF under TAC)
 - ASAM MDF/MF4 — measurement logs (see asammdf under TAC)
