@@ -4,7 +4,7 @@
 
 [日本語版はこちら / Japanese](README.ja.md)
 
-Useful CAD / CAE resources — mechanical design, simulation, EDA, formats, and open-source toolchains for engineers and makers. ⭐ badges show live GitHub star counts (via shields.io).
+Useful CAD / CAE resources — mechanical design, simulation, EDA, formats, and open-source toolchains for engineers and makers. ⭐ badges show live GitHub star counts (via shields.io); release badges show the date of the latest GitHub release (YYYY/MM/DD, as of the last refresh).
 
 ## Index
 
@@ -36,38 +36,38 @@ Parametric 3D CAD/CAE — Part Design, TechDraw, Assembly, FEM (CalculiX), CAM (
 
 - https://www.freecad.org/
 - https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/ — 1.1 release notes
-- https://github.com/FreeCAD/FreeCAD ![GitHub stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=flat&label=%E2%AD%90)
+- https://github.com/FreeCAD/FreeCAD ![GitHub stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F28-blue?style=flat)
 - https://wiki.freecad.org/
 
 ### SolveSpace
 Lightweight parametric 2D/3D CAD with constraint solver; exports STEP/STL. Good for mechanisms and quick parts.
 
 - https://solvespace.com/
-- https://github.com/solvespace/solvespace ![GitHub stars](https://img.shields.io/github/stars/solvespace/solvespace?style=flat&label=%E2%AD%90)
+- https://github.com/solvespace/solvespace ![GitHub stars](https://img.shields.io/github/stars/solvespace/solvespace?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F21-blue?style=flat)
 
 ### Dune 3D
 Parametric 3D CAD from the author of Horizon EDA — SolveSpace constraint solver + OCCT kernel, STEP import/export. Handy for enclosures and parts around PCBs.
 
 - https://dune3d.org/
-- https://github.com/dune3d/dune3d ![GitHub stars](https://img.shields.io/github/stars/dune3d/dune3d?style=flat&label=%E2%AD%90)
+- https://github.com/dune3d/dune3d ![GitHub stars](https://img.shields.io/github/stars/dune3d/dune3d?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F01%2F28-blue?style=flat)
 
 ### OpenSCAD / ImplicitCAD / OpenJSCAD
 Code-first solid modeling (CSG). OpenSCAD is the widely used baseline; ImplicitCAD and OpenJSCAD are functional / JS alternatives.
 
-- https://openscad.org/ — https://github.com/openscad/openscad ![GitHub stars](https://img.shields.io/github/stars/openscad/openscad?style=flat&label=%E2%AD%90)
-- https://implicitcad.org/ — https://github.com/Haskell-Things/ImplicitCAD ![GitHub stars](https://img.shields.io/github/stars/Haskell-Things/ImplicitCAD?style=flat&label=%E2%AD%90)
+- https://openscad.org/ — https://github.com/openscad/openscad ![GitHub stars](https://img.shields.io/github/stars/openscad/openscad?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2021%2F02%2F07-blue?style=flat)
+- https://implicitcad.org/ — https://github.com/Haskell-Things/ImplicitCAD ![GitHub stars](https://img.shields.io/github/stars/Haskell-Things/ImplicitCAD?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2023%2F12%2F18-blue?style=flat)
 - https://openjscad.xyz/ — https://github.com/jscad/OpenJSCAD.org ![GitHub stars](https://img.shields.io/github/stars/jscad/OpenJSCAD.org?style=flat&label=%E2%AD%90)
 
 ### LibreCAD / QCAD
 2D CAD focused on DXF drafting.
 
-- https://librecad.org/ — https://github.com/LibreCAD/LibreCAD ![GitHub stars](https://img.shields.io/github/stars/LibreCAD/LibreCAD?style=flat&label=%E2%AD%90)
+- https://librecad.org/ — https://github.com/LibreCAD/LibreCAD ![GitHub stars](https://img.shields.io/github/stars/LibreCAD/LibreCAD?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F17-blue?style=flat)
 - https://qcad.org/en/ — https://github.com/qcad/qcad ![GitHub stars](https://img.shields.io/github/stars/qcad/qcad?style=flat&label=%E2%AD%90)
 
 ### OpenCAD Studio
 Rust-based 2D/3D CAD with native DWG/DXF read/write and GPU-accelerated rendering — a young, fast-growing open-source AutoCAD-style drafting app.
 
-- https://github.com/HakanSeven12/OpenCADStudio ![GitHub stars](https://img.shields.io/github/stars/HakanSeven12/OpenCADStudio?style=flat&label=%E2%AD%90)
+- https://github.com/HakanSeven12/OpenCADStudio ![GitHub stars](https://img.shields.io/github/stars/HakanSeven12/OpenCADStudio?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F25-blue?style=flat)
 
 ### BRL-CAD
 Cross-platform combinatorial solid modeling with interactive 3D editor and ray tracer; long history in military/engineering CAD.
@@ -78,11 +78,11 @@ Cross-platform combinatorial solid modeling with interactive 3D editor and ray t
 ### LeoCAD / CAD Sketcher / jsketcher / Fornjot / OpenDraft
 Niche or experimental CAD: LEGO CAD, Blender constraint sketcher, browser CAD, Rust B-Rep kernel experiment (Fornjot — shut down, repo archived), Rust 2D CAD (OpenDraft).
 
-- https://www.leocad.org/ — https://github.com/leozide/leocad ![GitHub stars](https://img.shields.io/github/stars/leozide/leocad?style=flat&label=%E2%AD%90)
-- https://www.cadsketcher.com/ — https://github.com/hlorus/CAD_Sketcher ![GitHub stars](https://img.shields.io/github/stars/hlorus/CAD_Sketcher?style=flat&label=%E2%AD%90)
+- https://www.leocad.org/ — https://github.com/leozide/leocad ![GitHub stars](https://img.shields.io/github/stars/leozide/leocad?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F20-blue?style=flat)
+- https://www.cadsketcher.com/ — https://github.com/hlorus/CAD_Sketcher ![GitHub stars](https://img.shields.io/github/stars/hlorus/CAD_Sketcher?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F28-blue?style=flat)
 - https://web-cad.org/ — https://github.com/xibyte/jsketcher ![GitHub stars](https://img.shields.io/github/stars/xibyte/jsketcher?style=flat&label=%E2%AD%90)
-- https://www.fornjot.app/ — https://github.com/hannobraun/fornjot ![GitHub stars](https://img.shields.io/github/stars/hannobraun/fornjot?style=flat&label=%E2%AD%90) (archived)
-- https://github.com/JamesHodgkins/OpenDraft ![GitHub stars](https://img.shields.io/github/stars/JamesHodgkins/OpenDraft?style=flat&label=%E2%AD%90)
+- https://www.fornjot.app/ — https://github.com/hannobraun/fornjot ![GitHub stars](https://img.shields.io/github/stars/hannobraun/fornjot?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2024%2F03%2F21-blue?style=flat) (archived)
+- https://github.com/JamesHodgkins/OpenDraft ![GitHub stars](https://img.shields.io/github/stars/JamesHodgkins/OpenDraft?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F25-blue?style=flat)
 
 ### CodeToCAD
 Python scripting framework aimed at driving CAD/FEA tools from one API surface.
@@ -94,13 +94,13 @@ Code-and-GUI mechanical CAD using the KCL modeling language and a GPU-accelerate
 
 - https://zoo.dev/
 - https://zoo.dev/docs/kcl
-- https://github.com/KittyCAD/modeling-app ![GitHub stars](https://img.shields.io/github/stars/KittyCAD/modeling-app?style=flat&label=%E2%AD%90)
+- https://github.com/KittyCAD/modeling-app ![GitHub stars](https://img.shields.io/github/stars/KittyCAD/modeling-app?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F21-blue?style=flat)
 
 ### CADAM
 Open-source text-to-CAD web app from Adam (YC W25): describe a part in natural language, get a parametric OpenSCAD model rendered in the browser (WASM) with adjustable sliders; exports STL/SCAD.
 
 - https://adam.new/opensource
-- https://github.com/Adam-CAD/CADAM ![GitHub stars](https://img.shields.io/github/stars/Adam-CAD/CADAM?style=flat&label=%E2%AD%90)
+- https://github.com/Adam-CAD/CADAM ![GitHub stars](https://img.shields.io/github/stars/Adam-CAD/CADAM?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F17-blue?style=flat)
 
 ### Commercial CAD (reference)
 Widely used commercial MCAD; useful for interoperability context (STEP exchange, learning materials).
@@ -122,31 +122,31 @@ Open-source B-Rep kernel: solids/surfaces, booleans, fillets, STEP/IGES/BREP exc
 
 - https://dev.opencascade.org/
 - https://occt3d.com/
-- https://github.com/Open-Cascade-SAS/OCCT ![GitHub stars](https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=flat&label=%E2%AD%90)
+- https://github.com/Open-Cascade-SAS/OCCT ![GitHub stars](https://img.shields.io/github/stars/Open-Cascade-SAS/OCCT?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F30-blue?style=flat)
 
 ### CadQuery
 Python parametric CAD on OCCT — fluent API, STEP/STL/AMF/3MF export, CQGI for headless scripts.
 
 - https://cadquery.readthedocs.io/
-- https://github.com/CadQuery/cadquery ![GitHub stars](https://img.shields.io/github/stars/CadQuery/cadquery?style=flat&label=%E2%AD%90)
+- https://github.com/CadQuery/cadquery ![GitHub stars](https://img.shields.io/github/stars/CadQuery/cadquery?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F20-blue?style=flat)
 
 ### build123d
 Python BREP modeling on OCCT with context-manager (`with`) API; often described as a CadQuery evolution.
 
 - https://build123d.readthedocs.io/
-- https://github.com/gumyr/build123d ![GitHub stars](https://img.shields.io/github/stars/gumyr/build123d?style=flat&label=%E2%AD%90)
+- https://github.com/gumyr/build123d ![GitHub stars](https://img.shields.io/github/stars/gumyr/build123d?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F21-blue?style=flat)
 
 ### pythonocc / OCP
 Python bindings to OCCT (OCP is what CadQuery/build123d use).
 
-- https://github.com/tpaviot/pythonocc-core ![GitHub stars](https://img.shields.io/github/stars/tpaviot/pythonocc-core?style=flat&label=%E2%AD%90)
-- https://github.com/CadQuery/OCP ![GitHub stars](https://img.shields.io/github/stars/CadQuery/OCP?style=flat&label=%E2%AD%90)
+- https://github.com/tpaviot/pythonocc-core ![GitHub stars](https://img.shields.io/github/stars/tpaviot/pythonocc-core?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F14-blue?style=flat)
+- https://github.com/CadQuery/OCP ![GitHub stars](https://img.shields.io/github/stars/CadQuery/OCP?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F24-blue?style=flat)
 
 ### Manifold
 Robust triangle-mesh geometry library with fast, guaranteed-manifold booleans — the Manifold backend in OpenSCAD and the Manifold boolean solver in Blender. C++ / Python / JS (WASM) bindings.
 
 - https://manifoldcad.org/
-- https://github.com/elalish/manifold ![GitHub stars](https://img.shields.io/github/stars/elalish/manifold?style=flat&label=%E2%AD%90)
+- https://github.com/elalish/manifold ![GitHub stars](https://img.shields.io/github/stars/elalish/manifold?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F25-blue?style=flat)
 
 ### Truck
 Rust B-Rep CAD kernel by RICOS (Japan) — modular crates for NURBS geometry, topology, meshing, and WebGPU rendering.
@@ -178,7 +178,7 @@ Legacy surface/wireframe exchange (still common in older pipelines). Prefer STEP
 - DXF / DWG — 2D drafting interchange
 
 ### DWG / DXF in the browser
-- https://github.com/mlightcad/cad-viewer ![GitHub stars](https://img.shields.io/github/stars/mlightcad/cad-viewer?style=flat&label=%E2%AD%90) — fully client-side DXF/DWG viewer and editor (Three.js/WebGL, no backend)
+- https://github.com/mlightcad/cad-viewer ![GitHub stars](https://img.shields.io/github/stars/mlightcad/cad-viewer?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F23-blue?style=flat) — fully client-side DXF/DWG viewer and editor (Three.js/WebGL, no backend)
 
 ### UFF / MDF (test ↔ CAE)
 - UFF Dataset 58/55 — modal/FRF interchange (see pyUFF under TAC)
@@ -200,14 +200,14 @@ Leading free/open-source EDA suite: schematic, PCB, 3D viewer, and large library
 ### LibrePCB / Horizon EDA
 Modern open-source PCB design with integrated library workflows.
 
-- https://librepcb.org/ — https://github.com/LibrePCB/LibrePCB ![GitHub stars](https://img.shields.io/github/stars/LibrePCB/LibrePCB?style=flat&label=%E2%AD%90)
-- https://horizon-eda.org/ — https://github.com/horizon-eda/horizon ![GitHub stars](https://img.shields.io/github/stars/horizon-eda/horizon?style=flat&label=%E2%AD%90)
+- https://librepcb.org/ — https://github.com/LibrePCB/LibrePCB ![GitHub stars](https://img.shields.io/github/stars/LibrePCB/LibrePCB?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F12-blue?style=flat)
+- https://horizon-eda.org/ — https://github.com/horizon-eda/horizon ![GitHub stars](https://img.shields.io/github/stars/horizon-eda/horizon?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F12%2F05-blue?style=flat)
 
 ### atopile
 Design circuit boards with code (`.ato` language) — reusable modules, constraint-based part selection, and version-controlled hardware; outputs layouts to KiCad.
 
 - https://atopile.io/
-- https://github.com/atopile/atopile ![GitHub stars](https://img.shields.io/github/stars/atopile/atopile?style=flat&label=%E2%AD%90)
+- https://github.com/atopile/atopile ![GitHub stars](https://img.shields.io/github/stars/atopile/atopile?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F01%2F20-blue?style=flat)
 
 ### Fritzing
 Maker-oriented EDA with breadboard view; suited to prototyping and simple PCB fabrication.
@@ -266,7 +266,7 @@ Open-source 3D FE mesh generator with built-in CAD (OCCT optional) and post-proc
 Automatic tetrahedral meshing (also used inside PrePoMax) and NGSolve FEM platform.
 
 - https://ngsolve.org/
-- https://github.com/NGSolve/netgen ![GitHub stars](https://img.shields.io/github/stars/NGSolve/netgen?style=flat&label=%E2%AD%90)
+- https://github.com/NGSolve/netgen ![GitHub stars](https://img.shields.io/github/stars/NGSolve/netgen?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F04%2F30-blue?style=flat)
 
 ### SALOME
 Open-source pre/post platform: CAD, meshing (incl. hex), and integration with Code_Aster / other solvers.
@@ -289,38 +289,38 @@ Visualization Toolkit underlying ParaView and many CAE viewers.
 ### PyVista / pygmsh / meshzoo
 Python layers over VTK and Gmsh: streamlined 3D plotting and mesh analysis (PyVista), Gmsh scripting from Python (pygmsh), and a collection of simple meshes for canonical domains (meshzoo).
 
-- https://github.com/pyvista/pyvista ![GitHub stars](https://img.shields.io/github/stars/pyvista/pyvista?style=flat&label=%E2%AD%90)
-- https://github.com/nschloe/pygmsh ![GitHub stars](https://img.shields.io/github/stars/nschloe/pygmsh?style=flat&label=%E2%AD%90)
+- https://github.com/pyvista/pyvista ![GitHub stars](https://img.shields.io/github/stars/pyvista/pyvista?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F11-blue?style=flat)
+- https://github.com/nschloe/pygmsh ![GitHub stars](https://img.shields.io/github/stars/nschloe/pygmsh?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2022%2F01%2F28-blue?style=flat)
 - https://github.com/meshpro/meshzoo ![GitHub stars](https://img.shields.io/github/stars/meshpro/meshzoo?style=flat&label=%E2%AD%90)
 
 ### meshio
 Python library and CLI (`meshio convert`) to read/write many mesh formats — Gmsh, VTK/VTU, Abaqus, Nastran, Exodus, XDMF and more.
 
-- https://github.com/nschloe/meshio ![GitHub stars](https://img.shields.io/github/stars/nschloe/meshio?style=flat&label=%E2%AD%90)
+- https://github.com/nschloe/meshio ![GitHub stars](https://img.shields.io/github/stars/nschloe/meshio?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2024%2F01%2F31-blue?style=flat)
 
 ### MeshPy / PyMesh / smesh
 Triangular and tetrahedral mesh generation for Python (MeshPy), geometry processing library for Python (PyMesh), and an OpenCascade-based mesh framework (smesh).
 
 - https://mathema.tician.de/software/meshpy
 - http://pymesh.readthedocs.io/en/latest
-- https://github.com/tpaviot/smesh ![GitHub stars](https://img.shields.io/github/stars/tpaviot/smesh?style=flat&label=%E2%AD%90)
+- https://github.com/tpaviot/smesh ![GitHub stars](https://img.shields.io/github/stars/tpaviot/smesh?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2018%2F02%2F16-blue?style=flat)
 
 ### Robust-Hexahedral-Re-Meshing / gridder
 Structure simplification for hexahedral re-meshing; simple interactive 2D/3D orthogonal grid generator from Los Alamos National Laboratory.
 
 - https://github.com/gaoxifeng/Robust-Hexahedral-Re-Meshing ![GitHub stars](https://img.shields.io/github/stars/gaoxifeng/Robust-Hexahedral-Re-Meshing?style=flat&label=%E2%AD%90)
-- https://github.com/lanl/gridder ![GitHub stars](https://img.shields.io/github/stars/lanl/gridder?style=flat&label=%E2%AD%90)
+- https://github.com/lanl/gridder ![GitHub stars](https://img.shields.io/github/stars/lanl/gridder?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2018%2F02%2F27-blue?style=flat)
 
 ### IsoSurfaceExtraction / glue
 Isosurface extraction from regular voxel grids; linked visualizations of scientific datasets across many files.
 
 - https://github.com/mkazhdan/IsoSurfaceExtraction ![GitHub stars](https://img.shields.io/github/stars/mkazhdan/IsoSurfaceExtraction?style=flat&label=%E2%AD%90)
-- https://github.com/glue-viz/glue ![GitHub stars](https://img.shields.io/github/stars/glue-viz/glue?style=flat&label=%E2%AD%90)
+- https://github.com/glue-viz/glue ![GitHub stars](https://img.shields.io/github/stars/glue-viz/glue?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F22-blue?style=flat)
 
 ### SciBlend
 Blender add-on suite for scientific visualization — import VTK/VTU, OpenFOAM and other CAE results into Blender for photorealistic rendering and animation of CFD/FEA data.
 
-- https://github.com/SciBlend/SciBlend ![GitHub stars](https://img.shields.io/github/stars/SciBlend/SciBlend?style=flat&label=%E2%AD%90)
+- https://github.com/SciBlend/SciBlend ![GitHub stars](https://img.shields.io/github/stars/SciBlend/SciBlend?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F19-blue?style=flat)
 
 ---
 
@@ -341,7 +341,7 @@ Abaqus-like open-source 3D structural FEM (ccx/cgx). PrePoMax is a modern Window
 PDE/FEM platforms with strong Python (or DSL) interfaces for research and custom physics.
 
 - https://fenicsproject.org/ — https://github.com/FEniCS
-- https://freefem.org/ — https://github.com/FreeFem/FreeFem-sources ![GitHub stars](https://img.shields.io/github/stars/FreeFem/FreeFem-sources?style=flat&label=%E2%AD%90)
+- https://freefem.org/ — https://github.com/FreeFem/FreeFem-sources ![GitHub stars](https://img.shields.io/github/stars/FreeFem/FreeFem-sources?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F13-blue?style=flat)
 - https://sfepy.org/
 
 ### deal.II / MFEM / MOOSE / libMesh
@@ -350,7 +350,7 @@ Large-scale C++ FEM libraries (HPC, adaptive mesh, multiphysics).
 - https://dealii.org/
 - https://mfem.org/
 - https://mooseframework.inl.gov/
-- https://libmesh.github.io/ — https://github.com/libMesh/libmesh ![GitHub stars](https://img.shields.io/github/stars/libMesh/libmesh?style=flat&label=%E2%AD%90)
+- https://libmesh.github.io/ — https://github.com/libMesh/libmesh ![GitHub stars](https://img.shields.io/github/stars/libMesh/libmesh?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F10%2F06-blue?style=flat)
 
 ### Elmer / Code_Aster
 Open multiphysics FEM (Elmer) and EDF’s industrial structural mechanics suite (Code_Aster), often with SALOME-Meca.
@@ -364,39 +364,39 @@ Open FEM for large-scale nonlinear structures (FrontISTR), Nastran-like analysis
 - https://www.frontistr.com/ — https://gitlab.com/FrontISTR-Commons/FrontISTR (main development; GitHub is a mirror)
 - https://mystran.com/ — https://github.com/dr-bill-c/MYSTRAN ![GitHub stars](https://img.shields.io/github/stars/dr-bill-c/MYSTRAN?style=flat&label=%E2%AD%90)
 - https://github.com/xcfem/xc ![GitHub stars](https://img.shields.io/github/stars/xcfem/xc?style=flat&label=%E2%AD%90)
-- https://www.gomafem.com/ — https://github.com/goma/goma ![GitHub stars](https://img.shields.io/github/stars/goma/goma?style=flat&label=%E2%AD%90)
+- https://www.gomafem.com/ — https://github.com/goma/goma ![GitHub stars](https://img.shields.io/github/stars/goma/goma?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F05-blue?style=flat)
 
 ### Lightweight Python FEA
 Teaching and 2D structural scripts.
 
-- https://github.com/anastruct/anaStruct ![GitHub stars](https://img.shields.io/github/stars/anastruct/anaStruct?style=flat&label=%E2%AD%90) — 2D structural analysis
-- https://github.com/AppliedMechanics-EAFIT/SolidsPy ![GitHub stars](https://img.shields.io/github/stars/AppliedMechanics-EAFIT/SolidsPy?style=flat&label=%E2%AD%90) — 2D FEM
+- https://github.com/anastruct/anaStruct ![GitHub stars](https://img.shields.io/github/stars/anastruct/anaStruct?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F06-blue?style=flat) — 2D structural analysis
+- https://github.com/AppliedMechanics-EAFIT/SolidsPy ![GitHub stars](https://img.shields.io/github/stars/AppliedMechanics-EAFIT/SolidsPy?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2020%2F09%2F14-blue?style=flat) — 2D FEM
 - https://github.com/CALFEM — CALFEM educational FEM
-- https://github.com/JorgeDeLosSantos/nusa ![GitHub stars](https://img.shields.io/github/stars/JorgeDeLosSantos/nusa?style=flat&label=%E2%AD%90) — simple structural analysis with FEM
+- https://github.com/JorgeDeLosSantos/nusa ![GitHub stars](https://img.shields.io/github/stars/JorgeDeLosSantos/nusa?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F17-blue?style=flat) — simple structural analysis with FEM
 
 ### OpenCourant (formerly OpenRadioss)
 Explicit dynamics FEM solver for crash, impact, drop and blast (AGPL-3.0). Siemens retired OpenRadioss and deleted its GitHub repository in Oct 2026; OpenCourant is the community fork with full commit history, hosted under the Rocky Enterprise Software Foundation (RESF).
 
 - https://opencourant.org/
-- https://github.com/OpenCourant/OpenCourant ![GitHub stars](https://img.shields.io/github/stars/OpenCourant/OpenCourant?style=flat&label=%E2%AD%90)
+- https://github.com/OpenCourant/OpenCourant ![GitHub stars](https://img.shields.io/github/stars/OpenCourant/OpenCourant?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F11-blue?style=flat)
 
 ### Kratos Multiphysics
 BSD-licensed C++/Python framework for parallel multiphysics (structural, fluid, DEM, FSI, contact) with HPC/MPI support.
 
 - https://kratosmultiphysics.github.io/Kratos/
-- https://github.com/KratosMultiphysics/Kratos ![GitHub stars](https://img.shields.io/github/stars/KratosMultiphysics/Kratos?style=flat&label=%E2%AD%90)
+- https://github.com/KratosMultiphysics/Kratos ![GitHub stars](https://img.shields.io/github/stars/KratosMultiphysics/Kratos?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F06-blue?style=flat)
 
 ### FEATool / WELSIM / FEBio
 MATLAB/Octave multiphysics toolbox (FEATool), general-purpose engineering simulation UI (WELSIM), and biomechanics-focused nonlinear FEM (FEBio).
 
-- https://www.featool.com/ — https://github.com/precise-simulation/featool-multiphysics ![GitHub stars](https://img.shields.io/github/stars/precise-simulation/featool-multiphysics?style=flat&label=%E2%AD%90)
-- https://welsim.com/ — https://github.com/WelSimLLC/WelSim-Apps ![GitHub stars](https://img.shields.io/github/stars/WelSimLLC/WelSim-Apps?style=flat&label=%E2%AD%90)
-- https://febio.org/ — https://github.com/febiosoftware/FEBio ![GitHub stars](https://img.shields.io/github/stars/febiosoftware/FEBio?style=flat&label=%E2%AD%90)
+- https://www.featool.com/ — https://github.com/precise-simulation/featool-multiphysics ![GitHub stars](https://img.shields.io/github/stars/precise-simulation/featool-multiphysics?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F15-blue?style=flat)
+- https://welsim.com/ — https://github.com/WelSimLLC/WelSim-Apps ![GitHub stars](https://img.shields.io/github/stars/WelSimLLC/WelSim-Apps?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F16-blue?style=flat)
+- https://febio.org/ — https://github.com/febiosoftware/FEBio ![GitHub stars](https://img.shields.io/github/stars/febiosoftware/FEBio?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F04-blue?style=flat)
 
 ### JuliaFEM / NASTRAN-95
 Julia-based open FEM for reliable, scalable, distributed analysis (JuliaFEM); NASA's open-sourced NASTRAN-95 FEM solver (historical reference).
 
-- https://github.com/JuliaFEM/JuliaFEM.jl ![GitHub stars](https://img.shields.io/github/stars/JuliaFEM/JuliaFEM.jl?style=flat&label=%E2%AD%90)
+- https://github.com/JuliaFEM/JuliaFEM.jl ![GitHub stars](https://img.shields.io/github/stars/JuliaFEM/JuliaFEM.jl?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2019%2F10%2F14-blue?style=flat)
 - https://github.com/nasa/NASTRAN-95 ![GitHub stars](https://img.shields.io/github/stars/nasa/NASTRAN-95?style=flat&label=%E2%AD%90)
 
 ### Voxelyze / CFDEMcoupling / Modelica
@@ -404,14 +404,14 @@ Multi-material voxel simulation library for static and dynamic analysis (Voxelyz
 
 - https://github.com/jonhiller/Voxelyze ![GitHub stars](https://img.shields.io/github/stars/jonhiller/Voxelyze?style=flat&label=%E2%AD%90)
 - https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC ![GitHub stars](https://img.shields.io/github/stars/CFDEMproject/CFDEMcoupling-PUBLIC?style=flat&label=%E2%AD%90)
-- https://github.com/modelica/ModelicaStandardLibrary ![GitHub stars](https://img.shields.io/github/stars/modelica/ModelicaStandardLibrary?style=flat&label=%E2%AD%90)
+- https://github.com/modelica/ModelicaStandardLibrary ![GitHub stars](https://img.shields.io/github/stars/modelica/ModelicaStandardLibrary?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F05%2F23-blue?style=flat)
 
 ### PyOP2 / pyamg / OpenBLAS
 Numerical building blocks: performance-portable parallel computations on unstructured meshes (PyOP2), algebraic multigrid solvers in Python (pyamg), and an optimized BLAS library (OpenBLAS).
 
-- https://github.com/OP2/PyOP2 ![GitHub stars](https://img.shields.io/github/stars/OP2/PyOP2?style=flat&label=%E2%AD%90) — archived
-- https://github.com/pyamg/pyamg ![GitHub stars](https://img.shields.io/github/stars/pyamg/pyamg?style=flat&label=%E2%AD%90)
-- https://github.com/OpenMathLib/OpenBLAS ![GitHub stars](https://img.shields.io/github/stars/OpenMathLib/OpenBLAS?style=flat&label=%E2%AD%90)
+- https://github.com/OP2/PyOP2 ![GitHub stars](https://img.shields.io/github/stars/OP2/PyOP2?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2024%2F11%2F22-blue?style=flat) — archived
+- https://github.com/pyamg/pyamg ![GitHub stars](https://img.shields.io/github/stars/pyamg/pyamg?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F08%2F23-blue?style=flat)
+- https://github.com/OpenMathLib/OpenBLAS ![GitHub stars](https://img.shields.io/github/stars/OpenMathLib/OpenBLAS?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F16-blue?style=flat)
 
 ---
 
@@ -422,16 +422,16 @@ Libraries and scripts for reading, writing, converting, and automating input / r
 ### Nastran
 Interface library for BDF/OP2/OP4 files (pyNastran); browser for Nastran input decks (nastran-find).
 
-- https://github.com/SteveDoyle2/pyNastran ![GitHub stars](https://img.shields.io/github/stars/SteveDoyle2/pyNastran?style=flat&label=%E2%AD%90)
-- https://github.com/setvisible/nastran-find ![GitHub stars](https://img.shields.io/github/stars/setvisible/nastran-find?style=flat&label=%E2%AD%90)
+- https://github.com/SteveDoyle2/pyNastran ![GitHub stars](https://img.shields.io/github/stars/SteveDoyle2/pyNastran?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2024%2F03%2F26-blue?style=flat)
+- https://github.com/setvisible/nastran-find ![GitHub stars](https://img.shields.io/github/stars/setvisible/nastran-find?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2017%2F01%2F01-blue?style=flat)
 
 ### Abaqus
 Build, post-process and plot Abaqus simulations from Python (abapy); input-file parser (AbqParse); Abaqus-to-LS-DYNA keyword converter (abaqus2dyna); type hints for Abaqus/Python scripting (abqpy); automation scripts (abaqus_scripts); ODB post-processing (postPro4Abq, PyQus); ODB-to-VTK conversion (odb2vtk); job status plotter (jobwatch); documentation keyword scraper (Abaqus-Documentation-Scraper).
 
-- https://github.com/lcharleux/abapy ![GitHub stars](https://img.shields.io/github/stars/lcharleux/abapy?style=flat&label=%E2%AD%90)
+- https://github.com/lcharleux/abapy ![GitHub stars](https://img.shields.io/github/stars/lcharleux/abapy?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2016%2F04%2F27-blue?style=flat)
 - https://github.com/crmccreary/AbqParse ![GitHub stars](https://img.shields.io/github/stars/crmccreary/AbqParse?style=flat&label=%E2%AD%90)
 - https://github.com/tbhartman/abaqus2dyna ![GitHub stars](https://img.shields.io/github/stars/tbhartman/abaqus2dyna?style=flat&label=%E2%AD%90)
-- https://github.com/haiiliin/abqpy ![GitHub stars](https://img.shields.io/github/stars/haiiliin/abqpy?style=flat&label=%E2%AD%90)
+- https://github.com/haiiliin/abqpy ![GitHub stars](https://img.shields.io/github/stars/haiiliin/abqpy?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F20-blue?style=flat)
 - https://github.com/rodrigo1392
 - https://github.com/mengomarlene/postPro4Abq ![GitHub stars](https://img.shields.io/github/stars/mengomarlene/postPro4Abq?style=flat&label=%E2%AD%90)
 - https://github.com/JorgeDeLosSantos/pyqus ![GitHub stars](https://img.shields.io/github/stars/JorgeDeLosSantos/pyqus?style=flat&label=%E2%AD%90)
@@ -442,7 +442,7 @@ Build, post-process and plot Abaqus simulations from Python (abapy); input-file 
 ### LS-DYNA
 Python library for reading binary LS-DYNA result files (qd); fast C/C++/Python reader for binout and d3plot (dynareadout); MATLAB reader and runner (matlab-lsdyna).
 
-- https://github.com/qd-cae/qd-cae-python ![GitHub stars](https://img.shields.io/github/stars/qd-cae/qd-cae-python?style=flat&label=%E2%AD%90) — archived
+- https://github.com/qd-cae/qd-cae-python ![GitHub stars](https://img.shields.io/github/stars/qd-cae/qd-cae-python?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2019%2F11%2F12-blue?style=flat) — archived
 - https://pypi.org/project/dynareadout/ — PyPI (original GitHub repository no longer available)
 - https://github.com/svenholcombe/matlab-lsdyna ![GitHub stars](https://img.shields.io/github/stars/svenholcombe/matlab-lsdyna?style=flat&label=%E2%AD%90)
 
@@ -450,7 +450,7 @@ Python library for reading binary LS-DYNA result files (qd); fast C/C++/Python r
 Python utility library for scripting Beta CAE suite (qd-ansa); automated FEA model building in CalculiX from Python (pycalculix).
 
 - https://github.com/qd-cae/qd-ansa-extension ![GitHub stars](https://img.shields.io/github/stars/qd-cae/qd-ansa-extension?style=flat&label=%E2%AD%90)
-- https://github.com/spacether/pycalculix ![GitHub stars](https://img.shields.io/github/stars/spacether/pycalculix?style=flat&label=%E2%AD%90) — archived
+- https://github.com/spacether/pycalculix ![GitHub stars](https://img.shields.io/github/stars/spacether/pycalculix?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2019%2F11%2F30-blue?style=flat) — archived
 
 ### Mesh conversion
 Converts finite element mesh files between several formats (FEconv).
@@ -483,25 +483,25 @@ Most widely used open-source CFD toolbox — flow, heat transfer, reactions, mul
 Multiphysics PDE solver and gradient-based aerodynamic shape optimization.
 
 - https://su2code.github.io/
-- https://github.com/su2code/SU2 ![GitHub stars](https://img.shields.io/github/stars/su2code/SU2?style=flat&label=%E2%AD%90)
+- https://github.com/su2code/SU2 ![GitHub stars](https://img.shields.io/github/stars/su2code/SU2?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F04%2F27-blue?style=flat)
 
 ### Palabos / Lethe / x3d2
 Lattice Boltzmann CFD (Palabos); high-order CG CFD–DEM (Lethe); GPU high-order finite-difference CFD (x3d2 / Xcompact3d line).
 
 - https://palabos.unige.ch/ — https://gitlab.com/unigespc/palabos
-- https://chaos-polymtl.github.io/lethe/ — https://github.com/chaos-polymtl/lethe ![GitHub stars](https://img.shields.io/github/stars/chaos-polymtl/lethe?style=flat&label=%E2%AD%90)
+- https://chaos-polymtl.github.io/lethe/ — https://github.com/chaos-polymtl/lethe ![GitHub stars](https://img.shields.io/github/stars/chaos-polymtl/lethe?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F01-blue?style=flat)
 - https://xcompact3d.github.io/ — https://github.com/xcompact3d/x3d2 ![GitHub stars](https://img.shields.io/github/stars/xcompact3d/x3d2?style=flat&label=%E2%AD%90)
 
 ### Fire Dynamics Simulator (FDS)
 NIST fire-driven flow CFD with Smokeview visualization.
 
 - https://pages.nist.gov/fds-smv/
-- https://github.com/firemodels/fds ![GitHub stars](https://img.shields.io/github/stars/firemodels/fds?style=flat&label=%E2%AD%90)
+- https://github.com/firemodels/fds ![GitHub stars](https://img.shields.io/github/stars/firemodels/fds?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F10-blue?style=flat)
 
 ### Foam-Agent
 LLM-based multi-agent framework that automates OpenFOAM workflows end to end — from a natural-language description to meshing, case setup, run, and error correction (published in CMAME).
 
-- https://github.com/csml-rpi/Foam-Agent ![GitHub stars](https://img.shields.io/github/stars/csml-rpi/Foam-Agent?style=flat&label=%E2%AD%90)
+- https://github.com/csml-rpi/Foam-Agent ![GitHub stars](https://img.shields.io/github/stars/csml-rpi/Foam-Agent?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F04%2F01-blue?style=flat)
 
 ---
 
@@ -512,7 +512,7 @@ Material layout optimization under loads and constraints.
 ### OpenLSTO / FEniTop / FreeTO / ToOptiX
 Level-set TO (OpenLSTO), FEniCSx parallel TO (FEniTop), MATLAB freeform 3D TO (FreeTO), multiphysics TO with Blender/FreeCAD addons (ToOptiX).
 
-- https://github.com/M2DOLab/OpenLSTO ![GitHub stars](https://img.shields.io/github/stars/M2DOLab/OpenLSTO?style=flat&label=%E2%AD%90)
+- https://github.com/M2DOLab/OpenLSTO ![GitHub stars](https://img.shields.io/github/stars/M2DOLab/OpenLSTO?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2018%2F08%2F25-blue?style=flat)
 - https://github.com/missionlab/fenitop ![GitHub stars](https://img.shields.io/github/stars/missionlab/fenitop?style=flat&label=%E2%AD%90)
 - https://github.com/ooibhadode/FreeTO ![GitHub stars](https://img.shields.io/github/stars/ooibhadode/FreeTO?style=flat&label=%E2%AD%90)
 - https://github.com/Foxelmanian/ToOptix ![GitHub stars](https://img.shields.io/github/stars/Foxelmanian/ToOptix?style=flat&label=%E2%AD%90)
@@ -526,14 +526,14 @@ General optimization, design of experiments, and multidisciplinary design framew
 ### OpenMDAO / pyDOE
 High-performance Python platform for systems analysis and multidisciplinary optimization (OpenMDAO); design-of-experiments library (pyDOE).
 
-- https://github.com/OpenMDAO/OpenMDAO ![GitHub stars](https://img.shields.io/github/stars/OpenMDAO/OpenMDAO?style=flat&label=%E2%AD%90)
-- https://github.com/pydoe/pydoe ![GitHub stars](https://img.shields.io/github/stars/pydoe/pydoe?style=flat&label=%E2%AD%90)
+- https://github.com/OpenMDAO/OpenMDAO ![GitHub stars](https://img.shields.io/github/stars/OpenMDAO/OpenMDAO?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F10-blue?style=flat)
+- https://github.com/pydoe/pydoe ![GitHub stars](https://img.shields.io/github/stars/pydoe/pydoe?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F21-blue?style=flat)
 
 ### CasADi / YALMIP
 Symbolic framework for numeric optimization with automatic differentiation (CasADi); MATLAB toolbox for optimization modeling (YALMIP).
 
-- https://github.com/casadi/casadi ![GitHub stars](https://img.shields.io/github/stars/casadi/casadi?style=flat&label=%E2%AD%90)
-- https://github.com/yalmip/YALMIP ![GitHub stars](https://img.shields.io/github/stars/yalmip/YALMIP?style=flat&label=%E2%AD%90)
+- https://github.com/casadi/casadi ![GitHub stars](https://img.shields.io/github/stars/casadi/casadi?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F16-blue?style=flat)
+- https://github.com/yalmip/YALMIP ![GitHub stars](https://img.shields.io/github/stars/yalmip/YALMIP?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F06%2F26-blue?style=flat)
 
 ---
 
@@ -545,15 +545,15 @@ Multibody dynamics and motion simulation.
 General-purpose MBD (MBDyn); multiphysics vehicles/robots/granular (Chrono); articulated biomechanics (Simbody); Python/C++ flexible MBD (EXUDYN).
 
 - https://www.mbdyn.org/ — https://public.gitlab.polimi.it/DAER/mbdyn
-- https://projectchrono.org/ — https://github.com/projectchrono/chrono ![GitHub stars](https://img.shields.io/github/stars/projectchrono/chrono?style=flat&label=%E2%AD%90)
-- https://github.com/simbody/simbody ![GitHub stars](https://img.shields.io/github/stars/simbody/simbody?style=flat&label=%E2%AD%90)
-- https://github.com/jgerstmayr/EXUDYN ![GitHub stars](https://img.shields.io/github/stars/jgerstmayr/EXUDYN?style=flat&label=%E2%AD%90)
+- https://projectchrono.org/ — https://github.com/projectchrono/chrono ![GitHub stars](https://img.shields.io/github/stars/projectchrono/chrono?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F04%2F07-blue?style=flat)
+- https://github.com/simbody/simbody ![GitHub stars](https://img.shields.io/github/stars/simbody/simbody?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2025%2F05%2F17-blue?style=flat)
+- https://github.com/jgerstmayr/EXUDYN ![GitHub stars](https://img.shields.io/github/stars/jgerstmayr/EXUDYN?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F09-blue?style=flat)
 
 ### OpenSim / Pinocchio
 Musculoskeletal dynamics (OpenSim); fast rigid-body dynamics for robotics (Pinocchio).
 
 - https://opensim.stanford.edu/ — https://github.com/opensim-org
-- https://github.com/stack-of-tasks/pinocchio ![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=flat&label=%E2%AD%90)
+- https://github.com/stack-of-tasks/pinocchio ![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F07-blue?style=flat)
 
 ---
 
@@ -566,48 +566,48 @@ Tools for correlating CAE results with physical tests — measurement data, expe
 #### asammdf
 Fast Python reader/writer/GUI for ASAM MDF/MF4 measurement files (automotive/aerospace rigs, CAN/LIN).
 
-- https://github.com/danielhrisca/asammdf ![GitHub stars](https://img.shields.io/github/stars/danielhrisca/asammdf?style=flat&label=%E2%AD%90)
+- https://github.com/danielhrisca/asammdf ![GitHub stars](https://img.shields.io/github/stars/danielhrisca/asammdf?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F21-blue?style=flat)
 - https://asammdf.readthedocs.io/
 
 #### MDSplus
 Hierarchical experiment/simulation data trees; originated in fusion research, used broadly for correlating sim vs. test.
 
 - https://mdsplus.org/
-- https://github.com/MDSplus/mdsplus ![GitHub stars](https://img.shields.io/github/stars/MDSplus/mdsplus?style=flat&label=%E2%AD%90)
+- https://github.com/MDSplus/mdsplus ![GitHub stars](https://img.shields.io/github/stars/MDSplus/mdsplus?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F08-blue?style=flat)
 
 #### openMDM / odsbox
 Eclipse ASAM ODS measurement data management (openMDM); Python ODS REST wrapper (odsbox).
 
 - https://openmdm.org/
-- https://github.com/peak-solution/odsbox ![GitHub stars](https://img.shields.io/github/stars/peak-solution/odsbox?style=flat&label=%E2%AD%90)
+- https://github.com/peak-solution/odsbox ![GitHub stars](https://img.shields.io/github/stars/peak-solution/odsbox?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F19-blue?style=flat)
 
 #### SciDataTool
 Unified scientific field storage/postprocessing (time/space/frequency) for comparing sim vs. test signals.
 
-- https://github.com/Eomys/SciDataTool ![GitHub stars](https://img.shields.io/github/stars/Eomys/SciDataTool?style=flat&label=%E2%AD%90)
+- https://github.com/Eomys/SciDataTool ![GitHub stars](https://img.shields.io/github/stars/Eomys/SciDataTool?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F02%2F05-blue?style=flat)
 
 ### Experimental modal analysis (EMA / OMA)
 
 #### pyEMA / sdypy-EMA / pyOMA2 / OpenModal
 Modal parameter extraction from FRFs (LSCF/LSFD); SDyPy successor; output-only OMA (SSI/FDD); full-GUI EMA suite.
 
-- https://github.com/ladisk/pyEMA ![GitHub stars](https://img.shields.io/github/stars/ladisk/pyEMA?style=flat&label=%E2%AD%90)
-- https://github.com/sdypy/sdypy-EMA ![GitHub stars](https://img.shields.io/github/stars/sdypy/sdypy-EMA?style=flat&label=%E2%AD%90)
-- https://github.com/dagghe/pyOMA2 ![GitHub stars](https://img.shields.io/github/stars/dagghe/pyOMA2?style=flat&label=%E2%AD%90)
+- https://github.com/ladisk/pyEMA ![GitHub stars](https://img.shields.io/github/stars/ladisk/pyEMA?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F29-blue?style=flat)
+- https://github.com/sdypy/sdypy-EMA ![GitHub stars](https://img.shields.io/github/stars/sdypy/sdypy-EMA?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F29-blue?style=flat)
+- https://github.com/dagghe/pyOMA2 ![GitHub stars](https://img.shields.io/github/stars/dagghe/pyOMA2?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F22-blue?style=flat)
 - https://www.openmodal.com/ — https://github.com/openmodal/OpenModal ![GitHub stars](https://img.shields.io/github/stars/openmodal/OpenModal?style=flat&label=%E2%AD%90)
 
 #### pyFRF / pyUFF
 FRF estimators (H1/H2/Hv) from time signals; UFF Dataset 58/55/2411/2412 I/O for CAT ↔ CAE interchange.
 
-- https://github.com/ladisk/pyFRF ![GitHub stars](https://img.shields.io/github/stars/ladisk/pyFRF?style=flat&label=%E2%AD%90)
-- https://github.com/ladisk/pyuff ![GitHub stars](https://img.shields.io/github/stars/ladisk/pyuff?style=flat&label=%E2%AD%90)
+- https://github.com/ladisk/pyFRF ![GitHub stars](https://img.shields.io/github/stars/ladisk/pyFRF?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F02-blue?style=flat)
+- https://github.com/ladisk/pyuff ![GitHub stars](https://img.shields.io/github/stars/ladisk/pyuff?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F09%2F25-blue?style=flat)
 
 ### Correlation metrics & model updating
 
 #### SDynPy / SMAC
 Sandia structural dynamics Python (MAC/COMAC, FRF, curve-fitting); MATLAB modal curve-fitter (SMAC).
 
-- https://sandialabs.github.io/sdynpy/ — https://github.com/sandialabs/sdynpy ![GitHub stars](https://img.shields.io/github/stars/sandialabs/sdynpy?style=flat&label=%E2%AD%90)
+- https://sandialabs.github.io/sdynpy/ — https://github.com/sandialabs/sdynpy ![GitHub stars](https://img.shields.io/github/stars/sandialabs/sdynpy?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F04%2F20-blue?style=flat)
 - https://github.com/sandialabs/SMAC ![GitHub stars](https://img.shields.io/github/stars/sandialabs/SMAC?style=flat&label=%E2%AD%90)
 
 #### pyFBS
@@ -619,17 +619,17 @@ Frequency-Based Substructuring and Transfer Path Analysis — couple measured FR
 #### Dakota / PyDynamic
 Sandia optimization/UQ/model calibration toolkit; PTB/NPL dynamic measurement uncertainty propagation.
 
-- https://dakota.sandia.gov/ — https://github.com/snl-dakota/dakota ![GitHub stars](https://img.shields.io/github/stars/snl-dakota/dakota?style=flat&label=%E2%AD%90)
-- https://pydynamic.readthedocs.io/ — https://github.com/PTBresearch/PyDynamic ![GitHub stars](https://img.shields.io/github/stars/PTBresearch/PyDynamic?style=flat&label=%E2%AD%90)
+- https://dakota.sandia.gov/ — https://github.com/snl-dakota/dakota ![GitHub stars](https://img.shields.io/github/stars/snl-dakota/dakota?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F05%2F14-blue?style=flat)
+- https://pydynamic.readthedocs.io/ — https://github.com/PTBresearch/PyDynamic ![GitHub stars](https://img.shields.io/github/stars/PTBresearch/PyDynamic?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2024%2F05%2F31-blue?style=flat)
 
 ### Domain-specific validation
 
 #### ROSS / OpenFAST / FEBio
 Rotordynamics FEM with measured-response comparison (ROSS); NLR (formerly NREL) wind-turbine aero-servo-elastic validation (OpenFAST); biomechanics V&V (FEBio).
 
-- https://ross.readthedocs.io/ — https://github.com/petrobras/ross ![GitHub stars](https://img.shields.io/github/stars/petrobras/ross?style=flat&label=%E2%AD%90)
-- https://openfast.readthedocs.io/ — https://github.com/OpenFAST/openfast ![GitHub stars](https://img.shields.io/github/stars/OpenFAST/openfast?style=flat&label=%E2%AD%90)
-- https://febio.org/ — https://github.com/febiosoftware/FEBio ![GitHub stars](https://img.shields.io/github/stars/febiosoftware/FEBio?style=flat&label=%E2%AD%90)
+- https://ross.readthedocs.io/ — https://github.com/petrobras/ross ![GitHub stars](https://img.shields.io/github/stars/petrobras/ross?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F20-blue?style=flat)
+- https://openfast.readthedocs.io/ — https://github.com/OpenFAST/openfast ![GitHub stars](https://img.shields.io/github/stars/OpenFAST/openfast?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F03%2F12-blue?style=flat)
+- https://febio.org/ — https://github.com/febiosoftware/FEBio ![GitHub stars](https://img.shields.io/github/stars/febiosoftware/FEBio?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F08%2F04-blue?style=flat)
 
 ---
 
