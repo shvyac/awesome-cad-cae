@@ -62,14 +62,19 @@ DXF 製図に特化した 2D CAD。
 - https://librecad.org/ — https://github.com/LibreCAD/LibreCAD ![GitHub stars](https://img.shields.io/github/stars/LibreCAD/LibreCAD?style=flat&label=%E2%AD%90)
 - https://qcad.org/en/ — https://github.com/qcad/qcad ![GitHub stars](https://img.shields.io/github/stars/qcad/qcad?style=flat&label=%E2%AD%90)
 
+### OpenCAD Studio
+DWG/DXF のネイティブ読み書きと GPU 加速描画を備えた Rust 製 2D/3D CAD。急成長中の AutoCAD 風オープンソース製図アプリ。
+
+- https://github.com/HakanSeven12/OpenCADStudio ![GitHub stars](https://img.shields.io/github/stars/HakanSeven12/OpenCADStudio?style=flat&label=%E2%AD%90)
+
 ### BRL-CAD
 対話型 3D エディタとレイトレーサを備えたクロスプラットフォームの組み合わせソリッドモデリング。軍事／工学 CAD での長い歴史。
 
 - https://brlcad.org/
-- https://github.com/BRL-CAD/brlcad
+- https://github.com/BRL-CAD/brlcad ![GitHub stars](https://img.shields.io/github/stars/BRL-CAD/brlcad?style=flat&label=%E2%AD%90)
 
 ### LeoCAD / CAD Sketcher / jsketcher / Fornjot / OpenDraft
-ニッチ／実験的 CAD：LEGO CAD、Blender 拘束スケッチャ、ブラウザ CAD、Rust B-Rep カーネル実験（Fornjot — プロジェクト終了、リポジトリはアーカイブ済み）、C# 2D CAD。
+ニッチ／実験的 CAD：LEGO CAD、Blender 拘束スケッチャ、ブラウザ CAD、Rust B-Rep カーネル実験（Fornjot — プロジェクト終了、リポジトリはアーカイブ済み）、Rust 製 2D CAD（OpenDraft）。
 
 - https://www.leocad.org/ — https://github.com/leozide/leocad ![GitHub stars](https://img.shields.io/github/stars/leozide/leocad?style=flat&label=%E2%AD%90)
 - https://www.cadsketcher.com/ — https://github.com/hlorus/CAD_Sketcher ![GitHub stars](https://img.shields.io/github/stars/hlorus/CAD_Sketcher?style=flat&label=%E2%AD%90)
@@ -88,6 +93,12 @@ KCL モデリング言語と GPU 加速クラウド幾何エンジンを使う�
 - https://zoo.dev/
 - https://zoo.dev/docs/kcl
 - https://github.com/KittyCAD/modeling-app ![GitHub stars](https://img.shields.io/github/stars/KittyCAD/modeling-app?style=flat&label=%E2%AD%90)
+
+### CADAM
+Adam（YC W25）によるオープンソースの Text-to-CAD Web アプリ。自然言語で部品を記述するとパラメトリックな OpenSCAD モデルを生成し、ブラウザ（WASM）上でスライダー調整・STL/SCAD 出力が可能。
+
+- https://adam.new/opensource
+- https://github.com/Adam-CAD/CADAM ![GitHub stars](https://img.shields.io/github/stars/Adam-CAD/CADAM?style=flat&label=%E2%AD%90)
 
 ### 商用 CAD（参考）
 広く使われる商用 MCAD。相互運用の文脈（STEP 交換、学習資料）に有用。
@@ -163,6 +174,9 @@ CAD、CAM、CAE ツール間の耐久性のある交換フォーマット。
 - glTF / GLB — 現代的な Web／ランタイム 3D
 - VTK / VTU — CAE 結果（ParaView）
 - DXF / DWG — 2D 製図の交換
+
+### ブラウザで DWG / DXF
+- https://github.com/mlightcad/cad-viewer ![GitHub stars](https://img.shields.io/github/stars/mlightcad/cad-viewer?style=flat&label=%E2%AD%90) — バックエンド不要、ブラウザだけで動く DXF/DWG ビューア／エディタ（Three.js/WebGL）
 
 ### UFF / MDF（試験 ↔ CAE）
 - UFF Dataset 58/55 — モード／FRF 交換（TAC の pyUFF を参照）
@@ -258,9 +272,10 @@ FEA/CFD 向けの形状メッシングと結果のポスト処理。
 - https://www.salome-platform.org/
 
 ### ParaView
-VTK／OpenFOAM／FEA 結果向けの事実上標準のオープンソース科学可視化。Python スクリプトと大規模データパイプライン。
+VTK／OpenFOAM／FEA 結果向けの事実上標準のオープンソース科学可視化。Python スクリプトと大規模データパイプライン。現行リリース系列は 6.1.x。
 
 - https://www.paraview.org/
+- https://www.kitware.com/paraview-6-1-0-release-notes/ — 6.1 リリースノート
 - https://github.com/Kitware/ParaView ![GitHub stars](https://img.shields.io/github/stars/Kitware/ParaView?style=flat&label=%E2%AD%90)
 
 ### VTK
@@ -299,6 +314,11 @@ Python 向けの三角形／四面体メッシュ生成（MeshPy）、ジオメ�
 
 - https://github.com/mkazhdan/IsoSurfaceExtraction ![GitHub stars](https://img.shields.io/github/stars/mkazhdan/IsoSurfaceExtraction?style=flat&label=%E2%AD%90)
 - https://github.com/glue-viz/glue ![GitHub stars](https://img.shields.io/github/stars/glue-viz/glue?style=flat&label=%E2%AD%90)
+
+### SciBlend
+科学可視化向け Blender アドオン群。VTK/VTU や OpenFOAM などの CAE 結果を Blender に取り込み、CFD/FEA データをフォトリアルにレンダリング・アニメーション化。
+
+- https://github.com/SciBlend/SciBlend ![GitHub stars](https://img.shields.io/github/stars/SciBlend/SciBlend?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -382,7 +402,7 @@ MATLAB/Octave マルチフィジックスツールボックス（FEATool）、�
 
 - https://github.com/jonhiller/Voxelyze ![GitHub stars](https://img.shields.io/github/stars/jonhiller/Voxelyze?style=flat&label=%E2%AD%90)
 - https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC ![GitHub stars](https://img.shields.io/github/stars/CFDEMproject/CFDEMcoupling-PUBLIC?style=flat&label=%E2%AD%90)
-- https://github.com/modelica/Modelica ![GitHub stars](https://img.shields.io/github/stars/modelica/Modelica?style=flat&label=%E2%AD%90)
+- https://github.com/modelica/ModelicaStandardLibrary ![GitHub stars](https://img.shields.io/github/stars/modelica/ModelicaStandardLibrary?style=flat&label=%E2%AD%90)
 
 ### PyOP2 / pyamg / OpenBLAS
 数値計算の基盤部品：非構造メッシュ上の性能可搬な並列計算（PyOP2）、Python の代数的マルチグリッドソルバ（pyamg）、最適化された BLAS ライブラリ（OpenBLAS）。
@@ -475,6 +495,11 @@ NIST の火災駆動流れ CFD。Smokeview 可視化付き。
 
 - https://pages.nist.gov/fds-smv/
 - https://github.com/firemodels/fds ![GitHub stars](https://img.shields.io/github/stars/firemodels/fds?style=flat&label=%E2%AD%90)
+
+### Foam-Agent
+OpenFOAM のワークフローをエンドツーエンドで自動化する LLM マルチエージェントフレームワーク。自然言語の記述からメッシュ生成・ケース設定・実行・エラー修正まで行う（CMAME 掲載論文）。
+
+- https://github.com/csml-rpi/Foam-Agent ![GitHub stars](https://img.shields.io/github/stars/csml-rpi/Foam-Agent?style=flat&label=%E2%AD%90)
 
 ---
 

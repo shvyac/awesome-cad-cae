@@ -64,14 +64,19 @@ Code-first solid modeling (CSG). OpenSCAD is the widely used baseline; ImplicitC
 - https://librecad.org/ — https://github.com/LibreCAD/LibreCAD ![GitHub stars](https://img.shields.io/github/stars/LibreCAD/LibreCAD?style=flat&label=%E2%AD%90)
 - https://qcad.org/en/ — https://github.com/qcad/qcad ![GitHub stars](https://img.shields.io/github/stars/qcad/qcad?style=flat&label=%E2%AD%90)
 
+### OpenCAD Studio
+Rust-based 2D/3D CAD with native DWG/DXF read/write and GPU-accelerated rendering — a young, fast-growing open-source AutoCAD-style drafting app.
+
+- https://github.com/HakanSeven12/OpenCADStudio ![GitHub stars](https://img.shields.io/github/stars/HakanSeven12/OpenCADStudio?style=flat&label=%E2%AD%90)
+
 ### BRL-CAD
 Cross-platform combinatorial solid modeling with interactive 3D editor and ray tracer; long history in military/engineering CAD.
 
 - https://brlcad.org/
-- https://github.com/BRL-CAD/brlcad
+- https://github.com/BRL-CAD/brlcad ![GitHub stars](https://img.shields.io/github/stars/BRL-CAD/brlcad?style=flat&label=%E2%AD%90)
 
 ### LeoCAD / CAD Sketcher / jsketcher / Fornjot / OpenDraft
-Niche or experimental CAD: LEGO CAD, Blender constraint sketcher, browser CAD, Rust B-Rep kernel experiment (Fornjot — shut down, repo archived), C# 2D CAD.
+Niche or experimental CAD: LEGO CAD, Blender constraint sketcher, browser CAD, Rust B-Rep kernel experiment (Fornjot — shut down, repo archived), Rust 2D CAD (OpenDraft).
 
 - https://www.leocad.org/ — https://github.com/leozide/leocad ![GitHub stars](https://img.shields.io/github/stars/leozide/leocad?style=flat&label=%E2%AD%90)
 - https://www.cadsketcher.com/ — https://github.com/hlorus/CAD_Sketcher ![GitHub stars](https://img.shields.io/github/stars/hlorus/CAD_Sketcher?style=flat&label=%E2%AD%90)
@@ -90,6 +95,12 @@ Code-and-GUI mechanical CAD using the KCL modeling language and a GPU-accelerate
 - https://zoo.dev/
 - https://zoo.dev/docs/kcl
 - https://github.com/KittyCAD/modeling-app ![GitHub stars](https://img.shields.io/github/stars/KittyCAD/modeling-app?style=flat&label=%E2%AD%90)
+
+### CADAM
+Open-source text-to-CAD web app from Adam (YC W25): describe a part in natural language, get a parametric OpenSCAD model rendered in the browser (WASM) with adjustable sliders; exports STL/SCAD.
+
+- https://adam.new/opensource
+- https://github.com/Adam-CAD/CADAM ![GitHub stars](https://img.shields.io/github/stars/Adam-CAD/CADAM?style=flat&label=%E2%AD%90)
 
 ### Commercial CAD (reference)
 Widely used commercial MCAD; useful for interoperability context (STEP exchange, learning materials).
@@ -165,6 +176,9 @@ Legacy surface/wireframe exchange (still common in older pipelines). Prefer STEP
 - glTF / GLB — modern web/runtime 3D
 - VTK / VTU — CAE results (ParaView)
 - DXF / DWG — 2D drafting interchange
+
+### DWG / DXF in the browser
+- https://github.com/mlightcad/cad-viewer ![GitHub stars](https://img.shields.io/github/stars/mlightcad/cad-viewer?style=flat&label=%E2%AD%90) — fully client-side DXF/DWG viewer and editor (Three.js/WebGL, no backend)
 
 ### UFF / MDF (test ↔ CAE)
 - UFF Dataset 58/55 — modal/FRF interchange (see pyUFF under TAC)
@@ -260,9 +274,10 @@ Open-source pre/post platform: CAD, meshing (incl. hex), and integration with Co
 - https://www.salome-platform.org/
 
 ### ParaView
-De-facto open-source scientific visualization for VTK/OpenFOAM/FEA results; Python scripting and large-data pipelines.
+De-facto open-source scientific visualization for VTK/OpenFOAM/FEA results; Python scripting and large-data pipelines. Current release line: 6.1.x.
 
 - https://www.paraview.org/
+- https://www.kitware.com/paraview-6-1-0-release-notes/ — 6.1 release notes
 - https://github.com/Kitware/ParaView ![GitHub stars](https://img.shields.io/github/stars/Kitware/ParaView?style=flat&label=%E2%AD%90)
 
 ### VTK
@@ -301,6 +316,11 @@ Isosurface extraction from regular voxel grids; linked visualizations of scienti
 
 - https://github.com/mkazhdan/IsoSurfaceExtraction ![GitHub stars](https://img.shields.io/github/stars/mkazhdan/IsoSurfaceExtraction?style=flat&label=%E2%AD%90)
 - https://github.com/glue-viz/glue ![GitHub stars](https://img.shields.io/github/stars/glue-viz/glue?style=flat&label=%E2%AD%90)
+
+### SciBlend
+Blender add-on suite for scientific visualization — import VTK/VTU, OpenFOAM and other CAE results into Blender for photorealistic rendering and animation of CFD/FEA data.
+
+- https://github.com/SciBlend/SciBlend ![GitHub stars](https://img.shields.io/github/stars/SciBlend/SciBlend?style=flat&label=%E2%AD%90)
 
 ---
 
@@ -384,7 +404,7 @@ Multi-material voxel simulation library for static and dynamic analysis (Voxelyz
 
 - https://github.com/jonhiller/Voxelyze ![GitHub stars](https://img.shields.io/github/stars/jonhiller/Voxelyze?style=flat&label=%E2%AD%90)
 - https://github.com/CFDEMproject/CFDEMcoupling-PUBLIC ![GitHub stars](https://img.shields.io/github/stars/CFDEMproject/CFDEMcoupling-PUBLIC?style=flat&label=%E2%AD%90)
-- https://github.com/modelica/Modelica ![GitHub stars](https://img.shields.io/github/stars/modelica/Modelica?style=flat&label=%E2%AD%90)
+- https://github.com/modelica/ModelicaStandardLibrary ![GitHub stars](https://img.shields.io/github/stars/modelica/ModelicaStandardLibrary?style=flat&label=%E2%AD%90)
 
 ### PyOP2 / pyamg / OpenBLAS
 Numerical building blocks: performance-portable parallel computations on unstructured meshes (PyOP2), algebraic multigrid solvers in Python (pyamg), and an optimized BLAS library (OpenBLAS).
@@ -477,6 +497,11 @@ NIST fire-driven flow CFD with Smokeview visualization.
 
 - https://pages.nist.gov/fds-smv/
 - https://github.com/firemodels/fds ![GitHub stars](https://img.shields.io/github/stars/firemodels/fds?style=flat&label=%E2%AD%90)
+
+### Foam-Agent
+LLM-based multi-agent framework that automates OpenFOAM workflows end to end — from a natural-language description to meshing, case setup, run, and error correction (published in CMAME).
+
+- https://github.com/csml-rpi/Foam-Agent ![GitHub stars](https://img.shields.io/github/stars/csml-rpi/Foam-Agent?style=flat&label=%E2%AD%90)
 
 ---
 
