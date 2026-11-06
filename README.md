@@ -102,6 +102,12 @@ Open-source text-to-CAD web app from Adam (YC W25): describe a part in natural l
 - https://adam.new/opensource
 - https://github.com/Adam-CAD/CADAM ![GitHub stars](https://img.shields.io/github/stars/Adam-CAD/CADAM?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F17-blue?style=flat)
 
+### text-to-cad
+MIT-licensed CAD skill/plugin library for AI coding agents (Claude Code, Codex, Cursor, Gemini, Copilot, and more). The agent writes build123d (OCCT) Python scripts that build STEP / STL / 3MF / GLB models, with a live CAD viewer and a one-line install. Extra skills cover DFM / DfAM checks, dimensioned engineering-drawing PDFs, DXF, URDF / SRDF / SDF robot files, G-code slicing (OrcaSlicer), and fabrication-service checks (SendCutSend, Bambu Lab).
+
+- https://www.texttocad.dev/
+- https://github.com/earthtojake/text-to-cad ![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F06-blue?style=flat)
+
 ### Commercial CAD (reference)
 Widely used commercial MCAD; useful for interoperability context (STEP exchange, learning materials).
 
