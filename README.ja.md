@@ -100,6 +100,12 @@ Adam（YC W25）によるオープンソースの Text-to-CAD Web アプリ。�
 - https://adam.new/opensource
 - https://github.com/Adam-CAD/CADAM ![GitHub stars](https://img.shields.io/github/stars/Adam-CAD/CADAM?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F06%2F17-blue?style=flat)
 
+### text-to-cad
+AI コーディングエージェント（Claude Code、Codex、Cursor、Gemini、Copilot など）向けの MIT ライセンス CAD スキル／プラグイン集。エージェントが build123d（OCCT）の Python スクリプトを書き、STEP / STL / 3MF / GLB を生成。ライブ CAD ビューア付きでワンライン導入。追加スキルとして DFM / DfAM チェック、寸法入り製図 PDF、DXF、URDF / SRDF / SDF ロボット記述、G-code スライス（OrcaSlicer）、製造サービス事前チェック（SendCutSend、Bambu Lab）を備える。
+
+- https://www.texttocad.dev/
+- https://github.com/earthtojake/text-to-cad ![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F06-blue?style=flat)
+
 ### 商用 CAD（参考）
 広く使われる商用 MCAD。相互運用の文脈（STEP 交換、学習資料）に有用。
 
