@@ -45,6 +45,12 @@ Lightweight parametric 2D/3D CAD with constraint solver; exports STEP/STL. Good 
 - https://solvespace.com/
 - https://github.com/solvespace/solvespace ![GitHub stars](https://img.shields.io/github/stars/solvespace/solvespace?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F10%2F21-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/solvespace/solvespace?style=flat)
 
+### SolidCraft
+Parametric 3D CAD built in pure Rust — desktop, web (runs in-browser, no install), and automation through an MCP server for AI agents. STEP export.
+
+- https://solidcraftcad.com/ — browser build, download guide, and MCP setup walkthrough
+- https://github.com/tangency-labs/solidcraft ![GitHub stars](https://img.shields.io/github/stars/tangency-labs/solidcraft?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/tangency-labs/solidcraft?style=flat)
+
 ### Dune 3D
 Parametric 3D CAD from the author of Horizon EDA — SolveSpace constraint solver + OCCT kernel, STEP import/export. Handy for enclosures and parts around PCBs.
 
