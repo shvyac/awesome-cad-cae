@@ -108,6 +108,11 @@ MIT-licensed CAD skill/plugin library for AI coding agents (Claude Code, Codex, 
 - https://www.texttocad.dev/
 - https://github.com/earthtojake/text-to-cad ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/earthtojake/text-to-cad?style=flat) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F06-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/earthtojake/text-to-cad?style=flat)
 
+### mesh2cad
+MIT-licensed Python CLI and MCP server that turns an STL / OBJ / PLY mesh of a simple mechanical part (plates, brackets, flanges) back into editable CAD: STEP plus a parametric CadQuery, OpenSCAD or FreeCAD script with named parameters for holes, slots, pockets and bolt circles. Fits planes, cylinders and other primitives; not meant for organic or freeform shapes.
+
+- https://github.com/emirmrkaljevic/mesh2cad ![New](https://img.shields.io/badge/-NEW-red?style=flat) ![GitHub stars](https://img.shields.io/github/stars/emirmrkaljevic/mesh2cad?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F11%2F14-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/emirmrkaljevic/mesh2cad?style=flat)
+
 ### Commercial CAD (reference)
 Widely used commercial MCAD; useful for interoperability context (STEP exchange, learning materials).
 
