@@ -171,6 +171,7 @@ Primary industrial 3D CAD exchange (AP203 / AP214 / AP242). Prefer STEP over STL
 - https://www.iso.org/standard/84667.html — ISO 10303 overview / AP242 family
 - https://www.cax-if.org/ — CAX Interoperability Forum (recommended practices)
 - https://dev.opencascade.org/doc/overview/html/occt_user_guides__step.html — OCCT STEP guide
+- https://github.com/maodiehaqi/sw2step ![GitHub stars](https://img.shields.io/github/stars/maodiehaqi/sw2step?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/maodiehaqi/sw2step?style=flat) — zero-SolidWorks offline batch converter for SolidWorks `.SLDASM`/`.SLDPRT` folders & ZIPs to exact B-Rep STEP (AP214), 3MF, and STL with pre-flight reference check and BOM CSV export (Apache 2.0, Python / Windows `.exe`)
 
 ### IGES
 Legacy surface/wireframe exchange (still common in older pipelines). Prefer STEP for new work when possible.
