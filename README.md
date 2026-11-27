@@ -350,6 +350,12 @@ PDE/FEM platforms with strong Python (or DSL) interfaces for research and custom
 - https://freefem.org/ — https://github.com/FreeFem/FreeFem-sources ![GitHub stars](https://img.shields.io/github/stars/FreeFem/FreeFem-sources?style=flat&label=%E2%AD%90) ![Release date](https://img.shields.io/badge/release-2026%2F07%2F13-blue?style=flat) ![Last commit](https://img.shields.io/github/last-commit/FreeFem/FreeFem-sources?style=flat)
 - https://sfepy.org/
 
+### QF Solver
+Open-source Python finite element solver for structural mechanics, providing static and dynamic analysis, modal methods, and selected nonlinear formulations. Focused on inspectable numerical methods, documented verification, and reproducible engineering workflows.
+
+- https://qfsolver.org/
+- https://github.com/emptiesvoid-cloud/QF_solver ![GitHub stars](https://img.shields.io/github/stars/emptiesvoid-cloud/QF_solver?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/emptiesvoid-cloud/QF_solver?style=flat)
+
 ### deal.II / MFEM / MOOSE / libMesh
 Large-scale C++ FEM libraries (HPC, adaptive mesh, multiphysics).
 
